@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import torch
 # from tracker.sort import Sort
-import tools
+from . import tools
 from ultralytics import YOLO
 
 
