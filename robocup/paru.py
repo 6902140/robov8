@@ -40,7 +40,7 @@ class Paru(object):
 
 
         
-        results=self.model.track(image_list,conf=0.5) # conf 设置置信度下限
+        results=self.model.track(image_list,conf=0.5,tracker='botsort.yaml') # conf 设置置信度下限
 
         detected_imgs=[]
         for result in results:

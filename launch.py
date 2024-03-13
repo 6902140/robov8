@@ -293,10 +293,16 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             if nameOfBox not in class_set:
                 class_set.add(nameOfBox)
                 object_counter[nameOfBox] = set()
+                if boxes.id is not None:
+                    object_counter[nameOfBox].add(str(boxes.id[i]))
             # to do 不能按照时间来存，应该按照ID存储
-            object_counter[nameOfBox].add(str(time.time_ns()))
+            else:
+                print(f"name of box: {nameOfBox},class names:{class_set}")
+                if boxes.id is not None:
+                    if str(boxes.id[i]) not in object_counter[nameOfBox]:
+                        print("hello debug info:".format(boxes.id[i]))
+                        object_counter[nameOfBox].add(str(boxes.id[i]))
             pass
-
         with lock:
             buffer[:] = result_img.flatten()
 
