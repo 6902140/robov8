@@ -588,14 +588,6 @@
         "documentation": {}
     },
     {
-        "label": "yaml_load",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
         "label": "ASSETS",
         "importPath": "ultralytics.utils",
         "description": "ultralytics.utils",
@@ -3530,6 +3522,14 @@
         "documentation": {}
     },
     {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
         "label": "Explorer",
         "importPath": "ultralytics",
         "description": "ultralytics",
@@ -4042,31 +4042,6 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "importPath": "time",
-        "description": "time",
-        "isExtraImport": true,
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "importPath": "time",
-        "description": "time",
-        "isExtraImport": true,
-        "detail": "time",
-        "documentation": {}
-    },
-    {
         "label": "PIL",
         "kind": 6,
         "isExtraImport": true,
@@ -4204,6 +4179,31 @@
         "documentation": {}
     },
     {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "YOLO",
         "importPath": "yolo",
         "description": "yolo",
@@ -4259,311 +4259,6 @@
         "importPath": "yaml",
         "description": "yaml",
         "detail": "yaml",
-        "documentation": {}
-    },
-    {
-        "label": "Sort",
-        "importPath": "tracker.sort",
-        "description": "tracker.sort",
-        "isExtraImport": true,
-        "detail": "tracker.sort",
-        "documentation": {}
-    },
-    {
-        "label": "LOGGER",
-        "importPath": "yolov6.utils.events",
-        "description": "yolov6.utils.events",
-        "isExtraImport": true,
-        "detail": "yolov6.utils.events",
-        "documentation": {}
-    },
-    {
-        "label": "load_yaml",
-        "importPath": "yolov6.utils.events",
-        "description": "yolov6.utils.events",
-        "isExtraImport": true,
-        "detail": "yolov6.utils.events",
-        "documentation": {}
-    },
-    {
-        "label": "DetectBackend",
-        "importPath": "yolov6.layers.common",
-        "description": "yolov6.layers.common",
-        "isExtraImport": true,
-        "detail": "yolov6.layers.common",
-        "documentation": {}
-    },
-    {
-        "label": "letterbox",
-        "importPath": "yolov6.data.data_augment",
-        "description": "yolov6.data.data_augment",
-        "isExtraImport": true,
-        "detail": "yolov6.data.data_augment",
-        "documentation": {}
-    },
-    {
-        "label": "non_max_suppression",
-        "importPath": "yolov6.utils.nms",
-        "description": "yolov6.utils.nms",
-        "isExtraImport": true,
-        "detail": "yolov6.utils.nms",
-        "documentation": {}
-    },
-    {
-        "label": "Inferer",
-        "importPath": "yolov6.core.inferer",
-        "description": "yolov6.core.inferer",
-        "isExtraImport": true,
-        "detail": "yolov6.core.inferer",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "importPath": "ultralytics.engine",
-        "description": "ultralytics.engine",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine",
-        "documentation": {}
-    },
-    {
-        "label": "tools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tools",
-        "description": "tools",
-        "detail": "tools",
-        "documentation": {}
-    },
-    {
-        "label": "BasePredictor",
-        "importPath": "ultralytics.engine.predictor",
-        "description": "ultralytics.engine.predictor",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.predictor",
-        "documentation": {}
-    },
-    {
-        "label": "BasePredictor",
-        "importPath": "ultralytics.engine.predictor",
-        "description": "ultralytics.engine.predictor",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.predictor",
-        "documentation": {}
-    },
-    {
-        "label": "BasePredictor",
-        "importPath": "ultralytics.engine.predictor",
-        "description": "ultralytics.engine.predictor",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.predictor",
-        "documentation": {}
-    },
-    {
-        "label": "BasePredictor",
-        "importPath": "ultralytics.engine.predictor",
-        "description": "ultralytics.engine.predictor",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.predictor",
-        "documentation": {}
-    },
-    {
-        "label": "BasePredictor",
-        "importPath": "ultralytics.engine.predictor",
-        "description": "ultralytics.engine.predictor",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.predictor",
-        "documentation": {}
-    },
-    {
-        "label": "BasePredictor",
-        "importPath": "ultralytics.engine.predictor",
-        "description": "ultralytics.engine.predictor",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.predictor",
-        "documentation": {}
-    },
-    {
-        "label": "Boxes",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "Results",
-        "importPath": "ultralytics.engine.results",
-        "description": "ultralytics.engine.results",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.results",
-        "documentation": {}
-    },
-    {
-        "label": "masks2segments",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segment2box",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxyxyxy2xywhr",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "resample_segments",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segments2boxes",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "crop_mask",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
         "documentation": {}
     },
     {
@@ -5860,6 +5555,102 @@
         "importPath": "getpass",
         "description": "getpass",
         "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segment2box",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxyxyxy2xywhr",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "resample_segments",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segments2boxes",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "crop_mask",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
         "documentation": {}
     },
     {
@@ -7317,6 +7108,78 @@
         "documentation": {}
     },
     {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
+        "label": "Results",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
         "label": "bbox_iou",
         "importPath": "ultralytics.models.fastsam.utils",
         "description": "ultralytics.models.fastsam.utils",
@@ -7371,6 +7234,46 @@
         "description": "ultralytics.models.yolo.segment",
         "isExtraImport": true,
         "detail": "ultralytics.models.yolo.segment",
+        "documentation": {}
+    },
+    {
+        "label": "BasePredictor",
+        "importPath": "ultralytics.engine.predictor",
+        "description": "ultralytics.engine.predictor",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.predictor",
+        "documentation": {}
+    },
+    {
+        "label": "BasePredictor",
+        "importPath": "ultralytics.engine.predictor",
+        "description": "ultralytics.engine.predictor",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.predictor",
+        "documentation": {}
+    },
+    {
+        "label": "BasePredictor",
+        "importPath": "ultralytics.engine.predictor",
+        "description": "ultralytics.engine.predictor",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.predictor",
+        "documentation": {}
+    },
+    {
+        "label": "BasePredictor",
+        "importPath": "ultralytics.engine.predictor",
+        "description": "ultralytics.engine.predictor",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.predictor",
+        "documentation": {}
+    },
+    {
+        "label": "BasePredictor",
+        "importPath": "ultralytics.engine.predictor",
+        "description": "ultralytics.engine.predictor",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.predictor",
         "documentation": {}
     },
     {
@@ -8270,6 +8173,15 @@
         "documentation": {}
     },
     {
+        "label": "Paru",
+        "kind": 6,
+        "importPath": "robotcup.paru",
+        "description": "robotcup.paru",
+        "peekOfCode": "class Paru(object):\n    def __init__(self, weights):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights,task=\"detect\")\n        # self.class_names = tools.load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "detail": "robotcup.paru",
+        "documentation": {}
+    },
+    {
         "label": "time_sync",
         "kind": 2,
         "importPath": "robotcup.speed",
@@ -8357,24 +8269,6 @@
         "description": "robotcup.tools",
         "peekOfCode": "def load_yaml(file_path):\n    \"\"\"Load data from yaml file.\"\"\"\n    if isinstance(file_path, str):\n        with open(file_path, errors='ignore') as f:\n            data_dict = yaml.safe_load(f)\n    return data_dict",
         "detail": "robotcup.tools",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "kind": 6,
-        "importPath": "robotcup.yolo",
-        "description": "robotcup.yolo",
-        "peekOfCode": "class YOLO(object):\n    def __init__(self, weights, dataset):\n        self.device = torch.device('cuda:0')\n        self.model=model(model=weights,task=\"detect\")\n        self.class_names = tools.load_yaml(dataset)['names']\n        # self.predictor=BasePredictor()\n        # self.predictor.model=self.model\n        # self.tracker = Sort(max_age=10)\n    def detect_image(self, image, draw_img=True):\n        \"\"\"",
-        "detail": "robotcup.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "process_image",
-        "kind": 2,
-        "importPath": "robotcup.yolo",
-        "description": "robotcup.yolo",
-        "peekOfCode": "def process_image(img_src, img_size, stride):\n    '''Process image before image inference.'''\n    image = letterbox(img_src, img_size, stride=stride)[0]\n    # Convert\n    image = image.transpose((2, 0, 1))  # HWC to CHW\n    image = torch.from_numpy(np.ascontiguousarray(image))\n    image = image.float()  # uint8 to fp32\n    image /= 255  # 0 - 255 to 0.0 - 1.0\n    return image\nclass YOLO(object):",
-        "detail": "robotcup.yolo",
         "documentation": {}
     },
     {
