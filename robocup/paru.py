@@ -14,7 +14,7 @@ from ultralytics import YOLO
 class Paru(object):
     def __init__(self, weights,dataset):
         self.device = torch.device('cuda:0')
-        self.model=YOLO(model=weights,task="detect")
+        self.model=YOLO(model=weights)
         self.class_names = tools.load_yaml(dataset)['names']
     def detect_image(self, source, draw_img=True):
         """
@@ -39,13 +39,12 @@ class Paru(object):
 
 
 
-        idx=0
-        results=self.model(image_list,conf=0.5)
-        # conf 设置置信度下限
+        
+        results=self.model.track(image_list,conf=0.5) # conf 设置置信度下限
 
         detected_imgs=[]
         for result in results:
-            idx+=1
+            
             boxes = result.boxes  # Boxes object for bounding box outputs
             masks = result.masks  # Masks object for segmentation masks outputs
             keypoints = result.keypoints  # Keypoints object for pose outputs
@@ -61,7 +60,7 @@ class Paru(object):
             # cv2.imshow("test",result.plot())
             # cv2.waitKey(0)
 
-            result.save(filename=f'result_{str(idx)}.jpg')  # save to disk
+            # result.save(filename=f'result_{str(idx)}.jpg')  # save to disk
         return results,detected_imgs
 
 

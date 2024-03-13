@@ -8185,7 +8185,7 @@
         "kind": 6,
         "importPath": "robocup.paru",
         "description": "robocup.paru",
-        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights,task=\"detect\")\n        self.class_names = tools.load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names = tools.load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
         "detail": "robocup.paru",
         "documentation": {}
     },

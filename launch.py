@@ -293,6 +293,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             if nameOfBox not in class_set:
                 class_set.add(nameOfBox)
                 object_counter[nameOfBox] = set()
+            # to do 不能按照时间来存，应该按照ID存储
             object_counter[nameOfBox].add(str(time.time_ns()))
             pass
 
