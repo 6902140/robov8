@@ -13,7 +13,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 from robocup.network import DataType, pack_data
 from robocup.camlxz import Ui_Form
-from robocup.yolo import YOLO
+from robocup.paru import Paru
+from ultralytics.engine.results import Boxes
 
 # [!] 轮次
 ROUND = 2
@@ -266,7 +267,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model = YOLO('./weights/yolov6s.pt', './data/coco.yaml')
+    model =Paru('./weights/yolov6s.pt', './formats/coco.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -280,21 +281,23 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     def predict(frame):
         image = frame_to_image(frame)
 
-        image, labels, _det = model.detect_image(np.asarray(image))
+        results,detected_imgs = model.detect_image(np.asarray(image))
+        result=results[0]
+        result[0]=detected_imgs[0]
 
-        result_img = np.asarray(image)
-        if labels:
-            for key in labels:
-                key = key.split()
-                class_name = str(key[0])
-                object_id = str(key[1])
-                if class_name not in class_set:
-                    object_counter[class_name] = set()
-                    class_set.add(class_name)
-                object_counter[class_name].add(object_id)
+        boxes=result.boxes
+        boxes_num=len(boxes.cls)
+
+        for i in range(boxes_num):
+            nameOfBox=model.class_names[i]
+            if nameOfBox not in class_set:
+                class_set.add(nameOfBox)
+                object_counter[nameOfBox] = set()
+            object_counter[nameOfBox].add(str(time.time_ns()))
+            pass
 
         with lock:
-            buffer[:] = result_img.flatten()
+            buffer[:] = detected_imgs.flatten()
 
     print("ready")
     # trigger ready event to update status label

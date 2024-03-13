@@ -4179,6 +4179,15 @@
         "documentation": {}
     },
     {
+        "label": "tools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tools",
+        "description": "tools",
+        "detail": "tools",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -7180,6 +7189,14 @@
         "documentation": {}
     },
     {
+        "label": "Boxes",
+        "importPath": "ultralytics.engine.results",
+        "description": "ultralytics.engine.results",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.results",
+        "documentation": {}
+    },
+    {
         "label": "bbox_iou",
         "importPath": "ultralytics.models.fastsam.utils",
         "description": "ultralytics.models.fastsam.utils",
@@ -7823,11 +7840,11 @@
         "documentation": {}
     },
     {
-        "label": "YOLO",
-        "importPath": "robocup.yolo",
-        "description": "robocup.yolo",
+        "label": "Paru",
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
         "isExtraImport": true,
-        "detail": "robocup.yolo",
+        "detail": "robocup.paru",
         "documentation": {}
     },
     {
@@ -8177,7 +8194,7 @@
         "kind": 6,
         "importPath": "robotcup.paru",
         "description": "robotcup.paru",
-        "peekOfCode": "class Paru(object):\n    def __init__(self, weights):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights,task=\"detect\")\n        # self.class_names = tools.load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights,task=\"detect\")\n        self.class_names = tools.load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
         "detail": "robotcup.paru",
         "documentation": {}
     },
