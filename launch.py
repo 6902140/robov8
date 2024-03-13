@@ -283,7 +283,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
 
         results,detected_imgs = model.detect_image(np.asarray(image))
         result=results[0]
-        result[0]=detected_imgs[0]
+        result_img=detected_imgs[0]
 
         boxes=result.boxes
         boxes_num=len(boxes.cls)
@@ -297,7 +297,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             pass
 
         with lock:
-            buffer[:] = detected_imgs.flatten()
+            buffer[:] = result_img.flatten()
 
     print("ready")
     # trigger ready event to update status label
@@ -322,7 +322,9 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             t2 = time_start = time.perf_counter()
 
             if t2 - t1 > STAGE_TIME:
-                model.reset_tracker()
+                # model.reset_tracker()
+
+                # to do 
                 break
 
             # print("predict")
