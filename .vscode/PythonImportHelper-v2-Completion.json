@@ -14490,6 +14490,15 @@
         "documentation": {}
     },
     {
+        "label": "get_images_from_baidu",
+        "kind": 2,
+        "importPath": "get_images",
+        "description": "get_images",
+        "peekOfCode": "def get_images_from_baidu(keyword, page_num, save_dir):\n    header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}\n    # 请求的 url\n    url = 'https://image.baidu.com/search/acjson?'\n    n = 0\n    for pn in range(0, 30 * page_num, 30):\n        # 请求参数\n        param = {'tn': 'resultjson_com',\n                 'logid': '7603311155072595725',\n                 'ipn': 'rj',",
+        "detail": "get_images",
+        "documentation": {}
+    },
+    {
         "label": "Status",
         "kind": 6,
         "importPath": "launch",
