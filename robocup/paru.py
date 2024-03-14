@@ -53,10 +53,10 @@ class Paru(object):
             detected_imgs.append(result.plot())
 
 
-            print("boxs:{}".format(boxes))
-            print("masks:{}".format(masks))
-            print("keypoints:{}".format(keypoints))
-            print("probs:{}".format(probs))
+            # print("boxs:{}".format(boxes))
+            # print("masks:{}".format(masks))
+            # print("keypoints:{}".format(keypoints))
+            # print("probs:{}".format(probs))
             # cv2.imshow("test",result.plot())
             # cv2.waitKey(0)
 
