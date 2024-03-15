@@ -3570,14 +3570,6 @@
         "documentation": {}
     },
     {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
         "label": "Explorer",
         "importPath": "ultralytics",
         "description": "ultralytics",
@@ -3611,6 +3603,14 @@
     },
     {
         "label": "YOLOWorld",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
         "importPath": "ultralytics",
         "description": "ultralytics",
         "isExtraImport": true,
@@ -9269,15 +9269,6 @@
         "documentation": {}
     },
     {
-        "label": "model",
-        "kind": 5,
-        "importPath": "tools.train_model",
-        "description": "tools.train_model",
-        "peekOfCode": "model = YOLO('../weights/yolov8s.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='test-seg.yaml', epochs=100, imgsz=640,batch=8, workers=0,device=\"cuda\")\n# model.export(format='')",
-        "detail": "tools.train_model",
-        "documentation": {}
-    },
-    {
         "label": "class_names",
         "kind": 5,
         "importPath": "tools.xml2txt",
@@ -14747,6 +14738,15 @@
         "description": "launch",
         "peekOfCode": "FRAME_H = 480\nclass Status(Enum):\n    LOADING = 0\n    READY = 1\n    DETECTING = 2\n    TURNING = 3\n    FINISHED = 4\ndef get_config(pipeline):\n    config = ob.Config()\n    profile_list = pipeline.get_stream_profile_list(ob.OBSensorType.COLOR_SENSOR)",
         "detail": "launch",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "model = YOLO('./weights/yolov8s.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='./robo.yaml', epochs=100, imgsz=1536,batch=8, workers=0,device=\"cuda\")\n# model.export(format='')",
+        "detail": "train_model",
         "documentation": {}
     }
 ]
