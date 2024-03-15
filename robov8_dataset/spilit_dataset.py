@@ -61,22 +61,17 @@ for i in range(0,num):
     file=total_file[i]
     print(i,' - ',total_file[i])
     name=file.split('.')[0]
+
     if i in list1:
         jpg_1 = os.path.join(images_dir, file)
         jpg_2 = os.path.join(train_p, imgs_p, file)
         txt_1 = os.path.join(labels_dir, name + '.txt')
         txt_2 = os.path.join(train_p, labels_p, name + '.txt')
+        # print("list1:{},{},{},{}".format(jpg_1,txt_1,jpg_2,txt_2))
         if os.path.exists(jpg_1):
             shutil.copyfile(jpg_1, jpg_2)
         if os.path.exists(txt_1):
             shutil.copyfile(txt_1, txt_2)
-        # if os.path.exists(txt_1) and os.path.exists(jpg_1):
-        #     shutil.copyfile(jpg_1, jpg_2)
-        #     shutil.copyfile(txt_1, txt_2)
-        # elif os.path.exists(txt_1):
-        #     print(txt_1)
-        # else:
-        #     print(jpg_1)
 
     elif i in list2:
         jpg_1 = os.path.join(images_dir, file)
