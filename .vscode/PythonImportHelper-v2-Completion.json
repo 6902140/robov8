@@ -3570,6 +3570,14 @@
         "documentation": {}
     },
     {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
         "label": "Explorer",
         "importPath": "ultralytics",
         "description": "ultralytics",
@@ -4259,6 +4267,15 @@
         "importPath": "yaml",
         "description": "yaml",
         "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
         "documentation": {}
     },
     {
@@ -5058,6 +5075,41 @@
         "documentation": {}
     },
     {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "glob",
+        "description": "glob",
+        "isExtraImport": true,
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
         "label": "threading",
         "kind": 6,
         "isExtraImport": true,
@@ -5671,15 +5723,6 @@
         "documentation": {}
     },
     {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
-        "documentation": {}
-    },
-    {
         "label": "Instances",
         "importPath": "ultralytics.utils.instance",
         "description": "ultralytics.utils.instance",
@@ -5869,23 +5912,6 @@
         "description": "ultralytics.utils.metrics",
         "isExtraImport": true,
         "detail": "ultralytics.utils.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "glob",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "glob",
-        "description": "glob",
-        "detail": "glob",
-        "documentation": {}
-    },
-    {
-        "label": "glob",
-        "importPath": "glob",
-        "description": "glob",
-        "isExtraImport": true,
-        "detail": "glob",
         "documentation": {}
     },
     {
@@ -8280,6 +8306,42 @@
         "documentation": {}
     },
     {
+        "label": "data_split",
+        "kind": 2,
+        "importPath": "robov8_dataset.spilit_dataset",
+        "description": "robov8_dataset.spilit_dataset",
+        "peekOfCode": "def data_split(full_list, ratio):\n    n_total = len(full_list)\n    offset = int(n_total * ratio)\n    if n_total == 0 or offset < 1:\n        return [], full_list\n    random.shuffle(full_list)\n    sublist_1 = full_list[:offset]\n    sublist_2 = full_list[offset:]\n    return sublist_1, sublist_2\ntrain_p=\"./train\"",
+        "detail": "robov8_dataset.spilit_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "proportion_",
+        "kind": 5,
+        "importPath": "robov8_dataset.spilit_dataset",
+        "description": "robov8_dataset.spilit_dataset",
+        "peekOfCode": "proportion_ = 0.9 #训练集占比\ntotal_file = os.listdir(images_dir)\nnum = len(total_file)  # 统计所有的标注文件\nlist_=[]\nfor i in range(0,num):\n    list_.append(i)\nlist1,list2=data_split(list_,proportion_)\nfor i in range(0,num):\n    file=total_file[i]\n    print(i,' - ',total_file[i])",
+        "detail": "robov8_dataset.spilit_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "total_file",
+        "kind": 5,
+        "importPath": "robov8_dataset.spilit_dataset",
+        "description": "robov8_dataset.spilit_dataset",
+        "peekOfCode": "total_file = os.listdir(images_dir)\nnum = len(total_file)  # 统计所有的标注文件\nlist_=[]\nfor i in range(0,num):\n    list_.append(i)\nlist1,list2=data_split(list_,proportion_)\nfor i in range(0,num):\n    file=total_file[i]\n    print(i,' - ',total_file[i])\n    name=file.split('.')[0]",
+        "detail": "robov8_dataset.spilit_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "robov8_dataset.spilit_dataset",
+        "description": "robov8_dataset.spilit_dataset",
+        "peekOfCode": "num = len(total_file)  # 统计所有的标注文件\nlist_=[]\nfor i in range(0,num):\n    list_.append(i)\nlist1,list2=data_split(list_,proportion_)\nfor i in range(0,num):\n    file=total_file[i]\n    print(i,' - ',total_file[i])\n    name=file.split('.')[0]\n    if i in list1:",
+        "detail": "robov8_dataset.spilit_dataset",
+        "documentation": {}
+    },
+    {
         "label": "pytest_addoption",
         "kind": 2,
         "importPath": "tests.conftest",
@@ -9204,6 +9266,42 @@
         "description": "tests.test_python",
         "peekOfCode": "IS_TMP_WRITEABLE = is_dir_writeable(TMP)\ndef test_model_forward():\n    \"\"\"Test the forward pass of the YOLO model.\"\"\"\n    model = YOLO(CFG)\n    model(source=None, imgsz=32, augment=True)  # also test no source and augment\ndef test_model_methods():\n    \"\"\"Test various methods and properties of the YOLO model.\"\"\"\n    model = YOLO(MODEL)\n    # Model methods\n    model.info(verbose=True, detailed=True)",
         "detail": "tests.test_python",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "tools.train_model",
+        "description": "tools.train_model",
+        "peekOfCode": "model = YOLO('../weights/yolov8s.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='test-seg.yaml', epochs=100, imgsz=640,batch=8, workers=0,device=\"cuda\")\n# model.export(format='')",
+        "detail": "tools.train_model",
+        "documentation": {}
+    },
+    {
+        "label": "class_names",
+        "kind": 5,
+        "importPath": "tools.xml2txt",
+        "description": "tools.xml2txt",
+        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] \n# 类别名，依次写下来\n# CA001\n# CA002\n# CA003",
+        "detail": "tools.xml2txt",
+        "documentation": {}
+    },
+    {
+        "label": "dirpath",
+        "kind": 5,
+        "importPath": "tools.xml2txt",
+        "description": "tools.xml2txt",
+        "peekOfCode": "dirpath = r'./xml'  # 原来存放xml文件的目录\nnewdir = r'./output'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0",
+        "detail": "tools.xml2txt",
+        "documentation": {}
+    },
+    {
+        "label": "newdir",
+        "kind": 5,
+        "importPath": "tools.xml2txt",
+        "description": "tools.xml2txt",
+        "peekOfCode": "newdir = r'./output'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0\n    sz = root.find('size')",
+        "detail": "tools.xml2txt",
         "documentation": {}
     },
     {

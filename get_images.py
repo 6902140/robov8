@@ -70,8 +70,10 @@ def get_images_from_baidu(keyword, page_num, save_dir):
                 fp.write(image_data)
             n = n + 1  
 if __name__ == "__main__":       
-    keyword = '矿泉水'
-    page_num = 1
+    keyword = ["沙琪玛和薯片和火腿肠"]
+    page_num = 3
     page_num = int(page_num)
-    save_dir = './images_from_internet/'+keyword
-    get_images_from_baidu(keyword, page_num, save_dir)
+    for i in range(len(keyword)):
+
+        save_dir = './images_from_internet/'+keyword[i]
+        get_images_from_baidu(keyword[i], page_num, save_dir)
