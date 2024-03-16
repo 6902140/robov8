@@ -3618,6 +3618,22 @@
         "documentation": {}
     },
     {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
         "label": "increment_path",
         "importPath": "ultralytics.utils.files",
         "description": "ultralytics.utils.files",
@@ -4187,6 +4203,119 @@
         "documentation": {}
     },
     {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "clean_str",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segment2box",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxyxyxy2xywhr",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "resample_segments",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segments2boxes",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "crop_mask",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -4258,15 +4387,6 @@
         "description": "socket",
         "isExtraImport": true,
         "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "yaml",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "yaml",
-        "description": "yaml",
-        "detail": "yaml",
         "documentation": {}
     },
     {
@@ -5607,102 +5727,6 @@
         "importPath": "getpass",
         "description": "getpass",
         "detail": "getpass",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segment2box",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxyxyxy2xywhr",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "resample_segments",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segments2boxes",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "crop_mask",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
         "documentation": {}
     },
     {
@@ -7744,6 +7768,38 @@
         "documentation": {}
     },
     {
+        "label": "Element",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "tostring",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "SubElement",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
         "label": "RawArray",
         "importPath": "multiprocessing",
         "description": "multiprocessing",
@@ -8211,7 +8267,16 @@
         "kind": 6,
         "importPath": "robocup.paru",
         "description": "robocup.paru",
-        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names = tools.load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names =load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "detail": "robocup.paru",
+        "documentation": {}
+    },
+    {
+        "label": "load_yaml",
+        "kind": 2,
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
+        "peekOfCode": "def load_yaml(file_path):\n    \"\"\"Load data from yaml file.\"\"\"\n    if isinstance(file_path, str):\n        with open(file_path, errors='ignore') as f:\n            data_dict = yaml.safe_load(f)\n    return data_dict\nclass Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)",
         "detail": "robocup.paru",
         "documentation": {}
     },
@@ -14579,6 +14644,24 @@
         "documentation": {}
     },
     {
+        "label": "Yolov8Detect",
+        "kind": 6,
+        "importPath": "autolabel",
+        "description": "autolabel",
+        "peekOfCode": "class Yolov8Detect():\n    def __init__(self, weights, img_size=960, conf_thresh=0.2, iou_thresh=0.5, batchsize=16):\n        cuda = True if torch.cuda.is_available() else False\n        self.device = torch.device('cuda:0' if cuda else 'cpu')\n        self.detect_model = YOLO(weights)\n        # print(weights)\n        self.detect_model.to(self.device)\n        #####\n        # 0.x\n        # self.img_size = img_size",
+        "detail": "autolabel",
+        "documentation": {}
+    },
+    {
+        "label": "xml_construct",
+        "kind": 2,
+        "importPath": "autolabel",
+        "description": "autolabel",
+        "peekOfCode": "def xml_construct(save_path,folder,filename,path,label_text,width=800,height=600,depth = 3,segmented=0):\n    default_text = 'default'\n    node_root = Element('annotation')  # 根节点\n    node_folder = subElement(node_root, 'folder')  # 在节点下添加名为'folder'的子节点\n    node_folder.text = folder  # 设定节点的文字\n    node_filename = subElement(node_root, 'filename')\n    node_filename.text = filename\n    node_path = subElement(node_root, 'path')\n    node_path.text = path\n    node_size = subElement(node_root, 'size')",
+        "detail": "autolabel",
+        "documentation": {}
+    },
+    {
         "label": "get_images_from_baidu",
         "kind": 2,
         "importPath": "get_images",
@@ -14738,6 +14821,33 @@
         "description": "launch",
         "peekOfCode": "FRAME_H = 480\nclass Status(Enum):\n    LOADING = 0\n    READY = 1\n    DETECTING = 2\n    TURNING = 3\n    FINISHED = 4\ndef get_config(pipeline):\n    config = ob.Config()\n    profile_list = pipeline.get_stream_profile_list(ob.OBSensorType.COLOR_SENSOR)",
         "detail": "launch",
+        "documentation": {}
+    },
+    {
+        "label": "path_xml",
+        "kind": 5,
+        "importPath": "remove_xml",
+        "description": "remove_xml",
+        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/data317/color_images\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data317/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
+        "detail": "remove_xml",
+        "documentation": {}
+    },
+    {
+        "label": "filelist",
+        "kind": 5,
+        "importPath": "remove_xml",
+        "description": "remove_xml",
+        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data317/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
+        "detail": "remove_xml",
+        "documentation": {}
+    },
+    {
+        "label": "path3",
+        "kind": 5,
+        "importPath": "remove_xml",
+        "description": "remove_xml",
+        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/data317/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
+        "detail": "remove_xml",
         "documentation": {}
     },
     {

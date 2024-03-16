@@ -267,7 +267,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model =Paru('./weights/yolov8s.pt', './formats/coco.yaml')
+    model =Paru('./weights/3.17.1.best_x.pt', './robo.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -281,7 +281,14 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     def predict(frame):
         image = frame_to_image(frame)
 
-        results,detected_imgs = model.detect_image(np.asarray(image))
+        results,detected_imgs,invaild_index = model.detect_image(np.asarray(image))
+
+        if len(results) == 0:
+            with lock:
+                buffer[:] = np.asarray(image).flatten()
+                return
+
+
         result=results[0]
         result_img=detected_imgs[0]
 
@@ -289,11 +296,14 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         boxes_num=len(boxes.cls)
 
         for i in range(boxes_num):
+            if i in invaild_index:
+                continue
+
             nameOfBox=model.class_names[i]
             if nameOfBox not in class_set:
                 class_set.add(nameOfBox)
                 object_counter[nameOfBox] = set()
-                if boxes.id is not None:
+                if boxes.id is not None: 
                     object_counter[nameOfBox].add(str(boxes.id[i]))
             # to do 不能按照时间来存，应该按照ID存储
             else:
@@ -303,6 +313,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                         print("hello debug info:".format(boxes.id[i]))
                         object_counter[nameOfBox].add(str(boxes.id[i]))
             pass
+        
         with lock:
             buffer[:] = result_img.flatten()
 
@@ -361,7 +372,6 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         next_stage(STAGE_TIME, final=True)
     else:
         raise ValueError(f"`ROUND` should be either 1 or 2, got {ROUND}")
-
 def main():
     app = QApplication(sys.argv)
     mywin = Ui_MainWindow()  # 实例化一个窗口小部件
