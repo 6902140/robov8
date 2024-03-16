@@ -44,6 +44,7 @@ class Paru(object):
         results=self.model.track(image_list,conf=0.5,tracker='botsort.yaml') # conf 设置置信度下限
 
         detected_imgs=[]
+        desk_box = []
 
         for result in results:
             new_boxes = []
@@ -68,7 +69,7 @@ class Paru(object):
 
                 x = (box[0] + box[2]) / 2
                 y = (box[1] + box[3]) / 2
-                if x < box[0] or x > box[2] or y < box[3] or y > box[1]:
+                if x < desk_box[0] or x > desk_box[2] or y < desk_box[3] or y > desk_box[1]:
                     continue
                 new_boxes.append(box)
                 new_classes.append(cls)
