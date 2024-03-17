@@ -99,7 +99,7 @@ if __name__ == '__main__':
     model_path = './weights/3.17.1.best_x.pt'
     model = Yolov8Detect(model_path)
     import glob 
-    image_path = glob.glob('C:/Users/Zhuiri Xiao/Desktop/data317/color_images/*.jpg')
+    image_path = glob.glob('C:/Users/Zhuiri Xiao/Desktop/3.17.image/colotr/*.jpg')
     for img_path in image_path[:]:
         model.inferences(img_path)
 

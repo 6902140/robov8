@@ -14828,7 +14828,7 @@
         "kind": 5,
         "importPath": "remove_xml",
         "description": "remove_xml",
-        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/data317/color_images\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data317/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
+        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/colotr\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
         "detail": "remove_xml",
         "documentation": {}
     },
@@ -14837,7 +14837,7 @@
         "kind": 5,
         "importPath": "remove_xml",
         "description": "remove_xml",
-        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data317/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
+        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
         "detail": "remove_xml",
         "documentation": {}
     },
@@ -14846,7 +14846,7 @@
         "kind": 5,
         "importPath": "remove_xml",
         "description": "remove_xml",
-        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/data317/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
+        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
         "detail": "remove_xml",
         "documentation": {}
     },
