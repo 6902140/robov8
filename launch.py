@@ -274,45 +274,36 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     # process-local state variables
     class_set = set()
     object_counter = dict()
-
+    temp_counter = dict()
 
     # todo: 增强稳定性
-
+    # 切换成为独帧率模式
     def predict(frame):
         image = frame_to_image(frame)
-
-        results,detected_imgs,invaild_index = model.detect_image(np.asarray(image))
-
-        if len(results) == 0:
-            with lock:
-                buffer[:] = np.asarray(image).flatten()
-                return
-
-
+        results,detected_imgs= model.detect_image(np.asarray(image))
         result=results[0]
         result_img=detected_imgs[0]
 
         boxes=result.boxes
-        boxes_num=len(boxes.cls)
+        boxes_num=len(boxes.cls)# 当前帧获取到的物体数量
 
         for i in range(boxes_num):
-            if i in invaild_index:
-                continue
-
             nameOfBox=model.class_names[i]
             if nameOfBox not in class_set:
                 class_set.add(nameOfBox)
-                object_counter[nameOfBox] = set()
-                if boxes.id is not None: 
-                    object_counter[nameOfBox].add(str(boxes.id[i]))
+                temp_counter[nameOfBox] = 0
+                temp_counter[nameOfBox]+= 1
             # to do 不能按照时间来存，应该按照ID存储
             else:
                 print(f"name of box: {nameOfBox},class names:{class_set}")
-                if boxes.id is not None:
-                    if str(boxes.id[i]) not in object_counter[nameOfBox]:
-                        print("hello debug info:".format(boxes.id[i]))
-                        object_counter[nameOfBox].add(str(boxes.id[i]))
+                temp_counter[nameOfBox]+=1
             pass
+
+        for elem in class_set:
+            if elem not in class_set:
+                object_counter[elem] = temp_counter[elem]
+            elif(object_counter[elem]<temp_counter[elem]):
+                object_counter[elem] = temp_counter[elem]
         
         with lock:
             buffer[:] = result_img.flatten()
@@ -325,9 +316,12 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     print("starting pipeline")
     pipeline.start(config)
     print("pipeline started")
-
+    
     def next_stage(stage_time, final=False):
         t1 = time.perf_counter()
+        time_last_predict = t1
+        timeval=100000.0
+
         while True:
             # print("loop")
             frames = pipeline.wait_for_frames(100)
@@ -341,16 +335,26 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
 
             if t2 - t1 > STAGE_TIME:
                 # model.reset_tracker()
-
                 # to do 
                 break
 
             # print("predict")
-            predict(color_frame)
+           
+            
+            if timeval>1.0:
+                predict(color_frame)
+                time_end = time.perf_counter()
+                fps = 1.0 / (time_end - time_start)
+                print(f"current fps: {fps:.5f}")  
+                timeval=0  
+                time_last_predict = time.perf_counter()
+                pass
+            else:
+                timeval= time.perf_counter()-time_last_predict
 
-            time_end = time.perf_counter()
-            fps = 1.0 / (time_end - time_start)
-            print(f"current fps: {fps:.5f}")
+            
+
+
 
         if final:
             print("task completed")
