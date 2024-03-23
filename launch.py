@@ -272,15 +272,16 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
     # process-local state variables
-    class_set = set()
+    # class_set = set()
     object_counter = dict()
-    temp_counter = dict()
+    
 
     # 如果检测到了桌子就定义为True
     desk_model=False
     # todo: 增强稳定性
     # 切换成为独帧率模式
     def predict(frame):
+        temp_counter = dict()
         image = frame_to_image(frame)
         results,detected_imgs= model.detect_image(np.asarray(image))
         result=results[0]
@@ -300,12 +301,12 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         for idx in range(boxes_num):
             i=int(boxes.cls[idx])
             nameOfBox=model.class_names[i]
-            if nameOfBox not in class_set:
-                class_set.add(nameOfBox)
+            if nameOfBox not in temp_counter:
+                # class_set.add(nameOfBox)
                 temp_counter[nameOfBox] = 1
                 # object_counter[nameOfBox] = 0
             else:
-                print(f"name of box: {nameOfBox},class names:{class_set}")
+                # print(f"name of box: {nameOfBox},class names:{class_set}")
                 temp_counter[nameOfBox]+=1
             pass
 
@@ -368,7 +369,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         if final:
             print("task completed")
             label_dict = {}
-            for name in class_set:
+            for name in object_counter.keys():
                 label_dict[name] = min(object_counter[name], RESTRICT_NUM)
             label_dict_tx.send(label_dict)
         else:
