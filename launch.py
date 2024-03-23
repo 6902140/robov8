@@ -350,7 +350,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 break
            
             
-            if timeval>1.0:
+            if timeval>0.05: # 现在最佳参数0.05
                 predict(color_frame)
                 time_end = time.perf_counter()
                 fps = 1.0 / (time_end - time_start)
