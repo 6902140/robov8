@@ -267,7 +267,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model =Paru('./weights/3.17.1.best_x.pt', './robo.yaml')
+    model =Paru('./weights/best_model2_s.pt', './robo.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -276,6 +276,8 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     object_counter = dict()
     temp_counter = dict()
 
+    # 如果检测到了桌子就定义为True
+    desk_model=False
     # todo: 增强稳定性
     # 切换成为独帧率模式
     def predict(frame):
@@ -287,24 +289,34 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         boxes=result.boxes
         boxes_num=len(boxes.cls)# 当前帧获取到的物体数量
 
-        for i in range(boxes_num):
+        for idx in range(boxes_num):
+            i=int(boxes.cls[idx])
+            nameOfBox=model.class_names[i]
+            print("---{}----".format(nameOfBox))
+            if nameOfBox =="desktop-1":
+                desk_model=True
+                
+        
+        for idx in range(boxes_num):
+            i=int(boxes.cls[idx])
             nameOfBox=model.class_names[i]
             if nameOfBox not in class_set:
                 class_set.add(nameOfBox)
-                temp_counter[nameOfBox] = 0
-                temp_counter[nameOfBox]+= 1
-            # to do 不能按照时间来存，应该按照ID存储
+                temp_counter[nameOfBox] = 1
+                # object_counter[nameOfBox] = 0
             else:
                 print(f"name of box: {nameOfBox},class names:{class_set}")
                 temp_counter[nameOfBox]+=1
             pass
 
-        for elem in class_set:
-            if elem not in class_set:
-                object_counter[elem] = temp_counter[elem]
-            elif(object_counter[elem]<temp_counter[elem]):
-                object_counter[elem] = temp_counter[elem]
-        
+        for idx in range(boxes_num):
+            i=int(boxes.cls[idx])
+            elem_name=model.class_names[i]
+            if elem_name not in object_counter:
+                object_counter[elem_name] = temp_counter[elem_name]
+            elif(object_counter[elem_name]<temp_counter[elem_name]):
+                object_counter[elem_name] = temp_counter[elem_name]
+        desk_model=False
         with lock:
             buffer[:] = result_img.flatten()
 
@@ -323,9 +335,8 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         timeval=100000.0
 
         while True:
-            # print("loop")
             frames = pipeline.wait_for_frames(100)
-            # print("frame recv")
+            print("frame recv")
             if frames is None:
                 continue
             color_frame = frames.get_color_frame()
@@ -337,8 +348,6 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 # model.reset_tracker()
                 # to do 
                 break
-
-            # print("predict")
            
             
             if timeval>1.0:
@@ -348,8 +357,8 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 print(f"current fps: {fps:.5f}")  
                 timeval=0  
                 time_last_predict = time.perf_counter()
-                pass
             else:
+                print("not a proper time to predict")
                 timeval= time.perf_counter()-time_last_predict
 
             
@@ -360,7 +369,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             print("task completed")
             label_dict = {}
             for name in class_set:
-                label_dict[name] = min(len(object_counter[name]), RESTRICT_NUM)
+                label_dict[name] = min(object_counter[name], RESTRICT_NUM)
             label_dict_tx.send(label_dict)
         else:
             print("next stage")

@@ -6,10 +6,10 @@ from ultralytics import YOLO
 import os
 import shutil
 
-path_xml = "C:/Users/Zhuiri Xiao/Desktop/3.17.image/colotr"
+path_xml = "C:/Users/Zhuiri Xiao/Desktop/data_x/imgs"
 filelist = os.listdir(path_xml)
 
-path3 = "C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/"
+path3 = "C:/Users/Zhuiri Xiao/Desktop/data_x/labels/"
 
 
 for files in filelist:

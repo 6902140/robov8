@@ -51,9 +51,9 @@ class Paru(object):
         detected_imgs=[]
 
         detected_imgs.append(result.plot())
-        resized_image = cv2.resize(result.plot(), (400, 300))
-        cv2.imshow("test",resized_image)
-        cv2.waitKey(0)
+        # resized_image = cv2.resize(result.plot(), (400, 300))
+        # cv2.imshow("test",resized_image)
+        # cv2.waitKey(0)
         print(results)
         print(results[0].boxes)
         return results,detected_imgs
