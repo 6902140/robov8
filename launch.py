@@ -362,10 +362,6 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 print("not a proper time to predict")
                 timeval= time.perf_counter()-time_last_predict
 
-            
-
-
-
         if final:
             print("task completed")
             label_dict = {}
