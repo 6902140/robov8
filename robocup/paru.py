@@ -8,7 +8,7 @@ import torch
 # from tracker.sort import Sort
 
 from ultralytics import YOLO
-import ultralytics.models.yolo
+
 import yaml
 from ultralytics.utils.ops import clean_str
 
@@ -51,9 +51,9 @@ class Paru(object):
         detected_imgs=[]
 
         detected_imgs.append(result.plot())
-        # resized_image = cv2.resize(result.plot(), (400, 300))
-        # cv2.imshow("test",resized_image)
-        # cv2.waitKey(0)
+        resized_image = cv2.resize(result.plot(), (400, 300))
+        cv2.imshow("test",resized_image)
+        cv2.waitKey(0)
         print(results)
         print(results[0].boxes)
         return results,detected_imgs
@@ -62,7 +62,6 @@ class Paru(object):
 # just for testing purposes
 if __name__ == '__main__':
 
-    myParu=Paru("../weights/best_model2_s.pt","../robo.yaml")
+    myParu=Paru("../weights/kalo.pt","../robo.yaml")
     myParu.detect_image("./test_paru2.jpg")
-    
     pass

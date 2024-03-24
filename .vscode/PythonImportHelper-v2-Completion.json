@@ -412,39 +412,6 @@
         "documentation": {}
     },
     {
-        "label": "ultralytics.models.yolo",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "classify",
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "isExtraImport": true,
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "detect",
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "isExtraImport": true,
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "segment",
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "isExtraImport": true,
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
         "label": "yaml",
         "kind": 6,
         "isExtraImport": true,
@@ -3482,6 +3449,30 @@
         "description": "ultralytics.engine.exporter",
         "isExtraImport": true,
         "detail": "ultralytics.engine.exporter",
+        "documentation": {}
+    },
+    {
+        "label": "classify",
+        "importPath": "ultralytics.models.yolo",
+        "description": "ultralytics.models.yolo",
+        "isExtraImport": true,
+        "detail": "ultralytics.models.yolo",
+        "documentation": {}
+    },
+    {
+        "label": "detect",
+        "importPath": "ultralytics.models.yolo",
+        "description": "ultralytics.models.yolo",
+        "isExtraImport": true,
+        "detail": "ultralytics.models.yolo",
+        "documentation": {}
+    },
+    {
+        "label": "segment",
+        "importPath": "ultralytics.models.yolo",
+        "description": "ultralytics.models.yolo",
+        "isExtraImport": true,
+        "detail": "ultralytics.models.yolo",
         "documentation": {}
     },
     {
