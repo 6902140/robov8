@@ -7765,6 +7765,42 @@
         "documentation": {}
     },
     {
+        "label": "augment",
+        "kind": 2,
+        "importPath": "robov8_dataset.aug",
+        "description": "robov8_dataset.aug",
+        "peekOfCode": "def augment(img):\n    img=img.astype(np.float32)\n    fa=0.5*random.random()+0.5\n    fb=0.5*random.random()+0.5\n    fc=0.5*random.random()+0.5\n    fa2=random.randint(-30,30)\n    fb2=random.randint(-30,30)\n    fc2=random.randint(-30,30)\n    b, g, r = cv2.split(img)\n    b=cv2.multiply(b,fa)",
+        "detail": "robov8_dataset.aug",
+        "documentation": {}
+    },
+    {
+        "label": "copy_and_rename_txt_files",
+        "kind": 2,
+        "importPath": "robov8_dataset.mycopy",
+        "description": "robov8_dataset.mycopy",
+        "peekOfCode": "def copy_and_rename_txt_files(source_dir, destination_dir):\n    # 创建目标目录\n    if not os.path.exists(destination_dir):\n        os.makedirs(destination_dir)\n    # 遍历源目录下的所有文件和子目录\n    for root, dirs, files in os.walk(source_dir):\n        for filename in files:\n            if filename.endswith('.txt'):\n                # 构建源文件的完整路径\n                source_file = os.path.join(root, filename)",
+        "detail": "robov8_dataset.mycopy",
+        "documentation": {}
+    },
+    {
+        "label": "source_directory",
+        "kind": 5,
+        "importPath": "robov8_dataset.mycopy",
+        "description": "robov8_dataset.mycopy",
+        "peekOfCode": "source_directory = './labels'\ndestination_directory = './labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "detail": "robov8_dataset.mycopy",
+        "documentation": {}
+    },
+    {
+        "label": "destination_directory",
+        "kind": 5,
+        "importPath": "robov8_dataset.mycopy",
+        "description": "robov8_dataset.mycopy",
+        "peekOfCode": "destination_directory = './labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "detail": "robov8_dataset.mycopy",
+        "documentation": {}
+    },
+    {
         "label": "data_split",
         "kind": 2,
         "importPath": "robov8_dataset.spilit_dataset",
