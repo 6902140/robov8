@@ -1,5 +1,555 @@
 [
     {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "PIL",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PIL",
+        "description": "PIL",
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageOps",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDraw",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFont",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "distributed",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "optim",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "Explorer",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "download",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "RTDETR",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "Explorer",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "SAM",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLOWorld",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "clean_str",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segment2box",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxyxyxy2xywhr",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "resample_segments",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segments2boxes",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "crop_mask",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -9,12 +559,61 @@
         "documentation": {}
     },
     {
-        "label": "re",
+        "label": "YOLO",
+        "importPath": "yolo",
+        "description": "yolo",
+        "isExtraImport": true,
+        "detail": "yolo",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "socket",
+        "description": "socket",
+        "isExtraImport": true,
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "importPath": "socket",
+        "description": "socket",
+        "isExtraImport": true,
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "AF_INET",
+        "importPath": "socket",
+        "description": "socket",
+        "isExtraImport": true,
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "SOCK_STREAM",
+        "importPath": "socket",
+        "description": "socket",
+        "isExtraImport": true,
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
         "documentation": {}
     },
     {
@@ -27,564 +626,349 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
         "label": "subprocess",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm",
-        "description": "tqdm",
-        "isExtraImport": true,
-        "detail": "tqdm",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm",
-        "description": "tqdm",
-        "isExtraImport": true,
-        "detail": "tqdm",
-        "documentation": {}
-    },
-    {
-        "label": "tqdm",
-        "importPath": "tqdm",
-        "description": "tqdm",
-        "isExtraImport": true,
-        "detail": "tqdm",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "OrderedDict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "namedtuple",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "OrderedDict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "abc",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "ROOT",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "ASSETS",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "yaml_load",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "ASSETS",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "yaml_load",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "ASSETS",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "yaml_load",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "ASSETS",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
-        "documentation": {}
-    },
-    {
-        "label": "yaml_load",
-        "importPath": "ultralytics.utils",
-        "description": "ultralytics.utils",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils",
         "documentation": {}
     },
     {
@@ -2900,144 +3284,220 @@
         "documentation": {}
     },
     {
-        "label": "argparse",
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "TASK2DATA",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "TASK2DATA",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_save_dir",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_save_dir",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_save_dir",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_save_dir",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_cfg",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_save_dir",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "TASK2DATA",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "TASK2METRIC",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "TASK2DATA",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "TASK2METRIC",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "get_save_dir",
+        "importPath": "ultralytics.cfg",
+        "description": "ultralytics.cfg",
+        "isExtraImport": true,
+        "detail": "ultralytics.cfg",
+        "documentation": {}
+    },
+    {
+        "label": "Exporter",
+        "importPath": "ultralytics.engine.exporter",
+        "description": "ultralytics.engine.exporter",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.exporter",
+        "documentation": {}
+    },
+    {
+        "label": "export_formats",
+        "importPath": "ultralytics.engine.exporter",
+        "description": "ultralytics.engine.exporter",
+        "isExtraImport": true,
+        "detail": "ultralytics.engine.exporter",
+        "documentation": {}
+    },
+    {
+        "label": "classify",
+        "importPath": "ultralytics.models.yolo",
+        "description": "ultralytics.models.yolo",
+        "isExtraImport": true,
+        "detail": "ultralytics.models.yolo",
+        "documentation": {}
+    },
+    {
+        "label": "detect",
+        "importPath": "ultralytics.models.yolo",
+        "description": "ultralytics.models.yolo",
+        "isExtraImport": true,
+        "detail": "ultralytics.models.yolo",
+        "documentation": {}
+    },
+    {
+        "label": "segment",
+        "importPath": "ultralytics.models.yolo",
+        "description": "ultralytics.models.yolo",
+        "isExtraImport": true,
+        "detail": "ultralytics.models.yolo",
+        "documentation": {}
+    },
+    {
+        "label": "contextlib",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "detail": "contextlib",
         "documentation": {}
     },
     {
-        "label": "cv2",
-        "kind": 6,
+        "label": "contextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
         "isExtraImport": true,
-        "importPath": "cv2",
-        "description": "cv2",
-        "detail": "cv2",
+        "detail": "contextlib",
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
+        "label": "contextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
         "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "onnxruntime",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "onnxruntime",
-        "description": "onnxruntime",
-        "detail": "onnxruntime",
-        "documentation": {}
-    },
-    {
-        "label": "torch",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torch",
-        "description": "torch",
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "distributed",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "nn",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "optim",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "nn",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "nn",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "Tensor",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "nn",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "check_requirements",
-        "importPath": "ultralytics.utils.checks",
-        "description": "ultralytics.utils.checks",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.checks",
-        "documentation": {}
-    },
-    {
-        "label": "check_yaml",
-        "importPath": "ultralytics.utils.checks",
-        "description": "ultralytics.utils.checks",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.checks",
-        "documentation": {}
-    },
-    {
-        "label": "check_yaml",
-        "importPath": "ultralytics.utils.checks",
-        "description": "ultralytics.utils.checks",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.checks",
-        "documentation": {}
-    },
-    {
-        "label": "check_yaml",
-        "importPath": "ultralytics.utils.checks",
-        "description": "ultralytics.utils.checks",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.checks",
-        "documentation": {}
-    },
-    {
-        "label": "check_yaml",
-        "importPath": "ultralytics.utils.checks",
-        "description": "ultralytics.utils.checks",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.checks",
+        "detail": "contextlib",
         "documentation": {}
     },
     {
@@ -3406,1222 +3866,6 @@
         "description": "ultralytics.utils.checks",
         "isExtraImport": true,
         "detail": "ultralytics.utils.checks",
-        "documentation": {}
-    },
-    {
-        "label": "interpreter",
-        "importPath": "tflite_runtime",
-        "description": "tflite_runtime",
-        "isExtraImport": true,
-        "detail": "tflite_runtime",
-        "documentation": {}
-    },
-    {
-        "label": "cv2.dnn",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cv2.dnn",
-        "description": "cv2.dnn",
-        "detail": "cv2.dnn",
-        "documentation": {}
-    },
-    {
-        "label": "Polygon",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "Polygon",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "LineString",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "Point",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "Polygon",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "LineString",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "Point",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "Polygon",
-        "importPath": "shapely.geometry",
-        "description": "shapely.geometry",
-        "isExtraImport": true,
-        "detail": "shapely.geometry",
-        "documentation": {}
-    },
-    {
-        "label": "Point",
-        "importPath": "shapely.geometry.point",
-        "description": "shapely.geometry.point",
-        "isExtraImport": true,
-        "detail": "shapely.geometry.point",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "Explorer",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "download",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "RTDETR",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "Explorer",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "SAM",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLOWorld",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "increment_path",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "increment_path",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "increment_path",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "file_size",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "spaces_in_path",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "increment_path",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "get_latest_run",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "file_size",
-        "importPath": "ultralytics.utils.files",
-        "description": "ultralytics.utils.files",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.files",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "colors",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Colors",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "colors",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "save_one_box",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_tune_results",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_results",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_labels",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_results",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_to_target",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_to_rotated_target",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_results",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_to_target",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_results",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "output_to_target",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "plot_images",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "feature_visualization",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "colors",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "colors",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "Annotator",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "colors",
-        "importPath": "ultralytics.utils.plotting",
-        "description": "ultralytics.utils.plotting",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.plotting",
-        "documentation": {}
-    },
-    {
-        "label": "AutoDetectionModel",
-        "importPath": "sahi",
-        "description": "sahi",
-        "isExtraImport": true,
-        "detail": "sahi",
-        "documentation": {}
-    },
-    {
-        "label": "get_sliced_prediction",
-        "importPath": "sahi.predict",
-        "description": "sahi.predict",
-        "isExtraImport": true,
-        "detail": "sahi.predict",
-        "documentation": {}
-    },
-    {
-        "label": "download_yolov8s_model",
-        "importPath": "sahi.utils.yolov8",
-        "description": "sahi.utils.yolov8",
-        "isExtraImport": true,
-        "detail": "sahi.utils.yolov8",
-        "documentation": {}
-    },
-    {
-        "label": "QtCore",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "QtGui",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "QtWidgets",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "QtCore",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "QtGui",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "QtWidgets",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
-        "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
-        "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
-        "label": "PIL",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "PIL",
-        "description": "PIL",
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageOps",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageDraw",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageFont",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "__version__",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "yaml",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "yaml",
-        "description": "yaml",
-        "detail": "yaml",
-        "documentation": {}
-    },
-    {
-        "label": "clean_str",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segment2box",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxyxyxy2xywhr",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "resample_segments",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segments2boxes",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "crop_mask",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "importPath": "time",
-        "description": "time",
-        "isExtraImport": true,
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "importPath": "time",
-        "description": "time",
-        "isExtraImport": true,
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
-        "importPath": "yolo",
-        "description": "yolo",
-        "isExtraImport": true,
-        "detail": "yolo",
-        "documentation": {}
-    },
-    {
-        "label": "socket",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "socket",
-        "description": "socket",
-        "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "socket",
-        "description": "socket",
-        "isExtraImport": true,
-        "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "socket",
-        "importPath": "socket",
-        "description": "socket",
-        "isExtraImport": true,
-        "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "AF_INET",
-        "importPath": "socket",
-        "description": "socket",
-        "isExtraImport": true,
-        "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "SOCK_STREAM",
-        "importPath": "socket",
-        "description": "socket",
-        "isExtraImport": true,
-        "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "pytest",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pytest",
-        "description": "pytest",
-        "detail": "pytest",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "TASK2DATA",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "TASK2DATA",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_save_dir",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_save_dir",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_save_dir",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_save_dir",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_cfg",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_save_dir",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "TASK2DATA",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "TASK2METRIC",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "TASK2DATA",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "TASK2METRIC",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "get_save_dir",
-        "importPath": "ultralytics.cfg",
-        "description": "ultralytics.cfg",
-        "isExtraImport": true,
-        "detail": "ultralytics.cfg",
-        "documentation": {}
-    },
-    {
-        "label": "Exporter",
-        "importPath": "ultralytics.engine.exporter",
-        "description": "ultralytics.engine.exporter",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.exporter",
-        "documentation": {}
-    },
-    {
-        "label": "export_formats",
-        "importPath": "ultralytics.engine.exporter",
-        "description": "ultralytics.engine.exporter",
-        "isExtraImport": true,
-        "detail": "ultralytics.engine.exporter",
-        "documentation": {}
-    },
-    {
-        "label": "classify",
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "isExtraImport": true,
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "detect",
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "isExtraImport": true,
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "segment",
-        "importPath": "ultralytics.models.yolo",
-        "description": "ultralytics.models.yolo",
-        "isExtraImport": true,
-        "detail": "ultralytics.models.yolo",
-        "documentation": {}
-    },
-    {
-        "label": "contextlib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "contextlib",
-        "description": "contextlib",
-        "detail": "contextlib",
-        "documentation": {}
-    },
-    {
-        "label": "contextmanager",
-        "importPath": "contextlib",
-        "description": "contextlib",
-        "isExtraImport": true,
-        "detail": "contextlib",
-        "documentation": {}
-    },
-    {
-        "label": "contextmanager",
-        "importPath": "contextlib",
-        "description": "contextlib",
-        "isExtraImport": true,
-        "detail": "contextlib",
         "documentation": {}
     },
     {
@@ -5195,6 +4439,56 @@
         "documentation": {}
     },
     {
+        "label": "Element",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "tostring",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "SubElement",
+        "importPath": "lxml.etree",
+        "description": "lxml.etree",
+        "isExtraImport": true,
+        "detail": "lxml.etree",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "os.path",
         "kind": 6,
         "isExtraImport": true,
@@ -5521,6 +4815,22 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "Format",
         "importPath": "ultralytics.data.augment",
         "description": "ultralytics.data.augment",
@@ -5727,6 +5037,262 @@
         "importPath": "getpass",
         "description": "getpass",
         "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "save_one_box",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_tune_results",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_results",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_labels",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_results",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_to_target",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_to_rotated_target",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_results",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_to_target",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_results",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "output_to_target",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "plot_images",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "feature_visualization",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "Annotator",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "ultralytics.utils.plotting",
+        "description": "ultralytics.utils.plotting",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.plotting",
         "documentation": {}
     },
     {
@@ -6085,6 +5651,134 @@
         "documentation": {}
     },
     {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "namedtuple",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "abc",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "increment_path",
+        "importPath": "ultralytics.utils.files",
+        "description": "ultralytics.utils.files",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.files",
+        "documentation": {}
+    },
+    {
+        "label": "file_size",
+        "importPath": "ultralytics.utils.files",
+        "description": "ultralytics.utils.files",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.files",
+        "documentation": {}
+    },
+    {
+        "label": "spaces_in_path",
+        "importPath": "ultralytics.utils.files",
+        "description": "ultralytics.utils.files",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.files",
+        "documentation": {}
+    },
+    {
+        "label": "increment_path",
+        "importPath": "ultralytics.utils.files",
+        "description": "ultralytics.utils.files",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.files",
+        "documentation": {}
+    },
+    {
+        "label": "get_latest_run",
+        "importPath": "ultralytics.utils.files",
+        "description": "ultralytics.utils.files",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.files",
+        "documentation": {}
+    },
+    {
+        "label": "file_size",
+        "importPath": "ultralytics.utils.files",
+        "description": "ultralytics.utils.files",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.files",
+        "documentation": {}
+    },
+    {
         "label": "itertools",
         "kind": 6,
         "isExtraImport": true,
@@ -6159,12 +5853,59 @@
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
+        "label": "Polygon",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
         "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "LineString",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "LineString",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
         "documentation": {}
     },
     {
@@ -7768,38 +7509,6 @@
         "documentation": {}
     },
     {
-        "label": "Element",
-        "importPath": "lxml.etree",
-        "description": "lxml.etree",
-        "isExtraImport": true,
-        "detail": "lxml.etree",
-        "documentation": {}
-    },
-    {
-        "label": "tostring",
-        "importPath": "lxml.etree",
-        "description": "lxml.etree",
-        "isExtraImport": true,
-        "detail": "lxml.etree",
-        "documentation": {}
-    },
-    {
-        "label": "parse",
-        "importPath": "lxml.etree",
-        "description": "lxml.etree",
-        "isExtraImport": true,
-        "detail": "lxml.etree",
-        "documentation": {}
-    },
-    {
-        "label": "SubElement",
-        "importPath": "lxml.etree",
-        "description": "lxml.etree",
-        "isExtraImport": true,
-        "detail": "lxml.etree",
-        "documentation": {}
-    },
-    {
         "label": "RawArray",
         "importPath": "multiprocessing",
         "description": "multiprocessing",
@@ -7918,321 +7627,6 @@
         "description": "robocup.paru",
         "isExtraImport": true,
         "detail": "robocup.paru",
-        "documentation": {}
-    },
-    {
-        "label": "build_docs",
-        "kind": 2,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "def build_docs(clone_repos=True):\n    \"\"\"Build docs using mkdocs.\"\"\"\n    if SITE.exists():\n        print(f\"Removing existing {SITE}\")\n        shutil.rmtree(SITE)\n    # Get hub-sdk repo\n    if clone_repos:\n        repo = \"https://github.com/ultralytics/hub-sdk\"\n        local_dir = DOCS.parent / Path(repo).name\n        if not local_dir.exists():",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "update_page_title",
-        "kind": 2,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "def update_page_title(file_path: Path, new_title: str):\n    \"\"\"Update the title of an HTML file.\"\"\"\n    # Read the content of the file\n    with open(file_path, encoding=\"utf-8\") as file:\n        content = file.read()\n    # Replace the existing title with the new title\n    updated_content = re.sub(r\"<title>.*?</title>\", f\"<title>{new_title}</title>\", content)\n    # Write the updated content back to the file\n    with open(file_path, \"w\", encoding=\"utf-8\") as file:\n        file.write(updated_content)",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "update_html_head",
-        "kind": 2,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "def update_html_head(script=\"\"):\n    \"\"\"Update the HTML head section of each file.\"\"\"\n    html_files = Path(SITE).rglob(\"*.html\")\n    for html_file in tqdm(html_files, desc=\"Processing HTML files\"):\n        with html_file.open(\"r\", encoding=\"utf-8\") as file:\n            html_content = file.read()\n        if script in html_content:  # script already in HTML file\n            return\n        head_end_index = html_content.lower().rfind(\"</head>\")\n        if head_end_index != -1:",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "update_subdir_edit_links",
-        "kind": 2,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "def update_subdir_edit_links(subdir=\"\", docs_url=\"\"):\n    \"\"\"Update the HTML head section of each file.\"\"\"\n    from bs4 import BeautifulSoup\n    if str(subdir[0]) == \"/\":\n        subdir = str(subdir[0])[1:]\n    html_files = (SITE / subdir).rglob(\"*.html\")\n    for html_file in tqdm(html_files, desc=\"Processing subdir files\"):\n        with html_file.open(\"r\", encoding=\"utf-8\") as file:\n            soup = BeautifulSoup(file, \"html.parser\")\n        # Find the anchor tag and update its href attribute",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "def main():\n    \"\"\"Builds docs, updates titles and edit links, and prints local server command.\"\"\"\n    build_docs()\n    # Update titles\n    update_page_title(SITE / \"404.html\", new_title=\"Ultralytics Docs - Not Found\")\n    # Update edit links\n    update_subdir_edit_links(\n        subdir=\"hub/sdk/\",  # do not use leading slash\n        docs_url=\"https://github.com/ultralytics/hub-sdk/tree/develop/docs/\",\n    )",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "DOCS",
-        "kind": 5,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "DOCS = Path(__file__).parent.resolve()\nSITE = DOCS.parent / \"site\"\ndef build_docs(clone_repos=True):\n    \"\"\"Build docs using mkdocs.\"\"\"\n    if SITE.exists():\n        print(f\"Removing existing {SITE}\")\n        shutil.rmtree(SITE)\n    # Get hub-sdk repo\n    if clone_repos:\n        repo = \"https://github.com/ultralytics/hub-sdk\"",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "SITE",
-        "kind": 5,
-        "importPath": "docs.build_docs",
-        "description": "docs.build_docs",
-        "peekOfCode": "SITE = DOCS.parent / \"site\"\ndef build_docs(clone_repos=True):\n    \"\"\"Build docs using mkdocs.\"\"\"\n    if SITE.exists():\n        print(f\"Removing existing {SITE}\")\n        shutil.rmtree(SITE)\n    # Get hub-sdk repo\n    if clone_repos:\n        repo = \"https://github.com/ultralytics/hub-sdk\"\n        local_dir = DOCS.parent / Path(repo).name",
-        "detail": "docs.build_docs",
-        "documentation": {}
-    },
-    {
-        "label": "extract_classes_and_functions",
-        "kind": 2,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "def extract_classes_and_functions(filepath: Path) -> tuple:\n    \"\"\"Extracts class and function names from a given Python file.\"\"\"\n    content = filepath.read_text()\n    class_pattern = r\"(?:^|\\n)class\\s(\\w+)(?:\\(|:)\"\n    func_pattern = r\"(?:^|\\n)def\\s(\\w+)\\(\"\n    classes = re.findall(class_pattern, content)\n    functions = re.findall(func_pattern, content)\n    return classes, functions\ndef create_markdown(py_filepath: Path, module_path: str, classes: list, functions: list):\n    \"\"\"Creates a Markdown file containing the API reference for the given Python module.\"\"\"",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "create_markdown",
-        "kind": 2,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "def create_markdown(py_filepath: Path, module_path: str, classes: list, functions: list):\n    \"\"\"Creates a Markdown file containing the API reference for the given Python module.\"\"\"\n    md_filepath = py_filepath.with_suffix(\".md\")\n    # Read existing content and keep header content between first two ---\n    header_content = \"\"\n    if md_filepath.exists():\n        existing_content = md_filepath.read_text()\n        header_parts = existing_content.split(\"---\")\n        for part in header_parts:\n            if \"description:\" in part or \"comments:\" in part:",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "nested_dict",
-        "kind": 2,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "def nested_dict() -> defaultdict:\n    \"\"\"Creates and returns a nested defaultdict.\"\"\"\n    return defaultdict(nested_dict)\ndef sort_nested_dict(d: dict) -> dict:\n    \"\"\"Sorts a nested dictionary recursively.\"\"\"\n    return {key: sort_nested_dict(value) if isinstance(value, dict) else value for key, value in sorted(d.items())}\ndef create_nav_menu_yaml(nav_items: list, save: bool = False):\n    \"\"\"Creates a YAML file for the navigation menu based on the provided list of items.\"\"\"\n    nav_tree = nested_dict()\n    for item_str in nav_items:",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "sort_nested_dict",
-        "kind": 2,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "def sort_nested_dict(d: dict) -> dict:\n    \"\"\"Sorts a nested dictionary recursively.\"\"\"\n    return {key: sort_nested_dict(value) if isinstance(value, dict) else value for key, value in sorted(d.items())}\ndef create_nav_menu_yaml(nav_items: list, save: bool = False):\n    \"\"\"Creates a YAML file for the navigation menu based on the provided list of items.\"\"\"\n    nav_tree = nested_dict()\n    for item_str in nav_items:\n        item = Path(item_str)\n        parts = item.parts\n        current_level = nav_tree[\"reference\"]",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "create_nav_menu_yaml",
-        "kind": 2,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "def create_nav_menu_yaml(nav_items: list, save: bool = False):\n    \"\"\"Creates a YAML file for the navigation menu based on the provided list of items.\"\"\"\n    nav_tree = nested_dict()\n    for item_str in nav_items:\n        item = Path(item_str)\n        parts = item.parts\n        current_level = nav_tree[\"reference\"]\n        for part in parts[2:-1]:  # skip the first two parts (docs and reference) and the last part (filename)\n            current_level = current_level[part]\n        md_file_name = parts[-1].replace(\".md\", \"\")",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "def main():\n    \"\"\"Main function to extract class and function names, create Markdown files, and generate a YAML navigation menu.\"\"\"\n    nav_items = []\n    for py_filepath in PACKAGE_DIR.rglob(\"*.py\"):\n        classes, functions = extract_classes_and_functions(py_filepath)\n        if classes or functions:\n            py_filepath_rel = py_filepath.relative_to(PACKAGE_DIR)\n            md_filepath = REFERENCE_DIR / py_filepath_rel\n            module_path = f\"{PACKAGE_DIR.name}.{py_filepath_rel.with_suffix('').as_posix().replace('/', '.')}\"\n            md_rel_filepath = create_markdown(md_filepath, module_path, classes, functions)",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "REFERENCE_DIR",
-        "kind": 5,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "REFERENCE_DIR = PACKAGE_DIR.parent / \"docs/en/reference\"\nGITHUB_REPO = \"ultralytics/ultralytics\"\ndef extract_classes_and_functions(filepath: Path) -> tuple:\n    \"\"\"Extracts class and function names from a given Python file.\"\"\"\n    content = filepath.read_text()\n    class_pattern = r\"(?:^|\\n)class\\s(\\w+)(?:\\(|:)\"\n    func_pattern = r\"(?:^|\\n)def\\s(\\w+)\\(\"\n    classes = re.findall(class_pattern, content)\n    functions = re.findall(func_pattern, content)\n    return classes, functions",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "GITHUB_REPO",
-        "kind": 5,
-        "importPath": "docs.build_reference",
-        "description": "docs.build_reference",
-        "peekOfCode": "GITHUB_REPO = \"ultralytics/ultralytics\"\ndef extract_classes_and_functions(filepath: Path) -> tuple:\n    \"\"\"Extracts class and function names from a given Python file.\"\"\"\n    content = filepath.read_text()\n    class_pattern = r\"(?:^|\\n)class\\s(\\w+)(?:\\(|:)\"\n    func_pattern = r\"(?:^|\\n)def\\s(\\w+)\\(\"\n    classes = re.findall(class_pattern, content)\n    functions = re.findall(func_pattern, content)\n    return classes, functions\ndef create_markdown(py_filepath: Path, module_path: str, classes: list, functions: list):",
-        "detail": "docs.build_reference",
-        "documentation": {}
-    },
-    {
-        "label": "YOLOv8",
-        "kind": 6,
-        "importPath": "examples.YOLOv8-ONNXRuntime.main",
-        "description": "examples.YOLOv8-ONNXRuntime.main",
-        "peekOfCode": "class YOLOv8:\n    \"\"\"YOLOv8 object detection model class for handling inference and visualization.\"\"\"\n    def __init__(self, onnx_model, input_image, confidence_thres, iou_thres):\n        \"\"\"\n        Initializes an instance of the YOLOv8 class.\n        Args:\n            onnx_model: Path to the ONNX model.\n            input_image: Path to the input image.\n            confidence_thres: Confidence threshold for filtering detections.\n            iou_thres: IoU (Intersection over Union) threshold for non-maximum suppression.",
-        "detail": "examples.YOLOv8-ONNXRuntime.main",
-        "documentation": {}
-    },
-    {
-        "label": "LetterBox",
-        "kind": 6,
-        "importPath": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "description": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "peekOfCode": "class LetterBox:\n    def __init__(\n        self, new_shape=(img_width, img_height), auto=False, scaleFill=False, scaleup=True, center=True, stride=32\n    ):\n        self.new_shape = new_shape\n        self.auto = auto\n        self.scaleFill = scaleFill\n        self.scaleup = scaleup\n        self.stride = stride\n        self.center = center  # Put the image in the middle or top-left",
-        "detail": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "Yolov8TFLite",
-        "kind": 6,
-        "importPath": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "description": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "peekOfCode": "class Yolov8TFLite:\n    def __init__(self, tflite_model, input_image, confidence_thres, iou_thres):\n        \"\"\"\n        Initializes an instance of the Yolov8TFLite class.\n        Args:\n            tflite_model: Path to the TFLite model.\n            input_image: Path to the input image.\n            confidence_thres: Confidence threshold for filtering detections.\n            iou_thres: IoU (Intersection over Union) threshold for non-maximum suppression.\n        \"\"\"",
-        "detail": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "img_width",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "description": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "peekOfCode": "img_width = 640\nimg_height = 640\nclass LetterBox:\n    def __init__(\n        self, new_shape=(img_width, img_height), auto=False, scaleFill=False, scaleup=True, center=True, stride=32\n    ):\n        self.new_shape = new_shape\n        self.auto = auto\n        self.scaleFill = scaleFill\n        self.scaleup = scaleup",
-        "detail": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "img_height",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "description": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "peekOfCode": "img_height = 640\nclass LetterBox:\n    def __init__(\n        self, new_shape=(img_width, img_height), auto=False, scaleFill=False, scaleup=True, center=True, stride=32\n    ):\n        self.new_shape = new_shape\n        self.auto = auto\n        self.scaleFill = scaleFill\n        self.scaleup = scaleup\n        self.stride = stride",
-        "detail": "examples.YOLOv8-OpenCV-int8-tflite-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "draw_bounding_box",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "description": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "peekOfCode": "def draw_bounding_box(img, class_id, confidence, x, y, x_plus_w, y_plus_h):\n    \"\"\"\n    Draws bounding boxes on the input image based on the provided arguments.\n    Args:\n        img (numpy.ndarray): The input image to draw the bounding box on.\n        class_id (int): Class ID of the detected object.\n        confidence (float): Confidence score of the detected object.\n        x (int): X-coordinate of the top-left corner of the bounding box.\n        y (int): Y-coordinate of the top-left corner of the bounding box.\n        x_plus_w (int): X-coordinate of the bottom-right corner of the bounding box.",
-        "detail": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "description": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "peekOfCode": "def main(onnx_model, input_image):\n    \"\"\"\n    Main function to load ONNX model, perform inference, draw bounding boxes, and display the output image.\n    Args:\n        onnx_model (str): Path to the ONNX model.\n        input_image (str): Path to the input image.\n    Returns:\n        list: List of dictionaries containing detection information such as class_id, class_name, confidence, etc.\n    \"\"\"\n    # Load the ONNX model",
-        "detail": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "CLASSES",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "description": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "peekOfCode": "CLASSES = yaml_load(check_yaml(\"coco128.yaml\"))[\"names\"]\ncolors = np.random.uniform(0, 255, size=(len(CLASSES), 3))\ndef draw_bounding_box(img, class_id, confidence, x, y, x_plus_w, y_plus_h):\n    \"\"\"\n    Draws bounding boxes on the input image based on the provided arguments.\n    Args:\n        img (numpy.ndarray): The input image to draw the bounding box on.\n        class_id (int): Class ID of the detected object.\n        confidence (float): Confidence score of the detected object.\n        x (int): X-coordinate of the top-left corner of the bounding box.",
-        "detail": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "colors",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "description": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "peekOfCode": "colors = np.random.uniform(0, 255, size=(len(CLASSES), 3))\ndef draw_bounding_box(img, class_id, confidence, x, y, x_plus_w, y_plus_h):\n    \"\"\"\n    Draws bounding boxes on the input image based on the provided arguments.\n    Args:\n        img (numpy.ndarray): The input image to draw the bounding box on.\n        class_id (int): Class ID of the detected object.\n        confidence (float): Confidence score of the detected object.\n        x (int): X-coordinate of the top-left corner of the bounding box.\n        y (int): Y-coordinate of the top-left corner of the bounding box.",
-        "detail": "examples.YOLOv8-OpenCV-ONNX-Python.main",
-        "documentation": {}
-    },
-    {
-        "label": "mouse_callback",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "def mouse_callback(event, x, y, flags, param):\n    \"\"\"\n    Handles mouse events for region manipulation.\n    Parameters:\n        event (int): The mouse event type (e.g., cv2.EVENT_LBUTTONDOWN).\n        x (int): The x-coordinate of the mouse pointer.\n        y (int): The y-coordinate of the mouse pointer.\n        flags (int): Additional flags passed by OpenCV.\n        param: Additional parameters passed to the callback (not used in this function).\n    Global Variables:",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "run",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "def run(\n    weights=\"yolov8n.pt\",\n    source=None,\n    device=\"cpu\",\n    view_img=False,\n    save_img=False,\n    exist_ok=False,\n    classes=None,\n    line_thickness=2,\n    track_thickness=2,",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "parse_opt",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "def parse_opt():\n    \"\"\"Parse command line arguments.\"\"\"\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--weights\", type=str, default=\"yolov8n.pt\", help=\"initial weights path\")\n    parser.add_argument(\"--device\", default=\"\", help=\"cuda device, i.e. 0 or 0,1,2,3 or cpu\")\n    parser.add_argument(\"--source\", type=str, required=True, help=\"video file path\")\n    parser.add_argument(\"--view-img\", action=\"store_true\", help=\"show results\")\n    parser.add_argument(\"--save-img\", action=\"store_true\", help=\"save results\")\n    parser.add_argument(\"--exist-ok\", action=\"store_true\", help=\"existing project/name ok, do not increment\")\n    parser.add_argument(\"--classes\", nargs=\"+\", type=int, help=\"filter by class: --classes 0, or --classes 0 2 3\")",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "def main(opt):\n    \"\"\"Main function.\"\"\"\n    run(**vars(opt))\nif __name__ == \"__main__\":\n    opt = parse_opt()\n    main(opt)",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "track_history",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "track_history = defaultdict(list)\ncurrent_region = None\ncounting_regions = [\n    {\n        \"name\": \"YOLOv8 Polygon Region\",\n        \"polygon\": Polygon([(50, 80), (250, 20), (450, 80), (400, 350), (100, 350)]),  # Polygon points\n        \"counts\": 0,\n        \"dragging\": False,\n        \"region_color\": (255, 42, 4),  # BGR Value\n        \"text_color\": (255, 255, 255),  # Region Text Color",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "current_region",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "current_region = None\ncounting_regions = [\n    {\n        \"name\": \"YOLOv8 Polygon Region\",\n        \"polygon\": Polygon([(50, 80), (250, 20), (450, 80), (400, 350), (100, 350)]),  # Polygon points\n        \"counts\": 0,\n        \"dragging\": False,\n        \"region_color\": (255, 42, 4),  # BGR Value\n        \"text_color\": (255, 255, 255),  # Region Text Color\n    },",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "counting_regions",
-        "kind": 5,
-        "importPath": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "description": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "peekOfCode": "counting_regions = [\n    {\n        \"name\": \"YOLOv8 Polygon Region\",\n        \"polygon\": Polygon([(50, 80), (250, 20), (450, 80), (400, 350), (100, 350)]),  # Polygon points\n        \"counts\": 0,\n        \"dragging\": False,\n        \"region_color\": (255, 42, 4),  # BGR Value\n        \"text_color\": (255, 255, 255),  # Region Text Color\n    },\n    {",
-        "detail": "examples.YOLOv8-Region-Counter.yolov8_region_counter",
-        "documentation": {}
-    },
-    {
-        "label": "run",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "description": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "peekOfCode": "def run(weights=\"yolov8n.pt\", source=\"test.mp4\", view_img=False, save_img=False, exist_ok=False):\n    \"\"\"\n    Run object detection on a video using YOLOv8 and SAHI.\n    Args:\n        weights (str): Model weights path.\n        source (str): Video file path.\n        view_img (bool): Show results.\n        save_img (bool): Save results.\n        exist_ok (bool): Overwrite existing files.\n    \"\"\"",
-        "detail": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "documentation": {}
-    },
-    {
-        "label": "parse_opt",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "description": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "peekOfCode": "def parse_opt():\n    \"\"\"Parse command line arguments.\"\"\"\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--weights\", type=str, default=\"yolov8n.pt\", help=\"initial weights path\")\n    parser.add_argument(\"--source\", type=str, required=True, help=\"video file path\")\n    parser.add_argument(\"--view-img\", action=\"store_true\", help=\"show results\")\n    parser.add_argument(\"--save-img\", action=\"store_true\", help=\"save results\")\n    parser.add_argument(\"--exist-ok\", action=\"store_true\", help=\"existing project/name ok, do not increment\")\n    return parser.parse_args()\ndef main(opt):",
-        "detail": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "description": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "peekOfCode": "def main(opt):\n    \"\"\"Main function.\"\"\"\n    run(**vars(opt))\nif __name__ == \"__main__\":\n    opt = parse_opt()\n    main(opt)",
-        "detail": "examples.YOLOv8-SAHI-Inference-Video.yolov8_sahi",
-        "documentation": {}
-    },
-    {
-        "label": "YOLOv8Seg",
-        "kind": 6,
-        "importPath": "examples.YOLOv8-Segmentation-ONNXRuntime-Python.main",
-        "description": "examples.YOLOv8-Segmentation-ONNXRuntime-Python.main",
-        "peekOfCode": "class YOLOv8Seg:\n    \"\"\"YOLOv8 segmentation model.\"\"\"\n    def __init__(self, onnx_model):\n        \"\"\"\n        Initialization.\n        Args:\n            onnx_model (str): Path to the ONNX model.\n        \"\"\"\n        # Build Ort session\n        self.session = ort.InferenceSession(",
-        "detail": "examples.YOLOv8-Segmentation-ONNXRuntime-Python.main",
         "documentation": {}
     },
     {
@@ -8368,6 +7762,42 @@
         "description": "robocup.tools",
         "peekOfCode": "def load_yaml(file_path):\n    \"\"\"Load data from yaml file.\"\"\"\n    if isinstance(file_path, str):\n        with open(file_path, errors='ignore') as f:\n            data_dict = yaml.safe_load(f)\n    return data_dict",
         "detail": "robocup.tools",
+        "documentation": {}
+    },
+    {
+        "label": "augment",
+        "kind": 2,
+        "importPath": "robov8_dataset.aug",
+        "description": "robov8_dataset.aug",
+        "peekOfCode": "def augment(img):\n    img=img.astype(np.float32)\n    fa=0.5*random.random()+0.5\n    fb=0.5*random.random()+0.5\n    fc=0.5*random.random()+0.5\n    fa2=random.randint(-30,30)\n    fb2=random.randint(-30,30)\n    fc2=random.randint(-30,30)\n    b, g, r = cv2.split(img)\n    b=cv2.multiply(b,fa)",
+        "detail": "robov8_dataset.aug",
+        "documentation": {}
+    },
+    {
+        "label": "copy_and_rename_txt_files",
+        "kind": 2,
+        "importPath": "robov8_dataset.mycopy",
+        "description": "robov8_dataset.mycopy",
+        "peekOfCode": "def copy_and_rename_txt_files(source_dir, destination_dir):\n    # 创建目标目录\n    if not os.path.exists(destination_dir):\n        os.makedirs(destination_dir)\n    # 遍历源目录下的所有文件和子目录\n    for root, dirs, files in os.walk(source_dir):\n        for filename in files:\n            if filename.endswith('.txt'):\n                # 构建源文件的完整路径\n                source_file = os.path.join(root, filename)",
+        "detail": "robov8_dataset.mycopy",
+        "documentation": {}
+    },
+    {
+        "label": "source_directory",
+        "kind": 5,
+        "importPath": "robov8_dataset.mycopy",
+        "description": "robov8_dataset.mycopy",
+        "peekOfCode": "source_directory = './labels'\ndestination_directory = './labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "detail": "robov8_dataset.mycopy",
+        "documentation": {}
+    },
+    {
+        "label": "destination_directory",
+        "kind": 5,
+        "importPath": "robov8_dataset.mycopy",
+        "description": "robov8_dataset.mycopy",
+        "peekOfCode": "destination_directory = './labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "detail": "robov8_dataset.mycopy",
         "documentation": {}
     },
     {
@@ -9334,11 +8764,65 @@
         "documentation": {}
     },
     {
+        "label": "Yolov8Detect",
+        "kind": 6,
+        "importPath": "tools.autolabel",
+        "description": "tools.autolabel",
+        "peekOfCode": "class Yolov8Detect():\n    def __init__(self, weights, img_size=960, conf_thresh=0.2, iou_thresh=0.5, batchsize=16):\n        cuda = True if torch.cuda.is_available() else False\n        self.device = torch.device('cuda:0' if cuda else 'cpu')\n        self.detect_model = YOLO(weights)\n        # print(weights)\n        self.detect_model.to(self.device)\n        #####\n        # 0.x\n        # self.img_size = img_size",
+        "detail": "tools.autolabel",
+        "documentation": {}
+    },
+    {
+        "label": "xml_construct",
+        "kind": 2,
+        "importPath": "tools.autolabel",
+        "description": "tools.autolabel",
+        "peekOfCode": "def xml_construct(save_path,folder,filename,path,label_text,width=800,height=600,depth = 3,segmented=0):\n    default_text = 'default'\n    node_root = Element('annotation')  # 根节点\n    node_folder = subElement(node_root, 'folder')  # 在节点下添加名为'folder'的子节点\n    node_folder.text = folder  # 设定节点的文字\n    node_filename = subElement(node_root, 'filename')\n    node_filename.text = filename\n    node_path = subElement(node_root, 'path')\n    node_path.text = path\n    node_size = subElement(node_root, 'size')",
+        "detail": "tools.autolabel",
+        "documentation": {}
+    },
+    {
+        "label": "get_images_from_baidu",
+        "kind": 2,
+        "importPath": "tools.get_images",
+        "description": "tools.get_images",
+        "peekOfCode": "def get_images_from_baidu(keyword, page_num, save_dir):\n    header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}\n    # 请求的 url\n    url = 'https://image.baidu.com/search/acjson?'\n    n = 0\n    for pn in range(0, 30 * page_num, 30):\n        # 请求参数\n        param = {'tn': 'resultjson_com',\n                 'logid': '7603311155072595725',\n                 'ipn': 'rj',",
+        "detail": "tools.get_images",
+        "documentation": {}
+    },
+    {
+        "label": "path_xml",
+        "kind": 5,
+        "importPath": "tools.remove_xml",
+        "description": "tools.remove_xml",
+        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/data_x/imgs\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data_x/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
+        "detail": "tools.remove_xml",
+        "documentation": {}
+    },
+    {
+        "label": "filelist",
+        "kind": 5,
+        "importPath": "tools.remove_xml",
+        "description": "tools.remove_xml",
+        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data_x/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
+        "detail": "tools.remove_xml",
+        "documentation": {}
+    },
+    {
+        "label": "path3",
+        "kind": 5,
+        "importPath": "tools.remove_xml",
+        "description": "tools.remove_xml",
+        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/data_x/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
+        "detail": "tools.remove_xml",
+        "documentation": {}
+    },
+    {
         "label": "class_names",
         "kind": 5,
         "importPath": "tools.xml2txt",
         "description": "tools.xml2txt",
-        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] \n# 类别名，依次写下来\n# CA001\n# CA002\n# CA003",
+        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] # 类别名，依次写下来\n# CA001\n# CA002\n# CA003\n# CA004",
         "detail": "tools.xml2txt",
         "documentation": {}
     },
@@ -14644,33 +14128,6 @@
         "documentation": {}
     },
     {
-        "label": "Yolov8Detect",
-        "kind": 6,
-        "importPath": "autolabel",
-        "description": "autolabel",
-        "peekOfCode": "class Yolov8Detect():\n    def __init__(self, weights, img_size=960, conf_thresh=0.2, iou_thresh=0.5, batchsize=16):\n        cuda = True if torch.cuda.is_available() else False\n        self.device = torch.device('cuda:0' if cuda else 'cpu')\n        self.detect_model = YOLO(weights)\n        # print(weights)\n        self.detect_model.to(self.device)\n        #####\n        # 0.x\n        # self.img_size = img_size",
-        "detail": "autolabel",
-        "documentation": {}
-    },
-    {
-        "label": "xml_construct",
-        "kind": 2,
-        "importPath": "autolabel",
-        "description": "autolabel",
-        "peekOfCode": "def xml_construct(save_path,folder,filename,path,label_text,width=800,height=600,depth = 3,segmented=0):\n    default_text = 'default'\n    node_root = Element('annotation')  # 根节点\n    node_folder = subElement(node_root, 'folder')  # 在节点下添加名为'folder'的子节点\n    node_folder.text = folder  # 设定节点的文字\n    node_filename = subElement(node_root, 'filename')\n    node_filename.text = filename\n    node_path = subElement(node_root, 'path')\n    node_path.text = path\n    node_size = subElement(node_root, 'size')",
-        "detail": "autolabel",
-        "documentation": {}
-    },
-    {
-        "label": "get_images_from_baidu",
-        "kind": 2,
-        "importPath": "get_images",
-        "description": "get_images",
-        "peekOfCode": "def get_images_from_baidu(keyword, page_num, save_dir):\n    header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'}\n    # 请求的 url\n    url = 'https://image.baidu.com/search/acjson?'\n    n = 0\n    for pn in range(0, 30 * page_num, 30):\n        # 请求参数\n        param = {'tn': 'resultjson_com',\n                 'logid': '7603311155072595725',\n                 'ipn': 'rj',",
-        "detail": "get_images",
-        "documentation": {}
-    },
-    {
         "label": "Status",
         "kind": 6,
         "importPath": "launch",
@@ -14824,66 +14281,12 @@
         "documentation": {}
     },
     {
-        "label": "path_xml",
-        "kind": 5,
-        "importPath": "remove_xml",
-        "description": "remove_xml",
-        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/colotr\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
-        "detail": "remove_xml",
-        "documentation": {}
-    },
-    {
-        "label": "filelist",
-        "kind": 5,
-        "importPath": "remove_xml",
-        "description": "remove_xml",
-        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
-        "detail": "remove_xml",
-        "documentation": {}
-    },
-    {
-        "label": "path3",
-        "kind": 5,
-        "importPath": "remove_xml",
-        "description": "remove_xml",
-        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/3.17.image/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
-        "detail": "remove_xml",
-        "documentation": {}
-    },
-    {
         "label": "model",
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
         "peekOfCode": "model = YOLO('./weights/yolov8s.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='./robo.yaml', epochs=300, imgsz=1536,batch=16, workers=8,device=\"cuda\")\n# model.export(format='')",
         "detail": "train_model",
-        "documentation": {}
-    },
-    {
-        "label": "class_names",
-        "kind": 5,
-        "importPath": "xml2txt",
-        "description": "xml2txt",
-        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] # 类别名，依次写下来\n# CA001\n# CA002\n# CA003\n# CA004",
-        "detail": "xml2txt",
-        "documentation": {}
-    },
-    {
-        "label": "dirpath",
-        "kind": 5,
-        "importPath": "xml2txt",
-        "description": "xml2txt",
-        "peekOfCode": "dirpath = r'./xml'  # 原来存放xml文件的目录\nnewdir = r'./output'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0",
-        "detail": "xml2txt",
-        "documentation": {}
-    },
-    {
-        "label": "newdir",
-        "kind": 5,
-        "importPath": "xml2txt",
-        "description": "xml2txt",
-        "peekOfCode": "newdir = r'./output'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0\n    sz = root.find('size')",
-        "detail": "xml2txt",
         "documentation": {}
     }
 ]

@@ -1,6 +1,3 @@
-# 
-
-
 import os
 import os.path
 import xml.etree.ElementTree as ET
@@ -11,10 +8,7 @@ class_names = ['CA001','CA002','CA003','CA004',
                'CC001','CC002','CC003','CC004',
                'CD001','CD002','CD003','CD004',
                'desktop-1','desktop-2' 
- ] 
-
-# 类别名，依次写下来
-
+ ] # 类别名，依次写下来
 # CA001
 # CA002
 # CA003
