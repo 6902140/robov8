@@ -24,6 +24,22 @@
         "documentation": {}
     },
     {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
         "label": "QtCore",
         "importPath": "PyQt5",
         "description": "PyQt5",
@@ -414,6 +430,14 @@
     },
     {
         "label": "YOLOWorld",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
         "importPath": "ultralytics",
         "description": "ultralytics",
         "isExtraImport": true,
@@ -4799,6 +4823,30 @@
         "documentation": {}
     },
     {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "pyplot",
         "importPath": "matplotlib",
         "description": "matplotlib",
@@ -7509,6 +7557,127 @@
         "documentation": {}
     },
     {
+        "label": "pyorbbecsdk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBSensorType",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBAlignMode",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "FrameSet",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBFormat",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBPropertyID",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "FormatConvertFilter",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "VideoFrame",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBFormat",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBConvertFormat",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "frame_to_bgr_image",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "Paru",
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
+        "isExtraImport": true,
+        "detail": "robocup.paru",
+        "documentation": {}
+    },
+    {
+        "label": "Paru",
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
+        "isExtraImport": true,
+        "detail": "robocup.paru",
+        "documentation": {}
+    },
+    {
         "label": "RawArray",
         "importPath": "multiprocessing",
         "description": "multiprocessing",
@@ -7546,15 +7715,6 @@
         "description": "multiprocessing",
         "isExtraImport": true,
         "detail": "multiprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "pyorbbecsdk",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "detail": "pyorbbecsdk",
         "documentation": {}
     },
     {
@@ -7619,14 +7779,6 @@
         "description": "robocup.camlxz",
         "isExtraImport": true,
         "detail": "robocup.camlxz",
-        "documentation": {}
-    },
-    {
-        "label": "Paru",
-        "importPath": "robocup.paru",
-        "description": "robocup.paru",
-        "isExtraImport": true,
-        "detail": "robocup.paru",
         "documentation": {}
     },
     {
@@ -14128,6 +14280,24 @@
         "documentation": {}
     },
     {
+        "label": "UI",
+        "kind": 6,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "class UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)\n        pixmap2.fill(QtGui.QColor(0))\n        self.label = QtWidgets.QLabel()",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "def main():\n    app = QtWidgets.QApplication(sys.argv)\n    mywin = UI()\n    mywin.setWindowTitle('XJTU-Robocup-工业检测')\n    mywin.show()\n    sys.exit(app.exec_())\nif __name__ == '__main__':\n    main()",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
         "label": "Status",
         "kind": 6,
         "importPath": "launch",
@@ -14287,6 +14457,78 @@
         "description": "train_model",
         "peekOfCode": "model = YOLO('./weights/yolov8s.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='./robo.yaml', epochs=300, imgsz=1536,batch=16, workers=8,device=\"cuda\")\n# model.export(format='')",
         "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "yuyv_to_bgr",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def yuyv_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    yuyv = frame.reshape((height, width, 2))\n    bgr_image = cv2.cvtColor(yuyv, cv2.COLOR_YUV2BGR_YUY2)\n    return bgr_image\ndef uyvy_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    uyvy = frame.reshape((height, width, 2))\n    bgr_image = cv2.cvtColor(uyvy, cv2.COLOR_YUV2BGR_UYVY)\n    return bgr_image\ndef i420_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "uyvy_to_bgr",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def uyvy_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    uyvy = frame.reshape((height, width, 2))\n    bgr_image = cv2.cvtColor(uyvy, cv2.COLOR_YUV2BGR_UYVY)\n    return bgr_image\ndef i420_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]\n    u = frame[height:height + height // 4].reshape(height // 2, width // 2)\n    v = frame[height + height // 4:].reshape(height // 2, width // 2)\n    yuv_image = cv2.merge([y, u, v])\n    bgr_image = cv2.cvtColor(yuv_image, cv2.COLOR_YUV2BGR_I420)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "i420_to_bgr",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def i420_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]\n    u = frame[height:height + height // 4].reshape(height // 2, width // 2)\n    v = frame[height + height // 4:].reshape(height // 2, width // 2)\n    yuv_image = cv2.merge([y, u, v])\n    bgr_image = cv2.cvtColor(yuv_image, cv2.COLOR_YUV2BGR_I420)\n    return bgr_image\ndef nv21_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]\n    uv = frame[height:height + height // 2].reshape(height // 2, width)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "nv21_to_bgr",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def nv21_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]\n    uv = frame[height:height + height // 2].reshape(height // 2, width)\n    yuv_image = cv2.merge([y, uv])\n    bgr_image = cv2.cvtColor(yuv_image, cv2.COLOR_YUV2BGR_NV21)\n    return bgr_image\ndef nv12_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]\n    uv = frame[height:height + height // 2].reshape(height // 2, width)\n    yuv_image = cv2.merge([y, uv])",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "nv12_to_bgr",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def nv12_to_bgr(frame: np.ndarray, width: int, height: int) -> np.ndarray:\n    y = frame[0:height, :]\n    uv = frame[height:height + height // 2].reshape(height // 2, width)\n    yuv_image = cv2.merge([y, uv])\n    bgr_image = cv2.cvtColor(yuv_image, cv2.COLOR_YUV2BGR_NV12)\n    return bgr_image\ndef determine_convert_format(frame: VideoFrame):\n    if frame.get_format() == OBFormat.I420:\n        return OBConvertFormat.I420_TO_RGB888\n    elif frame.get_format() == OBFormat.MJPG:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "determine_convert_format",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def determine_convert_format(frame: VideoFrame):\n    if frame.get_format() == OBFormat.I420:\n        return OBConvertFormat.I420_TO_RGB888\n    elif frame.get_format() == OBFormat.MJPG:\n        return OBConvertFormat.MJPG_TO_RGB888\n    elif frame.get_format() == OBFormat.YUYV:\n        return OBConvertFormat.YUYV_TO_RGB888\n    elif frame.get_format() == OBFormat.NV21:\n        return OBConvertFormat.NV21_TO_RGB888\n    elif frame.get_format() == OBFormat.NV12:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "frame_to_rgb_frame",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def frame_to_rgb_frame(frame: VideoFrame) -> Union[Optional[VideoFrame], Any]:\n    if frame.get_format() == OBFormat.RGB:\n        return frame\n    convert_format = determine_convert_format(frame)\n    if convert_format is None:\n        print(\"Unsupported format\")\n        return None\n    print(\"covert format: {}\".format(convert_format))\n    convert_filter = FormatConvertFilter()\n    convert_filter.set_format_convert_format(convert_format)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "frame_to_bgr_image",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def frame_to_bgr_image(frame: VideoFrame) -> Union[Optional[np.array], Any]:\n    width = frame.get_width()\n    height = frame.get_height()\n    color_format = frame.get_format()\n    data = np.asanyarray(frame.get_data())\n    image = np.zeros((height, width, 3), dtype=np.uint8)\n    if color_format == OBFormat.RGB:\n        image = np.resize(data, (height, width, 3))\n        image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)\n    elif color_format == OBFormat.BGR:",
+        "detail": "utils",
         "documentation": {}
     }
 ]

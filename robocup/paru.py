@@ -1,6 +1,4 @@
 # 纯纯的帕鲁代码
-
-
 import PIL
 import cv2
 import numpy as np
@@ -36,7 +34,8 @@ class Paru(object):
 
         returns:
 
-            resp: (List[ultralytics.engine.results.Results])表示预测出来的结果
+            resp: 
+                (List[ultralytics.engine.results.Results])表示预测出来的结果
 
 
         """
@@ -47,11 +46,11 @@ class Paru(object):
         else:
             image_list=[source]
 
-        results=self.model(image_list,conf=0.5) # conf 设置置信度下限
+        results=self.model(image_list,conf=0.5,imgsz=640) # conf 设置置信度下限
         result=results[0]
         detected_imgs=[]
 
-        detected_imgs.append(result.plot())
+        detected_imgs.append(result.plot()[:, :, ::-1])
         if draw_img:
             resized_image = cv2.resize(result.plot(), (400, 300))
             cv2.imshow("test",resized_image)

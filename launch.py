@@ -283,11 +283,12 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     def predict(frame):
         temp_counter = dict()
         image = frame_to_image(frame)
-        # 将通道顺序从BGR变为RGB
+        
+        
+        # 改变图像通道
         image = image[:, :, ::-1]
 
-        # 将通道顺序从RGB变为BGR
-        # image_bgr = image_rgb[:, :, ::-1]
+     
         results,detected_imgs= model.detect_image(np.asarray(image),draw_img=True)
         result=results[0]
         result_img=detected_imgs[0]
@@ -299,7 +300,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             i=int(boxes.cls[idx])
             nameOfBox=model.class_names[i]
             print("---{}----".format(nameOfBox))
-            if nameOfBox =="desktop-1":
+            if nameOfBox == "desktop-1":
                 desk_model=True
                 
         
