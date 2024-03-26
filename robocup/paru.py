@@ -36,8 +36,6 @@ class Paru(object):
 
             resp: 
                 (List[ultralytics.engine.results.Results])表示预测出来的结果
-
-
         """
 
         # 强制全部转化为list，为了适配以前代码
@@ -63,5 +61,5 @@ class Paru(object):
 # just for testing purposes
 if __name__ == '__main__':
     myParu=Paru("../weights/Athena.pt","../robo.yaml",)
-    myParu.detect_image("./381.jpg",draw_img=True)
+    myParu.detect_image("./383.jpg",draw_img=True)
     pass
