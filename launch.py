@@ -267,7 +267,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model =Paru('./weights/best_model2_s.pt', './robo.yaml')
+    model =Paru('./weights/Athena.pt', './robo.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -283,7 +283,12 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     def predict(frame):
         temp_counter = dict()
         image = frame_to_image(frame)
-        results,detected_imgs= model.detect_image(np.asarray(image))
+        # 将通道顺序从BGR变为RGB
+        image = image[:, :, ::-1]
+
+        # 将通道顺序从RGB变为BGR
+        # image_bgr = image_rgb[:, :, ::-1]
+        results,detected_imgs= model.detect_image(np.asarray(image),draw_img=True)
         result=results[0]
         result_img=detected_imgs[0]
 
