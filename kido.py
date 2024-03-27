@@ -113,9 +113,29 @@ class UI(QtWidgets.QWidget):
         boxes=result.boxes
         boxes_num=len(boxes.cls)
         temp_dict=dict()
+        isDesk=False
+        desk_xyxy=[]
+        for idx in range(boxes_num):
+            i=int(boxes.cls[idx])
+            if i==17:
+                print("成功找到桌面！")
+                isDesk=True
+                for j in range(4):
+                    desk_xyxy.append(float(boxes.xyxyn[idx][j]))
+                             
+                break
+        if not isDesk:
+            desk_xyxy=[0.33,0.67,0.33,0.67]
+
+
         for idx in range(boxes_num):
             i=int(boxes.cls[idx])
             nameOfBox=self.model.class_names[i]
+            x_centr=(float(boxes.xyxyn[idx][0])+float(boxes.xyxyn[idx][2]))/2
+            y_centr=(float(boxes.xyxyn[idx][1])+float(boxes.xyxyn[idx][3]))/2
+            if x_centr<=desk_xyxy[0] or y_centr<=desk_xyxy[1] or x_centr>=desk_xyxy[2] or y_centr>=desk_xyxy[3]:
+                print("识别到{},[{},{}],但是未在合法范围之内".format(nameOfBox,x_centr,y_centr))
+                continue
             if nameOfBox not in temp_dict.keys():
                 temp_dict[nameOfBox]=1
             else:
