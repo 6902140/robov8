@@ -9,6 +9,14 @@ import time
 
 from robocup.paru import Paru
 
+RESULT_PATH = './result'
+SERVER_IP = '127.0.0.1'
+SERVER_PORT = 6666
+
+# frame 宽高
+FRAME_W = 640
+FRAME_H = 480
+
 class UI(QtWidgets.QWidget):
     def __init__(self):
         super(UI,self).__init__()
@@ -53,11 +61,12 @@ class UI(QtWidgets.QWidget):
         self.gLayout.addWidget(self.button_detect,7,1,1,1)
         self.gLayout.addWidget(self.label_status,8,0,1,2)
         self.setLayout(self.gLayout)
-
+        self.res_dict=dict()
         print("正在加载模型")
-        # self.model1=YOLO('model1.pt')
         self.model=Paru("./weights/Athena.pt","./robo.yaml")
-        # self.model2=YOLO('model2.pt')
+
+        print("模型预热中...")  
+        self.model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
         print("正在连接相机")
         self.hasStarted=False
@@ -99,11 +108,30 @@ class UI(QtWidgets.QWidget):
 
     def on_button_detect_clicked(self):
         self.label_status.setText("正在识别目标")
-        if self.mode==1:
-            result=self.model.detect_image(self.currentFrame)
-        # else:
-        #     result=self.model2.predict(self.currentFrame,retina_masks=True,device='cuda')
-        img=result[1][0].astype(np.uint8)
+        results,img=self.model.detect_image(self.currentFrame)
+        result=results[0]
+        boxes=result.boxes
+        boxes_num=len(boxes.cls)
+        temp_dict=dict()
+        for idx in range(boxes_num):
+            i=int(boxes.cls[idx])
+            nameOfBox=self.model.class_names[i]
+            if nameOfBox not in temp_dict.keys():
+                temp_dict[nameOfBox]=1
+            else:
+                temp_dict[nameOfBox]+=1
+            pass
+        
+        for key in temp_dict.keys():
+            if key not in self.res_dict.keys():
+                self.res_dict[key]=temp_dict[key]
+            else:
+                if temp_dict[key]>self.res_dict[key]:
+                    self.res_dict[key]=temp_dict[key]
+        print(self.res_dict)
+        
+        
+        img=img[0].astype(np.uint8)
         showImage = QtGui.QImage(img,img.shape[1],img.shape[0],QtGui.QImage.Format_RGB888)
         self.label2.setPixmap(QtGui.QPixmap.fromImage(showImage).scaled(320,240))
         self.label_status.setText("识别完成")
@@ -155,7 +183,7 @@ class UI(QtWidgets.QWidget):
 def main():
     app = QtWidgets.QApplication(sys.argv)
     mywin = UI()
-    mywin.setWindowTitle('XJTU-Robocup-工业检测')
+    mywin.setWindowTitle('冬日阳光-3D视觉')
     mywin.show()
     sys.exit(app.exec_())
 

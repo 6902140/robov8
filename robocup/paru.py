@@ -24,7 +24,7 @@ class Paru(object):
         self.device = torch.device('cuda:0')
         self.model=YOLO(model=weights)
         self.class_names =load_yaml(dataset)['names']
-    def detect_image(self, source, draw_img=True):
+    def detect_image(self, source, draw_img=False):
         """
         args:
         

@@ -7813,7 +7813,7 @@
         "kind": 6,
         "importPath": "robocup.paru",
         "description": "robocup.paru",
-        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names =load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names =load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=False):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
         "detail": "robocup.paru",
         "documentation": {}
     },
@@ -14293,7 +14293,52 @@
         "kind": 2,
         "importPath": "kido",
         "description": "kido",
-        "peekOfCode": "def main():\n    app = QtWidgets.QApplication(sys.argv)\n    mywin = UI()\n    mywin.setWindowTitle('XJTU-Robocup-工业检测')\n    mywin.show()\n    sys.exit(app.exec_())\nif __name__ == '__main__':\n    main()",
+        "peekOfCode": "def main():\n    app = QtWidgets.QApplication(sys.argv)\n    mywin = UI()\n    mywin.setWindowTitle('冬日阳光-3D视觉')\n    mywin.show()\n    sys.exit(app.exec_())\nif __name__ == '__main__':\n    main()",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "RESULT_PATH",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "RESULT_PATH = './result'\nSERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_IP",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "SERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_PORT",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "SERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "FRAME_W",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "FRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "FRAME_H",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "FRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)\n        pixmap2.fill(QtGui.QColor(0))",
         "detail": "kido",
         "documentation": {}
     },
