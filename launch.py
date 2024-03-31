@@ -283,6 +283,10 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     def predict(frame):
         temp_counter = dict()
         image = frame_to_image(frame)
+
+
+         # 改变图像通道
+        image = image[:, :, ::-1]
         results,detected_imgs= model.detect_image(np.asarray(image))
         result=results[0]
         result_img=detected_imgs[0]

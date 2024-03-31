@@ -13926,3 +13926,844 @@
 [03/23 19:26:13.907633][debug][5380][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:class libobsensor::AbstractFrameBufferManager,  obj addr:0x1d6173ee6e0
 [03/23 19:26:13.907650][info][5380][Context.cpp:90] Context destroyed
 [03/23 19:26:13.907706][debug][15704][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**454 logs in 21593ms, last: 19:26:13.339086**]
+[03/31 18:52:14.757736][debug][24068][DeviceManager.cpp:112] DeviceManager  createDevice...
+[03/31 18:52:14.757867][debug][24068][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[03/31 18:52:14.757958][debug][24068][AstraUvcDevice.cpp:17] AstraUvcDevice init ...
+[03/31 18:52:14.758078][debug][24068][AstraUvcDevice.cpp:176] init sensor map start!
+[03/31 18:52:14.758101][info][24068][AstraUvcDevice.cpp:193] init sensor map done!
+[03/31 18:52:14.758115][debug][24068][AstraUvcDevice.cpp:119] createCommand start!
+[03/31 18:52:14.767587][debug][24068][VendorCommand.cpp:198] VendorCommand constructor 137343b4b10
+[03/31 18:52:14.920062][debug][24068][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:52:14.920130][debug][24068][AstraUvcDevice.cpp:172] Command has been created!
+[03/31 18:52:14.950930][debug][24068][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:52:14.950977][info][24068][AbstractDevice.cpp:124] 	- Firmware version: 1.0.22
+[03/31 18:52:14.951082][debug][24068][AstraUvcDevice.cpp:313] Init depth process param start!
+[03/31 18:52:14.951143][debug][24068][AstraUvcDevice.cpp:324] Astra+ long-distance version!
+[03/31 18:52:14.982541][debug][24068][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1005, dataLen: 16
+[03/31 18:52:14.982720][debug][24068][AstraUvcDevice.cpp:359] disparityParam: baseline: 7.466821, zpd: 129.75062561035156, zpps: 0.11178778111934662, bitSize: 12, unit: 10, packMode: 1
+[03/31 18:52:14.982757][debug][24068][AstraUvcDevice.cpp:361] softFilterParam: maxSpeckleSize: 960, maxDiff: 16, filterType: 0
+[03/31 18:52:15.013509][debug][24068][HostProtocol.cpp:450] get property value success! propertyId=63, cur={intValue: 0, floatValue: 0}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:52:15.013597][debug][24068][PropertyAccessor.cpp:34] get property value range success! propertyId: 63, range: {max: {intValue: 1, floatValue: 1.4013e-45}, min: {intValue: 0, floatValue: 0}, step: {intValue: 1, floatValue: 1.4013e-45}, def: {intValue: 0, floatValue: 0}}
+[03/31 18:52:15.013651][debug][24068][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 0, floatValue: 0}
+[03/31 18:52:15.045438][debug][24068][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 0, floatValue: 0}
+[03/31 18:52:15.076309][debug][24068][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:52:15.096756][debug][24068][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:52:15.122601][debug][24068][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:52:15.153632][debug][24068][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:52:15.178780][info][24068][AstraUvcDevice.cpp:402] Init depth process param done!
+[03/31 18:52:15.179065][info][24068][AstraUvcDevice.cpp:23] Astra device created! PID: 0x0636, SN: BY1N73300A2
+[03/31 18:52:15.179221][debug][24068][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:52:15.179355][info][24068][DeviceManager.cpp:157] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:52:15.187067][debug][24068][FrameProcessor.cpp:70] FrameProcessor init with 1 blocks! @1336714236272
+[03/31 18:52:15.187160][debug][24068][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[03/31 18:52:15.187191][debug][24068][FrameProcessor.cpp:78]  - block: FormatConverter, status: disable
+[03/31 18:52:15.187230][debug][24068][VideoSensor.cpp:267] VideoSensor construct!
+[03/31 18:52:15.187274][debug][24068][VideoSensor.cpp:303] VideoSensor created, @OB_SENSOR_COLOR
+[03/31 18:52:15.187292][info][24068][AstraUvcDevice.cpp:276] Color sensor has been created!
+[03/31 18:52:15.352657][debug][24068][PropertyAccessor.cpp:17] set property value success! propertyId: 2000, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:52:15.352944][debug][24068][Pipeline.cpp:29] Pipeline init ...
+[03/31 18:52:15.352987][debug][24068][Pipeline.cpp:165] loadFrameQueueSizeConfig() config queue size: 10
+[03/31 18:52:15.353016][info][24068][Pipeline.cpp:44] Pipeline created with device: {name: Astra+, sn: BY1N73300A2}, @0x1373A7118A0
+[03/31 18:52:15.355024][debug][24068][VideoSensor.cpp:448] Query stream profile! size= 95, SensorType=OB_SENSOR_COLOR
+[03/31 18:52:15.355062][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}
+[03/31 18:52:15.355081][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 30}
+[03/31 18:52:15.355097][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 15}
+[03/31 18:52:15.355113][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 15}
+[03/31 18:52:15.355188][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 10}
+[03/31 18:52:15.355209][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 10}
+[03/31 18:52:15.355225][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 7}
+[03/31 18:52:15.355240][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 7}
+[03/31 18:52:15.355255][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 30}
+[03/31 18:52:15.355271][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 30}
+[03/31 18:52:15.355288][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 15}
+[03/31 18:52:15.355303][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 15}
+[03/31 18:52:15.355318][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 10}
+[03/31 18:52:15.355335][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 10}
+[03/31 18:52:15.355351][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 7}
+[03/31 18:52:15.355367][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 7}
+[03/31 18:52:15.355382][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 30}
+[03/31 18:52:15.355399][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 30}
+[03/31 18:52:15.355414][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 15}
+[03/31 18:52:15.355430][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 15}
+[03/31 18:52:15.355445][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 10}
+[03/31 18:52:15.355460][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 10}
+[03/31 18:52:15.355480][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 7}
+[03/31 18:52:15.355499][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 7}
+[03/31 18:52:15.355514][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 30}
+[03/31 18:52:15.355531][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 30}
+[03/31 18:52:15.355546][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 15}
+[03/31 18:52:15.355562][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 15}
+[03/31 18:52:15.355578][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 10}
+[03/31 18:52:15.355593][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 10}
+[03/31 18:52:15.355609][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 7}
+[03/31 18:52:15.355624][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 7}
+[03/31 18:52:15.355664][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 30}
+[03/31 18:52:15.355682][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 30}
+[03/31 18:52:15.355698][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 15}
+[03/31 18:52:15.355714][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 15}
+[03/31 18:52:15.355729][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 10}
+[03/31 18:52:15.355744][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 10}
+[03/31 18:52:15.355759][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 7}
+[03/31 18:52:15.355775][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 7}
+[03/31 18:52:15.355790][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 2048, height: 1536, fps: 15}
+[03/31 18:52:15.355805][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 2048, height: 1536, fps: 15}
+[03/31 18:52:15.355820][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 25}
+[03/31 18:52:15.355836][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 15}
+[03/31 18:52:15.355851][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 10}
+[03/31 18:52:15.355866][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 7}
+[03/31 18:52:15.355881][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 15}
+[03/31 18:52:15.355913][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 10}
+[03/31 18:52:15.355931][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 7}
+[03/31 18:52:15.355955][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 10}
+[03/31 18:52:15.355972][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 7}
+[03/31 18:52:15.355987][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1920, height: 1080, fps: 5}
+[03/31 18:52:15.356005][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 2048, height: 1536, fps: 3}
+[03/31 18:52:15.356024][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:52:15.356039][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 15}
+[03/31 18:52:15.356054][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 10}
+[03/31 18:52:15.356070][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 7}
+[03/31 18:52:15.356085][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 30}
+[03/31 18:52:15.356100][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 15}
+[03/31 18:52:15.356115][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 10}
+[03/31 18:52:15.356166][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 7}
+[03/31 18:52:15.356186][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 30}
+[03/31 18:52:15.356202][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 15}
+[03/31 18:52:15.356217][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 10}
+[03/31 18:52:15.356232][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 7}
+[03/31 18:52:15.356248][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 30}
+[03/31 18:52:15.356263][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 15}
+[03/31 18:52:15.356278][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 10}
+[03/31 18:52:15.356293][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 7}
+[03/31 18:52:15.356309][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 30}
+[03/31 18:52:15.356324][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 15}
+[03/31 18:52:15.356340][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 10}
+[03/31 18:52:15.356355][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 7}
+[03/31 18:52:15.356370][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 2048, height: 1536, fps: 15}
+[03/31 18:52:15.356386][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 30}
+[03/31 18:52:15.356401][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 15}
+[03/31 18:52:15.356416][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 10}
+[03/31 18:52:15.356431][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 7}
+[03/31 18:52:15.356446][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 30}
+[03/31 18:52:15.356462][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 15}
+[03/31 18:52:15.356477][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 10}
+[03/31 18:52:15.356492][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 7}
+[03/31 18:52:15.356507][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 30}
+[03/31 18:52:15.356522][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 15}
+[03/31 18:52:15.356538][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 10}
+[03/31 18:52:15.356553][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 7}
+[03/31 18:52:15.356573][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 30}
+[03/31 18:52:15.356596][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 15}
+[03/31 18:52:15.356621][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 10}
+[03/31 18:52:15.356645][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 7}
+[03/31 18:52:15.356668][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 30}
+[03/31 18:52:15.356693][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 15}
+[03/31 18:52:15.356729][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 10}
+[03/31 18:52:15.356754][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 7}
+[03/31 18:52:15.356778][debug][24068][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 2048, height: 1536, fps: 15}
+[03/31 18:52:21.819328][debug][24068][Pipeline.cpp:174] Pipeline start() start!
+[03/31 18:52:21.819443][debug][24068][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[03/31 18:52:21.819469][info][24068][Pipeline.cpp:239] Try to start streams!
+[03/31 18:52:21.819511][debug][24068][VideoSensor.cpp:565] VideoSensor::start, @OB_SENSOR_COLOR
+[03/31 18:52:21.819548][debug][24068][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[03/31 18:52:21.819608][debug][24068][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::ColorFrame, obj addr:0x13780165dc0, frame obj total size:0.879MB
+[03/31 18:52:21.819629][debug][24068][FrameMemoryPool.cpp:75] ColorFrame bufferManager created!
+[03/31 18:52:21.819685][debug][24068][FrameProcessor.cpp:125] Frame processor active blocks chain update: input ->FormatConverter -> output
+[03/31 18:52:21.819723][debug][24068][FrameProcessor.cpp:137] FrameProcessor started, 1 blocks contained!
+[03/31 18:52:21.819848][info][24068][VideoSensor.cpp:663] start OB_SENSOR_COLOR stream with profile: {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:52:22.027747][debug][24068][VideoSensor.cpp:714] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_COLOR
+[03/31 18:52:22.027824][debug][24068][VideoSensor.cpp:716] Stream starting! @OB_SENSOR_COLOR
+[03/31 18:52:22.027868][debug][24068][Pipeline.cpp:250] Sensor stream started, sensorType=OB_SENSOR_COLOR
+[03/31 18:52:22.027893][info][24068][Pipeline.cpp:252] Start streams done!
+[03/31 18:52:22.027915][info][24068][Pipeline.cpp:235] Pipeline start done!
+[03/31 18:52:22.134310][warning][24068][Pipeline.cpp:328] Wait for frame timeout, you can try to increase the wait time! current timeout=100
+[03/31 18:52:22.194788][debug][14548][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=0.879MB, max limit=2048.000MB
+[03/31 18:52:22.194901][debug][14548][VideoSensor.cpp:505] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_COLOR
+[03/31 18:52:22.195698][debug][14548][FrameProcessingBlock.cpp:59] FrameProcessingBlock@class libobsensor::FormatConverter process thread started!
+[03/31 18:52:22.196503][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:52:22.197232][debug][26832][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::FrameSet, obj addr:0x13780169ce0, frame obj total size:0.000MB
+[03/31 18:52:22.197287][debug][26832][FrameMemoryPool.cpp:91] Frameset bufferManager created!
+[03/31 18:52:22.197316][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:52:22.197377][debug][26832][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR
+[03/31 18:52:22.227809][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:52:22.228982][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:52:22.256572][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:52:22.257143][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:52:22.304066][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:52:22.304522][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:52:22.336332][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:52:22.336826][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:52:22.384620][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=6.156MB, max limit=2048.000MB
+[03/31 18:52:22.385489][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=6.157MB, max limit=2048.000MB
+[03/31 18:52:22.416200][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:52:22.416678][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:52:22.464271][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.915MB, max limit=2048.000MB
+[03/31 18:52:22.464736][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.916MB, max limit=2048.000MB
+[03/31 18:52:22.512089][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:52:22.512722][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:52:22.559739][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:52:22.560233][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:52:22.608625][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:52:22.609142][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:52:22.672670][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:52:22.673141][debug][26832][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:52:22.673188][warning][26832][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:52:25.217274][debug][26832][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**72 logs in 3019ms**]
+[03/31 18:52:25.737104][warning][25284][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**63 logs in 3063ms, last: 18:52:25.296456**]
+[03/31 18:52:27.231248][debug][15296][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=25.411951fps
+[03/31 18:52:27.231993][debug][26832][Pipeline.cpp:274] Pipeline streaming... frameset output rate=25.427095fps
+[03/31 18:52:31.248055][debug][26832][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**165 logs in 6030ms**]
+[03/31 18:52:31.759911][warning][26832][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**111 logs in 6022ms**]
+[03/31 18:52:32.271557][debug][18248][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.380953fps
+[03/31 18:52:32.272172][debug][26832][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.375521fps
+[03/31 18:52:37.279938][debug][27176][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.356230fps
+[03/31 18:52:37.280673][debug][26832][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.356230fps
+[03/31 18:52:42.319548][debug][27176][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.380953fps
+[03/31 18:52:42.320143][debug][26832][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.380953fps
+[03/31 18:52:43.264336][debug][26832][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**329 logs in 12016ms**]
+[03/31 18:52:43.792795][warning][26832][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**191 logs in 12032ms**]
+[03/31 18:52:47.328960][debug][18248][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=23.158316fps
+[03/31 18:52:47.329572][debug][26832][Pipeline.cpp:274] Pipeline streaming... frameset output rate=23.158316fps
+[03/31 18:54:06.443473][debug][22984][DeviceManager.cpp:112] DeviceManager  createDevice...
+[03/31 18:54:06.443646][debug][22984][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[03/31 18:54:06.443734][debug][22984][AstraUvcDevice.cpp:17] AstraUvcDevice init ...
+[03/31 18:54:06.443857][debug][22984][AstraUvcDevice.cpp:176] init sensor map start!
+[03/31 18:54:06.443907][info][22984][AstraUvcDevice.cpp:193] init sensor map done!
+[03/31 18:54:06.443930][debug][22984][AstraUvcDevice.cpp:119] createCommand start!
+[03/31 18:54:06.450596][debug][22984][VendorCommand.cpp:198] VendorCommand constructor 1bb894c56f0
+[03/31 18:54:06.601954][debug][22984][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:54:06.602039][debug][22984][AstraUvcDevice.cpp:172] Command has been created!
+[03/31 18:54:06.632971][debug][22984][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:54:06.633134][info][22984][AbstractDevice.cpp:124] 	- Firmware version: 1.0.22
+[03/31 18:54:06.633532][debug][22984][AstraUvcDevice.cpp:313] Init depth process param start!
+[03/31 18:54:06.633594][debug][22984][AstraUvcDevice.cpp:324] Astra+ long-distance version!
+[03/31 18:54:06.663861][debug][22984][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1005, dataLen: 16
+[03/31 18:54:06.664113][debug][22984][AstraUvcDevice.cpp:359] disparityParam: baseline: 7.466821, zpd: 129.75062561035156, zpps: 0.11178778111934662, bitSize: 12, unit: 10, packMode: 1
+[03/31 18:54:06.664201][debug][22984][AstraUvcDevice.cpp:361] softFilterParam: maxSpeckleSize: 960, maxDiff: 16, filterType: 0
+[03/31 18:54:06.695289][debug][22984][HostProtocol.cpp:450] get property value success! propertyId=63, cur={intValue: 1, floatValue: 1.4013e-45}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:54:06.695491][debug][22984][PropertyAccessor.cpp:34] get property value range success! propertyId: 63, range: {max: {intValue: 1, floatValue: 1.4013e-45}, min: {intValue: 0, floatValue: 0}, step: {intValue: 1, floatValue: 1.4013e-45}, def: {intValue: 0, floatValue: 0}}
+[03/31 18:54:06.695559][debug][22984][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 0, floatValue: 0}
+[03/31 18:54:06.725980][debug][22984][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 0, floatValue: 0}
+[03/31 18:54:06.756896][debug][22984][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:54:06.771798][debug][22984][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:54:06.797268][debug][22984][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:54:06.828179][debug][22984][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:54:06.853835][info][22984][AstraUvcDevice.cpp:402] Init depth process param done!
+[03/31 18:54:06.854097][info][22984][AstraUvcDevice.cpp:23] Astra device created! PID: 0x0636, SN: BY1N73300A2
+[03/31 18:54:06.854168][debug][22984][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:54:06.854242][info][22984][DeviceManager.cpp:157] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:54:06.863545][debug][22984][FrameProcessor.cpp:70] FrameProcessor init with 1 blocks! @1904973992848
+[03/31 18:54:06.863619][debug][22984][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[03/31 18:54:06.863641][debug][22984][FrameProcessor.cpp:78]  - block: FormatConverter, status: disable
+[03/31 18:54:06.863666][debug][22984][VideoSensor.cpp:267] VideoSensor construct!
+[03/31 18:54:06.863695][debug][22984][VideoSensor.cpp:303] VideoSensor created, @OB_SENSOR_COLOR
+[03/31 18:54:06.863711][info][22984][AstraUvcDevice.cpp:276] Color sensor has been created!
+[03/31 18:54:07.026436][debug][22984][PropertyAccessor.cpp:17] set property value success! propertyId: 2000, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:54:07.026676][debug][22984][Pipeline.cpp:29] Pipeline init ...
+[03/31 18:54:07.026724][debug][22984][Pipeline.cpp:165] loadFrameQueueSizeConfig() config queue size: 10
+[03/31 18:54:07.026752][info][22984][Pipeline.cpp:44] Pipeline created with device: {name: Astra+, sn: BY1N73300A2}, @0x1BB8F296740
+[03/31 18:54:07.029016][debug][22984][VideoSensor.cpp:448] Query stream profile! size= 95, SensorType=OB_SENSOR_COLOR
+[03/31 18:54:07.029074][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}
+[03/31 18:54:07.029109][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 30}
+[03/31 18:54:07.029132][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 15}
+[03/31 18:54:07.029148][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 15}
+[03/31 18:54:07.029164][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 10}
+[03/31 18:54:07.029180][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 10}
+[03/31 18:54:07.029196][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 7}
+[03/31 18:54:07.029211][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 7}
+[03/31 18:54:07.029227][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 30}
+[03/31 18:54:07.029242][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 30}
+[03/31 18:54:07.029257][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 15}
+[03/31 18:54:07.029272][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 15}
+[03/31 18:54:07.029287][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 10}
+[03/31 18:54:07.029303][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 10}
+[03/31 18:54:07.029318][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 7}
+[03/31 18:54:07.029383][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 7}
+[03/31 18:54:07.029410][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 30}
+[03/31 18:54:07.029429][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 30}
+[03/31 18:54:07.029444][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 15}
+[03/31 18:54:07.029460][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 15}
+[03/31 18:54:07.029475][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 10}
+[03/31 18:54:07.029491][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 10}
+[03/31 18:54:07.029520][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 7}
+[03/31 18:54:07.029537][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 7}
+[03/31 18:54:07.029553][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 30}
+[03/31 18:54:07.029568][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 30}
+[03/31 18:54:07.029583][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 15}
+[03/31 18:54:07.029598][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 15}
+[03/31 18:54:07.029613][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 10}
+[03/31 18:54:07.029629][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 10}
+[03/31 18:54:07.029644][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 7}
+[03/31 18:54:07.029659][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 7}
+[03/31 18:54:07.029674][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 30}
+[03/31 18:54:07.029689][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 30}
+[03/31 18:54:07.029705][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 15}
+[03/31 18:54:07.029720][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 15}
+[03/31 18:54:07.029735][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 10}
+[03/31 18:54:07.029750][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 10}
+[03/31 18:54:07.029766][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 7}
+[03/31 18:54:07.029781][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 7}
+[03/31 18:54:07.029796][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 2048, height: 1536, fps: 15}
+[03/31 18:54:07.029811][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 2048, height: 1536, fps: 15}
+[03/31 18:54:07.029826][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 25}
+[03/31 18:54:07.029843][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 15}
+[03/31 18:54:07.029859][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 10}
+[03/31 18:54:07.029875][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 7}
+[03/31 18:54:07.029890][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 15}
+[03/31 18:54:07.029907][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 10}
+[03/31 18:54:07.029931][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 7}
+[03/31 18:54:07.029948][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 10}
+[03/31 18:54:07.029963][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 7}
+[03/31 18:54:07.029979][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1920, height: 1080, fps: 5}
+[03/31 18:54:07.029994][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 2048, height: 1536, fps: 3}
+[03/31 18:54:07.030009][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:54:07.030025][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 15}
+[03/31 18:54:07.030040][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 10}
+[03/31 18:54:07.030056][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 7}
+[03/31 18:54:07.030071][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 30}
+[03/31 18:54:07.030086][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 15}
+[03/31 18:54:07.030101][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 10}
+[03/31 18:54:07.030116][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 7}
+[03/31 18:54:07.030132][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 30}
+[03/31 18:54:07.030147][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 15}
+[03/31 18:54:07.030162][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 10}
+[03/31 18:54:07.030177][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 7}
+[03/31 18:54:07.030192][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 30}
+[03/31 18:54:07.030207][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 15}
+[03/31 18:54:07.030222][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 10}
+[03/31 18:54:07.030242][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 7}
+[03/31 18:54:07.030257][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 30}
+[03/31 18:54:07.030272][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 15}
+[03/31 18:54:07.030314][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 10}
+[03/31 18:54:07.030332][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 7}
+[03/31 18:54:07.030349][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 2048, height: 1536, fps: 15}
+[03/31 18:54:07.030364][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 30}
+[03/31 18:54:07.030380][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 15}
+[03/31 18:54:07.030395][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 10}
+[03/31 18:54:07.030410][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 7}
+[03/31 18:54:07.030425][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 30}
+[03/31 18:54:07.030441][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 15}
+[03/31 18:54:07.030456][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 10}
+[03/31 18:54:07.030472][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 7}
+[03/31 18:54:07.030487][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 30}
+[03/31 18:54:07.030502][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 15}
+[03/31 18:54:07.030518][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 10}
+[03/31 18:54:07.030533][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 7}
+[03/31 18:54:07.030549][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 30}
+[03/31 18:54:07.030564][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 15}
+[03/31 18:54:07.030579][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 10}
+[03/31 18:54:07.030595][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 7}
+[03/31 18:54:07.030610][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 30}
+[03/31 18:54:07.030625][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 15}
+[03/31 18:54:07.030640][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 10}
+[03/31 18:54:07.030656][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 7}
+[03/31 18:54:07.030671][debug][22984][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 2048, height: 1536, fps: 15}
+[03/31 18:54:09.611114][debug][22984][Pipeline.cpp:174] Pipeline start() start!
+[03/31 18:54:09.611200][debug][22984][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[03/31 18:54:09.611224][info][22984][Pipeline.cpp:239] Try to start streams!
+[03/31 18:54:09.611259][debug][22984][VideoSensor.cpp:565] VideoSensor::start, @OB_SENSOR_COLOR
+[03/31 18:54:09.611293][debug][22984][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[03/31 18:54:09.611345][debug][22984][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::ColorFrame, obj addr:0x1bbffffbfc0, frame obj total size:0.879MB
+[03/31 18:54:09.611369][debug][22984][FrameMemoryPool.cpp:75] ColorFrame bufferManager created!
+[03/31 18:54:09.611410][debug][22984][FrameProcessor.cpp:125] Frame processor active blocks chain update: input ->FormatConverter -> output
+[03/31 18:54:09.611468][debug][22984][FrameProcessor.cpp:137] FrameProcessor started, 1 blocks contained!
+[03/31 18:54:09.611500][info][22984][VideoSensor.cpp:663] start OB_SENSOR_COLOR stream with profile: {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:54:09.805925][debug][22984][VideoSensor.cpp:714] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_COLOR
+[03/31 18:54:09.805988][debug][22984][VideoSensor.cpp:716] Stream starting! @OB_SENSOR_COLOR
+[03/31 18:54:09.806021][debug][22984][Pipeline.cpp:250] Sensor stream started, sensorType=OB_SENSOR_COLOR
+[03/31 18:54:09.806056][info][22984][Pipeline.cpp:252] Start streams done!
+[03/31 18:54:09.806084][info][22984][Pipeline.cpp:235] Pipeline start done!
+[03/31 18:54:09.916894][warning][22984][Pipeline.cpp:328] Wait for frame timeout, you can try to increase the wait time! current timeout=100
+[03/31 18:54:09.956811][debug][14224][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=0.879MB, max limit=2048.000MB
+[03/31 18:54:09.956886][debug][14224][VideoSensor.cpp:505] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_COLOR
+[03/31 18:54:09.957731][debug][14224][FrameProcessingBlock.cpp:59] FrameProcessingBlock@class libobsensor::FormatConverter process thread started!
+[03/31 18:54:09.958319][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:54:09.959019][debug][25156][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::FrameSet, obj addr:0x1bc00000980, frame obj total size:0.000MB
+[03/31 18:54:09.959092][debug][25156][FrameMemoryPool.cpp:91] Frameset bufferManager created!
+[03/31 18:54:09.959133][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:54:09.959241][debug][25156][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR
+[03/31 18:54:10.003377][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:54:10.004123][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:54:10.034639][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:54:10.035103][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:54:10.066509][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:54:10.067402][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:54:10.098666][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:54:10.099247][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:54:10.146522][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=6.156MB, max limit=2048.000MB
+[03/31 18:54:10.146974][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=6.157MB, max limit=2048.000MB
+[03/31 18:54:10.178743][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:54:10.179206][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:54:10.210597][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.915MB, max limit=2048.000MB
+[03/31 18:54:10.211236][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.916MB, max limit=2048.000MB
+[03/31 18:54:11.443066][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:54:11.443613][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:54:11.491236][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:54:11.491949][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:54:11.539356][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:54:11.539850][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:54:11.571864][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:54:11.572389][debug][25156][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:54:11.572443][warning][25156][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:54:12.962588][debug][25156][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**68 logs in 3003ms**]
+[03/31 18:54:14.622769][warning][10788][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**6 logs in 3050ms, last: 18:54:11.859584**]
+[03/31 18:54:14.978526][debug][14224][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=22.500996fps
+[03/31 18:54:14.979202][debug][25156][Pipeline.cpp:274] Pipeline streaming... frameset output rate=22.509960fps
+[03/31 18:54:18.994902][debug][25156][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**154 logs in 6032ms**]
+[03/31 18:54:19.986777][debug][14224][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.356230fps
+[03/31 18:54:19.987394][debug][25156][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.356230fps
+[03/31 18:54:24.994758][debug][27164][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.356230fps
+[03/31 18:54:24.995372][debug][25156][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.356230fps
+[03/31 18:54:30.035277][debug][27164][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.375521fps
+[03/31 18:54:30.035906][debug][25156][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.380953fps
+[03/31 18:54:30.211452][warning][25156][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:54:31.011586][debug][25156][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**329 logs in 12016ms**]
+[03/31 18:54:33.251330][warning][25156][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**83 logs in 3039ms**]
+[03/31 18:54:35.043177][debug][26260][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.356230fps
+[03/31 18:54:35.044062][debug][25156][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.350769fps
+[03/31 18:54:39.267603][warning][25156][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**165 logs in 6016ms**]
+[03/31 18:54:40.083757][debug][14224][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=27.380953fps
+[03/31 18:54:40.084364][debug][25156][Pipeline.cpp:274] Pipeline streaming... frameset output rate=27.380953fps
+[03/31 18:55:42.117051][debug][19612][DeviceManager.cpp:112] DeviceManager  createDevice...
+[03/31 18:55:42.117241][debug][19612][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[03/31 18:55:42.117340][debug][19612][AstraUvcDevice.cpp:17] AstraUvcDevice init ...
+[03/31 18:55:42.117458][debug][19612][AstraUvcDevice.cpp:176] init sensor map start!
+[03/31 18:55:42.117503][info][19612][AstraUvcDevice.cpp:193] init sensor map done!
+[03/31 18:55:42.117530][debug][19612][AstraUvcDevice.cpp:119] createCommand start!
+[03/31 18:55:42.128502][debug][19612][VendorCommand.cpp:198] VendorCommand constructor 1ee3ede6a80
+[03/31 18:55:42.267361][debug][19612][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:55:42.267436][debug][19612][AstraUvcDevice.cpp:172] Command has been created!
+[03/31 18:55:42.298770][debug][19612][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:55:42.298852][info][19612][AbstractDevice.cpp:124] 	- Firmware version: 1.0.22
+[03/31 18:55:42.298954][debug][19612][AstraUvcDevice.cpp:313] Init depth process param start!
+[03/31 18:55:42.298972][debug][19612][AstraUvcDevice.cpp:324] Astra+ long-distance version!
+[03/31 18:55:42.329813][debug][19612][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1005, dataLen: 16
+[03/31 18:55:42.329914][debug][19612][AstraUvcDevice.cpp:359] disparityParam: baseline: 7.466821, zpd: 129.75062561035156, zpps: 0.11178778111934662, bitSize: 12, unit: 10, packMode: 1
+[03/31 18:55:42.329933][debug][19612][AstraUvcDevice.cpp:361] softFilterParam: maxSpeckleSize: 960, maxDiff: 16, filterType: 0
+[03/31 18:55:42.360980][debug][19612][HostProtocol.cpp:450] get property value success! propertyId=63, cur={intValue: 1, floatValue: 1.4013e-45}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:55:42.361084][debug][19612][PropertyAccessor.cpp:34] get property value range success! propertyId: 63, range: {max: {intValue: 1, floatValue: 1.4013e-45}, min: {intValue: 0, floatValue: 0}, step: {intValue: 1, floatValue: 1.4013e-45}, def: {intValue: 0, floatValue: 0}}
+[03/31 18:55:42.361118][debug][19612][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 0, floatValue: 0}
+[03/31 18:55:42.391890][debug][19612][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 0, floatValue: 0}
+[03/31 18:55:42.422991][debug][19612][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:55:42.439094][debug][19612][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:55:42.464589][debug][19612][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:55:42.495976][debug][19612][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:55:42.511230][info][19612][AstraUvcDevice.cpp:402] Init depth process param done!
+[03/31 18:55:42.511488][info][19612][AstraUvcDevice.cpp:23] Astra device created! PID: 0x0636, SN: BY1N73300A2
+[03/31 18:55:42.511761][debug][19612][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:55:42.511805][info][19612][DeviceManager.cpp:157] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:55:42.519304][debug][19612][FrameProcessor.cpp:70] FrameProcessor init with 1 blocks! @2122768601536
+[03/31 18:55:42.519386][debug][19612][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[03/31 18:55:42.519408][debug][19612][FrameProcessor.cpp:78]  - block: FormatConverter, status: disable
+[03/31 18:55:42.519433][debug][19612][VideoSensor.cpp:267] VideoSensor construct!
+[03/31 18:55:42.519461][debug][19612][VideoSensor.cpp:303] VideoSensor created, @OB_SENSOR_COLOR
+[03/31 18:55:42.519526][info][19612][AstraUvcDevice.cpp:276] Color sensor has been created!
+[03/31 18:55:42.682882][debug][19612][PropertyAccessor.cpp:17] set property value success! propertyId: 2000, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:55:42.683047][debug][19612][Pipeline.cpp:29] Pipeline init ...
+[03/31 18:55:42.683082][debug][19612][Pipeline.cpp:165] loadFrameQueueSizeConfig() config queue size: 10
+[03/31 18:55:42.683108][info][19612][Pipeline.cpp:44] Pipeline created with device: {name: Astra+, sn: BY1N73300A2}, @0x1EE44EFE010
+[03/31 18:55:42.684902][debug][19612][VideoSensor.cpp:448] Query stream profile! size= 95, SensorType=OB_SENSOR_COLOR
+[03/31 18:55:42.684950][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}
+[03/31 18:55:42.684984][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 30}
+[03/31 18:55:42.685011][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 15}
+[03/31 18:55:42.685039][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 15}
+[03/31 18:55:42.685081][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 10}
+[03/31 18:55:42.685165][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 10}
+[03/31 18:55:42.685185][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 7}
+[03/31 18:55:42.685201][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 7}
+[03/31 18:55:42.685216][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 30}
+[03/31 18:55:42.685233][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 30}
+[03/31 18:55:42.685262][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 15}
+[03/31 18:55:42.685279][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 15}
+[03/31 18:55:42.685295][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 10}
+[03/31 18:55:42.685310][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 10}
+[03/31 18:55:42.685325][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 7}
+[03/31 18:55:42.685340][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 7}
+[03/31 18:55:42.685355][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 30}
+[03/31 18:55:42.685370][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 30}
+[03/31 18:55:42.685386][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 15}
+[03/31 18:55:42.685401][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 15}
+[03/31 18:55:42.685416][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 10}
+[03/31 18:55:42.685431][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 10}
+[03/31 18:55:42.685447][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 7}
+[03/31 18:55:42.685462][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 7}
+[03/31 18:55:42.685520][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 30}
+[03/31 18:55:42.685540][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 30}
+[03/31 18:55:42.685556][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 15}
+[03/31 18:55:42.685571][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 15}
+[03/31 18:55:42.685587][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 10}
+[03/31 18:55:42.685607][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 10}
+[03/31 18:55:42.685624][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 7}
+[03/31 18:55:42.685639][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 7}
+[03/31 18:55:42.685654][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 30}
+[03/31 18:55:42.685670][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 30}
+[03/31 18:55:42.685685][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 15}
+[03/31 18:55:42.685700][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 15}
+[03/31 18:55:42.685715][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 10}
+[03/31 18:55:42.685730][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 10}
+[03/31 18:55:42.685746][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 7}
+[03/31 18:55:42.685761][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 7}
+[03/31 18:55:42.685776][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 2048, height: 1536, fps: 15}
+[03/31 18:55:42.685791][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 2048, height: 1536, fps: 15}
+[03/31 18:55:42.685806][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 25}
+[03/31 18:55:42.685822][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 15}
+[03/31 18:55:42.685837][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 10}
+[03/31 18:55:42.685852][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 7}
+[03/31 18:55:42.685867][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 15}
+[03/31 18:55:42.685882][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 10}
+[03/31 18:55:42.685897][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 7}
+[03/31 18:55:42.685913][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 10}
+[03/31 18:55:42.685928][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 7}
+[03/31 18:55:42.685943][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1920, height: 1080, fps: 5}
+[03/31 18:55:42.685985][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 2048, height: 1536, fps: 3}
+[03/31 18:55:42.686004][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:55:42.686020][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 15}
+[03/31 18:55:42.686035][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 10}
+[03/31 18:55:42.686050][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 7}
+[03/31 18:55:42.686066][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 30}
+[03/31 18:55:42.686081][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 15}
+[03/31 18:55:42.686096][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 10}
+[03/31 18:55:42.686116][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 7}
+[03/31 18:55:42.686131][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 30}
+[03/31 18:55:42.686147][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 15}
+[03/31 18:55:42.686162][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 10}
+[03/31 18:55:42.686177][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 7}
+[03/31 18:55:42.686192][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 30}
+[03/31 18:55:42.686207][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 15}
+[03/31 18:55:42.686222][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 10}
+[03/31 18:55:42.686237][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 7}
+[03/31 18:55:42.686252][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 30}
+[03/31 18:55:42.686281][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 15}
+[03/31 18:55:42.686297][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 10}
+[03/31 18:55:42.686313][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 7}
+[03/31 18:55:42.686328][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 2048, height: 1536, fps: 15}
+[03/31 18:55:42.686343][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 30}
+[03/31 18:55:42.686358][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 15}
+[03/31 18:55:42.686373][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 10}
+[03/31 18:55:42.686389][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 7}
+[03/31 18:55:42.686404][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 30}
+[03/31 18:55:42.686419][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 15}
+[03/31 18:55:42.686436][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 10}
+[03/31 18:55:42.686451][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 7}
+[03/31 18:55:42.686467][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 30}
+[03/31 18:55:42.686482][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 15}
+[03/31 18:55:42.686497][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 10}
+[03/31 18:55:42.686512][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 7}
+[03/31 18:55:42.686527][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 30}
+[03/31 18:55:42.686542][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 15}
+[03/31 18:55:42.686558][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 10}
+[03/31 18:55:42.686573][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 7}
+[03/31 18:55:42.686588][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 30}
+[03/31 18:55:42.686603][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 15}
+[03/31 18:55:42.686618][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 10}
+[03/31 18:55:42.686633][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 7}
+[03/31 18:55:42.686649][debug][19612][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 2048, height: 1536, fps: 15}
+[03/31 18:55:47.152474][debug][19612][Pipeline.cpp:174] Pipeline start() start!
+[03/31 18:55:47.152755][debug][19612][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[03/31 18:55:47.152811][info][19612][Pipeline.cpp:239] Try to start streams!
+[03/31 18:55:47.152906][debug][19612][VideoSensor.cpp:565] VideoSensor::start, @OB_SENSOR_COLOR
+[03/31 18:55:47.152962][debug][19612][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[03/31 18:55:47.153161][debug][19612][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::ColorFrame, obj addr:0x1ee0fe14520, frame obj total size:0.879MB
+[03/31 18:55:47.153213][debug][19612][FrameMemoryPool.cpp:75] ColorFrame bufferManager created!
+[03/31 18:55:47.153305][debug][19612][FrameProcessor.cpp:125] Frame processor active blocks chain update: input ->FormatConverter -> output
+[03/31 18:55:47.153385][debug][19612][FrameProcessor.cpp:137] FrameProcessor started, 1 blocks contained!
+[03/31 18:55:47.153449][info][19612][VideoSensor.cpp:663] start OB_SENSOR_COLOR stream with profile: {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:55:47.349057][debug][19612][VideoSensor.cpp:714] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_COLOR
+[03/31 18:55:47.349130][debug][19612][VideoSensor.cpp:716] Stream starting! @OB_SENSOR_COLOR
+[03/31 18:55:47.349172][debug][19612][Pipeline.cpp:250] Sensor stream started, sensorType=OB_SENSOR_COLOR
+[03/31 18:55:47.349202][info][19612][Pipeline.cpp:252] Start streams done!
+[03/31 18:55:47.349231][info][19612][Pipeline.cpp:235] Pipeline start done!
+[03/31 18:55:47.450017][warning][19612][Pipeline.cpp:328] Wait for frame timeout, you can try to increase the wait time! current timeout=100
+[03/31 18:55:47.514119][debug][15972][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=0.879MB, max limit=2048.000MB
+[03/31 18:55:47.514219][debug][15972][VideoSensor.cpp:505] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_COLOR
+[03/31 18:55:47.514777][debug][15972][FrameProcessingBlock.cpp:59] FrameProcessingBlock@class libobsensor::FormatConverter process thread started!
+[03/31 18:55:47.515380][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:55:47.515846][debug][7936][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::FrameSet, obj addr:0x1ee0fe15ce0, frame obj total size:0.000MB
+[03/31 18:55:47.515885][debug][7936][FrameMemoryPool.cpp:91] Frameset bufferManager created!
+[03/31 18:55:47.515922][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:55:47.515995][debug][7936][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR
+[03/31 18:55:47.546277][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:55:47.546776][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:55:47.593504][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:55:47.593949][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:55:47.625588][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:55:47.626390][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:55:47.657292][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:55:47.657752][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:55:47.688979][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=6.156MB, max limit=2048.000MB
+[03/31 18:55:47.689437][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=6.157MB, max limit=2048.000MB
+[03/31 18:55:47.737917][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:55:47.738757][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:55:47.769301][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.915MB, max limit=2048.000MB
+[03/31 18:55:47.769780][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.916MB, max limit=2048.000MB
+[03/31 18:55:47.801610][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:55:47.802137][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:55:47.849962][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:55:47.850403][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:55:47.881883][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:55:47.882328][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:55:47.913931][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:55:47.914682][debug][7936][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:55:47.914757][warning][7936][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:55:50.546105][debug][27264][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**68 logs in 3030ms, last: 18:55:50.505225**]
+[03/31 18:55:50.943074][warning][27088][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**10 logs in 3028ms, last: 18:55:48.330345**]
+[03/31 18:55:52.536584][debug][26096][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=22.496517fps
+[03/31 18:55:52.537199][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=22.500996fps
+[03/31 18:55:56.563403][debug][25628][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**130 logs in 6017ms, last: 18:55:56.520991**]
+[03/31 18:55:57.547357][debug][14980][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.552584fps
+[03/31 18:55:57.548540][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.552584fps
+[03/31 18:56:02.585971][debug][14980][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.635569fps
+[03/31 18:56:02.586618][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.635569fps
+[03/31 18:56:07.593399][debug][15972][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:07.594015][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:56:07.786124][warning][7936][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:56:08.570146][debug][7936][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**260 logs in 12006ms**]
+[03/31 18:56:10.794017][warning][7936][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**64 logs in 3007ms**]
+[03/31 18:56:12.601768][debug][15972][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:12.602444][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:56:16.856252][warning][18052][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**7 logs in 6062ms, last: 18:56:11.115431**]
+[03/31 18:56:17.642510][debug][14980][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.622694fps
+[03/31 18:56:17.643456][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.622694fps
+[03/31 18:56:22.650180][debug][15972][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:22.650974][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.569803fps
+[03/31 18:56:27.658098][debug][14980][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:27.658745][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:56:30.986178][warning][7936][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:56:32.602630][debug][7936][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**519 logs in 24032ms**]
+[03/31 18:56:32.698139][debug][4308][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.626984fps
+[03/31 18:56:32.698763][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.626984fps
+[03/31 18:56:33.994257][warning][7936][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**64 logs in 3008ms**]
+[03/31 18:56:37.706027][debug][4308][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:37.706745][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:56:40.047766][warning][22820][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**4 logs in 6053ms, last: 18:56:34.186105**]
+[03/31 18:56:42.746137][debug][14980][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.626984fps
+[03/31 18:56:42.746783][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.626984fps
+[03/31 18:56:47.754033][debug][15972][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:47.754600][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:56:52.762164][debug][20672][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:56:52.762757][debug][7936][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:56:54.074630][info][19612][Pipeline.cpp:362] Try to stop pipeline!
+[03/31 18:56:54.074834][info][19612][Pipeline.cpp:334] Try to stop streams!
+[03/31 18:56:54.074883][debug][19612][VideoSensor.cpp:720] VideoSensor::stop, @OB_SENSOR_COLOR
+[03/31 18:56:54.075026][debug][19612][VideoSensor.cpp:743] Stream state changed to STREAM_STATE_STOPPING. @OB_SENSOR_COLOR
+[03/31 18:57:25.374290][debug][204][DeviceManager.cpp:112] DeviceManager  createDevice...
+[03/31 18:57:25.374423][debug][204][UsbDeviceEnumerator.cpp:289] UsbDeviceEnumerator createDevice...
+[03/31 18:57:25.374527][debug][204][AstraUvcDevice.cpp:17] AstraUvcDevice init ...
+[03/31 18:57:25.374614][debug][204][AstraUvcDevice.cpp:176] init sensor map start!
+[03/31 18:57:25.374640][info][204][AstraUvcDevice.cpp:193] init sensor map done!
+[03/31 18:57:25.374655][debug][204][AstraUvcDevice.cpp:119] createCommand start!
+[03/31 18:57:25.380897][debug][204][VendorCommand.cpp:198] VendorCommand constructor 1da5fd72f00
+[03/31 18:57:25.523923][debug][204][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:57:25.523998][debug][204][AstraUvcDevice.cpp:172] Command has been created!
+[03/31 18:57:25.554706][debug][204][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[03/31 18:57:25.554774][info][204][AbstractDevice.cpp:124] 	- Firmware version: 1.0.22
+[03/31 18:57:25.554901][debug][204][AstraUvcDevice.cpp:313] Init depth process param start!
+[03/31 18:57:25.554922][debug][204][AstraUvcDevice.cpp:324] Astra+ long-distance version!
+[03/31 18:57:25.586215][debug][204][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1005, dataLen: 16
+[03/31 18:57:25.586474][debug][204][AstraUvcDevice.cpp:359] disparityParam: baseline: 7.466821, zpd: 129.75062561035156, zpps: 0.11178778111934662, bitSize: 12, unit: 10, packMode: 1
+[03/31 18:57:25.586546][debug][204][AstraUvcDevice.cpp:361] softFilterParam: maxSpeckleSize: 960, maxDiff: 16, filterType: 0
+[03/31 18:57:25.617249][debug][204][HostProtocol.cpp:450] get property value success! propertyId=63, cur={intValue: 1, floatValue: 1.4013e-45}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:57:25.617409][debug][204][PropertyAccessor.cpp:34] get property value range success! propertyId: 63, range: {max: {intValue: 1, floatValue: 1.4013e-45}, min: {intValue: 0, floatValue: 0}, step: {intValue: 1, floatValue: 1.4013e-45}, def: {intValue: 0, floatValue: 0}}
+[03/31 18:57:25.617493][debug][204][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 0, floatValue: 0}
+[03/31 18:57:25.647688][debug][204][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 0, floatValue: 0}
+[03/31 18:57:25.678794][debug][204][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:57:25.693801][debug][204][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:57:25.719520][debug][204][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:57:25.749997][debug][204][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1001, dataLen: 136
+[03/31 18:57:25.761233][info][204][AstraUvcDevice.cpp:402] Init depth process param done!
+[03/31 18:57:25.761390][info][204][AstraUvcDevice.cpp:23] Astra device created! PID: 0x0636, SN: BY1N73300A2
+[03/31 18:57:25.761474][debug][204][UsbDeviceEnumerator.cpp:338] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:57:25.761563][info][204][DeviceManager.cpp:157] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2
+[03/31 18:57:25.769125][debug][204][FrameProcessor.cpp:70] FrameProcessor init with 1 blocks! @2037383020672
+[03/31 18:57:25.769205][debug][204][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[03/31 18:57:25.769229][debug][204][FrameProcessor.cpp:78]  - block: FormatConverter, status: disable
+[03/31 18:57:25.769254][debug][204][VideoSensor.cpp:267] VideoSensor construct!
+[03/31 18:57:25.769282][debug][204][VideoSensor.cpp:303] VideoSensor created, @OB_SENSOR_COLOR
+[03/31 18:57:25.769298][info][204][AstraUvcDevice.cpp:276] Color sensor has been created!
+[03/31 18:57:25.932784][debug][204][PropertyAccessor.cpp:17] set property value success! propertyId: 2000, value: {intValue: 1, floatValue: 1.4013e-45}
+[03/31 18:57:25.932964][debug][204][Pipeline.cpp:29] Pipeline init ...
+[03/31 18:57:25.932999][debug][204][Pipeline.cpp:165] loadFrameQueueSizeConfig() config queue size: 10
+[03/31 18:57:25.933024][info][204][Pipeline.cpp:44] Pipeline created with device: {name: Astra+, sn: BY1N73300A2}, @0x1DA65AD3D50
+[03/31 18:57:25.934601][debug][204][VideoSensor.cpp:448] Query stream profile! size= 95, SensorType=OB_SENSOR_COLOR
+[03/31 18:57:25.934637][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}
+[03/31 18:57:25.934656][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 30}
+[03/31 18:57:25.934672][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 15}
+[03/31 18:57:25.934688][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 15}
+[03/31 18:57:25.934704][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 10}
+[03/31 18:57:25.934719][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 10}
+[03/31 18:57:25.934734][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 640, height: 480, fps: 7}
+[03/31 18:57:25.934749][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 7}
+[03/31 18:57:25.934764][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 30}
+[03/31 18:57:25.934779][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 30}
+[03/31 18:57:25.934794][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 15}
+[03/31 18:57:25.934810][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 15}
+[03/31 18:57:25.934825][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 10}
+[03/31 18:57:25.934840][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 10}
+[03/31 18:57:25.934855][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 320, height: 240, fps: 7}
+[03/31 18:57:25.934870][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 7}
+[03/31 18:57:25.934931][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 30}
+[03/31 18:57:25.934951][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 30}
+[03/31 18:57:25.934967][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 15}
+[03/31 18:57:25.934982][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 15}
+[03/31 18:57:25.934997][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 10}
+[03/31 18:57:25.935013][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 10}
+[03/31 18:57:25.935028][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 800, height: 600, fps: 7}
+[03/31 18:57:25.935043][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 7}
+[03/31 18:57:25.935059][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 30}
+[03/31 18:57:25.935074][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 30}
+[03/31 18:57:25.935089][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 15}
+[03/31 18:57:25.935104][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 15}
+[03/31 18:57:25.935119][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 10}
+[03/31 18:57:25.935134][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 10}
+[03/31 18:57:25.935149][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1280, height: 720, fps: 7}
+[03/31 18:57:25.935164][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 7}
+[03/31 18:57:25.935179][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 30}
+[03/31 18:57:25.935194][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 30}
+[03/31 18:57:25.935210][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 15}
+[03/31 18:57:25.935225][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 15}
+[03/31 18:57:25.935240][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 10}
+[03/31 18:57:25.935255][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 10}
+[03/31 18:57:25.935270][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 1920, height: 1080, fps: 7}
+[03/31 18:57:25.935285][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 7}
+[03/31 18:57:25.935300][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_NV12, width: 2048, height: 1536, fps: 15}
+[03/31 18:57:25.935315][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 2048, height: 1536, fps: 15}
+[03/31 18:57:25.935330][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 25}
+[03/31 18:57:25.935345][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 15}
+[03/31 18:57:25.935362][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 10}
+[03/31 18:57:25.935378][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 7}
+[03/31 18:57:25.935393][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 15}
+[03/31 18:57:25.935408][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 10}
+[03/31 18:57:25.935423][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 7}
+[03/31 18:57:25.935438][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 10}
+[03/31 18:57:25.935453][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 7}
+[03/31 18:57:25.935468][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1920, height: 1080, fps: 5}
+[03/31 18:57:25.935483][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 2048, height: 1536, fps: 3}
+[03/31 18:57:25.935499][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:57:25.935514][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 15}
+[03/31 18:57:25.935529][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 10}
+[03/31 18:57:25.935544][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 7}
+[03/31 18:57:25.935559][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 30}
+[03/31 18:57:25.935575][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 15}
+[03/31 18:57:25.935631][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 10}
+[03/31 18:57:25.935684][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 7}
+[03/31 18:57:25.935707][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 30}
+[03/31 18:57:25.935727][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 15}
+[03/31 18:57:25.935747][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 10}
+[03/31 18:57:25.935766][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 7}
+[03/31 18:57:25.935785][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 30}
+[03/31 18:57:25.935804][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 15}
+[03/31 18:57:25.935823][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 10}
+[03/31 18:57:25.935842][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 7}
+[03/31 18:57:25.935861][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 30}
+[03/31 18:57:25.935880][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 15}
+[03/31 18:57:25.935898][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 10}
+[03/31 18:57:25.935917][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 7}
+[03/31 18:57:25.935975][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 2048, height: 1536, fps: 15}
+[03/31 18:57:25.936000][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 30}
+[03/31 18:57:25.936021][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 15}
+[03/31 18:57:25.936040][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 10}
+[03/31 18:57:25.936061][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 7}
+[03/31 18:57:25.936080][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 30}
+[03/31 18:57:25.936099][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 15}
+[03/31 18:57:25.936118][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 10}
+[03/31 18:57:25.936137][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 7}
+[03/31 18:57:25.936156][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 30}
+[03/31 18:57:25.936175][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 15}
+[03/31 18:57:25.936194][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 10}
+[03/31 18:57:25.936213][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 7}
+[03/31 18:57:25.936231][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 30}
+[03/31 18:57:25.936250][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 15}
+[03/31 18:57:25.936269][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 10}
+[03/31 18:57:25.936288][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 7}
+[03/31 18:57:25.936307][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 30}
+[03/31 18:57:25.936326][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 15}
+[03/31 18:57:25.936344][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 10}
+[03/31 18:57:25.936363][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 7}
+[03/31 18:57:25.936382][debug][204][VideoSensor.cpp:450]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 2048, height: 1536, fps: 15}
+[03/31 18:57:28.648369][debug][204][Pipeline.cpp:174] Pipeline start() start!
+[03/31 18:57:28.648539][debug][204][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[03/31 18:57:28.648595][info][204][Pipeline.cpp:239] Try to start streams!
+[03/31 18:57:28.648660][debug][204][VideoSensor.cpp:565] VideoSensor::start, @OB_SENSOR_COLOR
+[03/31 18:57:28.648707][debug][204][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[03/31 18:57:28.648828][debug][204][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::ColorFrame, obj addr:0x1da8036ac20, frame obj total size:0.879MB
+[03/31 18:57:28.648916][debug][204][FrameMemoryPool.cpp:75] ColorFrame bufferManager created!
+[03/31 18:57:28.648999][debug][204][FrameProcessor.cpp:125] Frame processor active blocks chain update: input ->FormatConverter -> output
+[03/31 18:57:28.649046][debug][204][FrameProcessor.cpp:137] FrameProcessor started, 1 blocks contained!
+[03/31 18:57:28.649101][info][204][VideoSensor.cpp:663] start OB_SENSOR_COLOR stream with profile: {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[03/31 18:57:28.867595][debug][204][VideoSensor.cpp:714] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_COLOR
+[03/31 18:57:28.867666][debug][204][VideoSensor.cpp:716] Stream starting! @OB_SENSOR_COLOR
+[03/31 18:57:28.867698][debug][204][Pipeline.cpp:250] Sensor stream started, sensorType=OB_SENSOR_COLOR
+[03/31 18:57:28.867720][info][204][Pipeline.cpp:252] Start streams done!
+[03/31 18:57:28.867739][info][204][Pipeline.cpp:235] Pipeline start done!
+[03/31 18:57:28.981911][warning][204][Pipeline.cpp:328] Wait for frame timeout, you can try to increase the wait time! current timeout=100
+[03/31 18:57:29.070986][debug][25688][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=0.879MB, max limit=2048.000MB
+[03/31 18:57:29.071130][debug][25688][VideoSensor.cpp:505] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_COLOR
+[03/31 18:57:29.078118][debug][25688][FrameProcessingBlock.cpp:59] FrameProcessingBlock@class libobsensor::FormatConverter process thread started!
+[03/31 18:57:29.078921][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:57:29.079366][debug][8364][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:class libobsensor::FrameSet, obj addr:0x1da8036c160, frame obj total size:0.000MB
+[03/31 18:57:29.079405][debug][8364][FrameMemoryPool.cpp:91] Frameset bufferManager created!
+[03/31 18:57:29.079438][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=1.759MB, max limit=2048.000MB
+[03/31 18:57:29.079526][debug][8364][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR
+[03/31 18:57:29.106161][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:57:29.107099][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=2.638MB, max limit=2048.000MB
+[03/31 18:57:29.130205][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:57:29.130750][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=3.518MB, max limit=2048.000MB
+[03/31 18:57:29.160749][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:57:29.161261][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=4.397MB, max limit=2048.000MB
+[03/31 18:57:29.193213][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:57:29.193766][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=5.277MB, max limit=2048.000MB
+[03/31 18:57:29.241157][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=6.156MB, max limit=2048.000MB
+[03/31 18:57:29.241726][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=6.157MB, max limit=2048.000MB
+[03/31 18:57:29.271957][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:57:29.272421][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.036MB, max limit=2048.000MB
+[03/31 18:57:29.303967][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=7.915MB, max limit=2048.000MB
+[03/31 18:57:29.304455][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=7.916MB, max limit=2048.000MB
+[03/31 18:57:29.352796][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:57:29.353270][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=8.795MB, max limit=2048.000MB
+[03/31 18:57:29.384190][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:57:29.384855][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=9.675MB, max limit=2048.000MB
+[03/31 18:57:29.416283][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:57:29.416820][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=10.554MB, max limit=2048.000MB
+[03/31 18:57:29.464024][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.879MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:57:29.464468][debug][8364][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=11.434MB, max limit=2048.000MB
+[03/31 18:57:29.464516][warning][8364][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:57:32.103703][debug][8364][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**68 logs in 3024ms**]
+[03/31 18:57:32.519151][warning][5996][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**10 logs in 3054ms, last: 18:57:29.928728**]
+[03/31 18:57:34.087633][debug][25688][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=22.324097fps
+[03/31 18:57:34.088345][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=22.359753fps
+[03/31 18:57:38.119993][debug][8364][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**130 logs in 6016ms**]
+[03/31 18:57:39.096220][debug][25688][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.561192fps
+[03/31 18:57:39.096817][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:57:44.106949][debug][27620][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.556885fps
+[03/31 18:57:44.107843][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.552584fps
+[03/31 18:57:49.143649][debug][4300][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.639864fps
+[03/31 18:57:49.144343][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.639864fps
+[03/31 18:57:49.385630][warning][8364][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:57:50.121207][debug][8364][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**259 logs in 12001ms**]
+[03/31 18:57:52.392038][warning][8364][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**64 logs in 3006ms**]
+[03/31 18:57:54.152000][debug][25688][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.565496fps
+[03/31 18:57:54.153098][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.561192fps
+[03/31 18:57:58.445262][warning][27104][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**1 logs in 6053ms, last: 18:57:52.441277**]
+[03/31 18:57:59.192926][debug][11720][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.622694fps
+[03/31 18:57:59.193565][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.626984fps
+[03/31 18:58:04.199930][debug][11720][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.569803fps
+[03/31 18:58:04.200967][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.569803fps
+[03/31 18:58:09.208203][debug][24796][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.561192fps
+[03/31 18:58:09.208813][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.565496fps
+[03/31 18:58:12.329096][warning][8364][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame!
+[03/31 18:58:14.136670][debug][8364][Pipeline.cpp:270] Frame received on pipeline! type=OB_FRAME_COLOR [**512 logs in 24015ms**]
+[03/31 18:58:14.232835][debug][11720][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=20.302547fps
+[03/31 18:58:14.233559][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=20.298508fps
+[03/31 18:58:15.352742][warning][8364][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**64 logs in 3023ms**]
+[03/31 18:58:19.272754][debug][4300][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.428572fps
+[03/31 18:58:19.273440][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.428572fps
+[03/31 18:58:21.384302][warning][26588][Pipeline.cpp:292] Pipeline source frameset queue fulled, drop the oldest frame! [**6 logs in 6031ms, last: 18:58:15.630909**]
+[03/31 18:58:24.313073][debug][11720][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.626984fps
+[03/31 18:58:24.313716][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.626984fps
+[03/31 18:58:29.322397][debug][11720][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.556885fps
+[03/31 18:58:29.323241][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.556885fps
+[03/31 18:58:34.328968][debug][27620][VideoSensor.cpp:472] OB_SENSOR_COLOR Streaming... frameRate=21.574110fps
+[03/31 18:58:34.329563][debug][8364][Pipeline.cpp:274] Pipeline streaming... frameset output rate=21.574110fps
+[03/31 18:58:35.269379][info][204][Pipeline.cpp:362] Try to stop pipeline!
+[03/31 18:58:35.269455][info][204][Pipeline.cpp:334] Try to stop streams!
+[03/31 18:58:35.269492][debug][204][VideoSensor.cpp:720] VideoSensor::stop, @OB_SENSOR_COLOR
+[03/31 18:58:35.269517][debug][204][VideoSensor.cpp:743] Stream state changed to STREAM_STATE_STOPPING. @OB_SENSOR_COLOR

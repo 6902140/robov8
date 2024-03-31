@@ -24,6 +24,22 @@
         "documentation": {}
     },
     {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
         "label": "QtCore",
         "importPath": "PyQt5",
         "description": "PyQt5",
@@ -397,6 +413,14 @@
     },
     {
         "label": "YOLOWorld",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
         "importPath": "ultralytics",
         "description": "ultralytics",
         "isExtraImport": true,
@@ -7509,6 +7533,95 @@
         "documentation": {}
     },
     {
+        "label": "pyorbbecsdk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBSensorType",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBAlignMode",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "FrameSet",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBFormat",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "OBPropertyID",
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "isExtraImport": true,
+        "detail": "pyorbbecsdk",
+        "documentation": {}
+    },
+    {
+        "label": "frame_to_bgr_image",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "Paru",
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
+        "isExtraImport": true,
+        "detail": "robocup.paru",
+        "documentation": {}
+    },
+    {
+        "label": "Paru",
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
+        "isExtraImport": true,
+        "detail": "robocup.paru",
+        "documentation": {}
+    },
+    {
         "label": "RawArray",
         "importPath": "multiprocessing",
         "description": "multiprocessing",
@@ -7546,15 +7659,6 @@
         "description": "multiprocessing",
         "isExtraImport": true,
         "detail": "multiprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "pyorbbecsdk",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "detail": "pyorbbecsdk",
         "documentation": {}
     },
     {
@@ -7619,14 +7723,6 @@
         "description": "robocup.camlxz",
         "isExtraImport": true,
         "detail": "robocup.camlxz",
-        "documentation": {}
-    },
-    {
-        "label": "Paru",
-        "importPath": "robocup.paru",
-        "description": "robocup.paru",
-        "isExtraImport": true,
-        "detail": "robocup.paru",
         "documentation": {}
     },
     {
@@ -14125,6 +14221,69 @@
         "description": "ultralytics.utils.tuner",
         "peekOfCode": "def run_ray_tune(\n    model, space: dict = None, grace_period: int = 10, gpu_per_trial: int = None, max_samples: int = 10, **train_args\n):\n    \"\"\"\n    Runs hyperparameter tuning using Ray Tune.\n    Args:\n        model (YOLO): Model to run the tuner on.\n        space (dict, optional): The hyperparameter search space. Defaults to None.\n        grace_period (int, optional): The grace period in epochs of the ASHA scheduler. Defaults to 10.\n        gpu_per_trial (int, optional): The number of GPUs to allocate per trial. Defaults to None.",
         "detail": "ultralytics.utils.tuner",
+        "documentation": {}
+    },
+    {
+        "label": "UI",
+        "kind": 6,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "class UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)\n        pixmap2.fill(QtGui.QColor(0))\n        self.label = QtWidgets.QLabel()",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "def main():\n    app = QtWidgets.QApplication(sys.argv)\n    mywin = UI()\n    mywin.setWindowTitle('冬日阳光-3D视觉')\n    mywin.show()\n    sys.exit(app.exec_())\nif __name__ == '__main__':\n    main()",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "RESULT_PATH",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "RESULT_PATH = './result'\nSERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_IP",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "SERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_PORT",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "SERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "FRAME_W",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "FRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)",
+        "detail": "kido",
+        "documentation": {}
+    },
+    {
+        "label": "FRAME_H",
+        "kind": 5,
+        "importPath": "kido",
+        "description": "kido",
+        "peekOfCode": "FRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)\n        pixmap2.fill(QtGui.QColor(0))",
+        "detail": "kido",
         "documentation": {}
     },
     {
