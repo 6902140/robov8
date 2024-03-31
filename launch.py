@@ -23,7 +23,7 @@ ROUND = 2
 #  ** 第 1 轮总时最短 20s，最长 50s
 #  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%
 # 本时间应在调试时决定，适当调小
-STAGE_TIME = 20
+STAGE_TIME = 60
 
 # [!] 相机云台旋转延时 (毫秒)
 # 调试时决定
@@ -277,14 +277,14 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     
 
     # 如果检测到了桌子就定义为True
-    desk_model=False
+   
     # todo: 增强稳定性
     # 切换成为独帧率模式
     def predict(frame):
+        desk_model=False
+        desk_index=None
         temp_counter = dict()
         image = frame_to_image(frame)
-
-
          # 改变图像通道
         image = image[:, :, ::-1]
         results,detected_imgs= model.detect_image(np.asarray(image))
@@ -299,25 +299,31 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             nameOfBox=model.class_names[i]
             print("---{}----".format(nameOfBox))
             if nameOfBox =="desktop-1":
+                desk_index=idx
                 desk_model=True
                 
         
         for idx in range(boxes_num):
             i=int(boxes.cls[idx])
+            x_1=(boxes.xyxy[idx][0]+boxes.xyxy[idx][2])/2
+            y_1=(boxes.xyxy[idx][1]+boxes.xyxy[idx][3])/2
+            if desk_model==True:
+                if(x_1>boxes.xyxy[desk_index][2] or x_1<boxes.xyxy[desk_index][0] or y_1>boxes.xyxy[desk_index][3] or y_1<boxes.xyxy[desk_index][1]):
+                    continue
             nameOfBox=model.class_names[i]
             if nameOfBox not in temp_counter:
-                # class_set.add(nameOfBox)
                 temp_counter[nameOfBox] = 1
-                # object_counter[nameOfBox] = 0
             else:
-                # print(f"name of box: {nameOfBox},class names:{class_set}")
                 temp_counter[nameOfBox]+=1
             pass
 
         for idx in range(boxes_num):
+            
             i=int(boxes.cls[idx])
             elem_name=model.class_names[i]
-            if elem_name not in object_counter:
+            if elem_name not in temp_counter:
+                continue
+            if elem_name not in object_counter.keys():
                 object_counter[elem_name] = temp_counter[elem_name]
             elif(object_counter[elem_name]<temp_counter[elem_name]):
                 object_counter[elem_name] = temp_counter[elem_name]
@@ -326,8 +332,8 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             buffer[:] = result_img.flatten()
 
     print("ready")
-    # trigger ready event to update status label
-    ready_ev.set() # 设置时间已经发生
+    
+    ready_ev.set() 
     wait_and_clear()
 
     print("starting pipeline")
@@ -363,7 +369,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 timeval=0  
                 time_last_predict = time.perf_counter()
             else:
-                print("not a proper time to predict")
+                # print("not a proper time to predict")
                 timeval= time.perf_counter()-time_last_predict
 
         if final:
