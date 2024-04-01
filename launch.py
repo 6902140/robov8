@@ -40,7 +40,7 @@ SERVER_PORT = 6666
 
 # 报名单位英文缩写-队伍名英文缩写
 #  Wupin Detection with Neural Model
-RESULT_FILE_PREFIX = "xjtu-wdnm"
+RESULT_FILE_PREFIX = "Hello-Bogon"
 
 # 结果目录
 RESULT_PATH = "./result_r"
@@ -294,31 +294,46 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         boxes=result.boxes
         boxes_num=len(boxes.cls)# 当前帧获取到的物体数量
 
+
+        # step1 ： 遍历寻找桌面
         for idx in range(boxes_num):
             i=int(boxes.cls[idx])
             nameOfBox=model.class_names[i]
-            print("---{}----".format(nameOfBox))
+            # print("----{}----".format(nameOfBox))
+
             if nameOfBox =="desktop-1":
+                # 成功识别到桌面，进入桌面模式
                 desk_index=idx
                 desk_model=True
                 
-        
+        # step2 ：遍历每一个box查看是否合法，修改局部dict
         for idx in range(boxes_num):
+            if desk_model:
+                if idx==desk_index: continue
             i=int(boxes.cls[idx])
             x_1=(boxes.xyxy[idx][0]+boxes.xyxy[idx][2])/2
             y_1=(boxes.xyxy[idx][1]+boxes.xyxy[idx][3])/2
             if desk_model==True:
                 if(x_1>boxes.xyxy[desk_index][2] or x_1<boxes.xyxy[desk_index][0] or y_1>boxes.xyxy[desk_index][3] or y_1<boxes.xyxy[desk_index][1]):
+                    print("invalid thing:{}".format(model.class_names[int(boxes.cls[idx])]))
                     continue
+            else:
+                # 如果未识别到桌面
+                xn_1=(boxes.xyxyn[idx][0]+boxes.xyxyn[idx][2])/2
+                yn_1=(boxes.xyxyn[idx][1]+boxes.xyxyn[idx][3])/2
+                if(xn_1>0.67 or xn_1<0.33 or yn_1>0.67 or yn_1<0.33):
+                    print("invalid thing:{}".format(model.class_names[int(boxes.cls[idx])]))
+                    continue
+                
             nameOfBox=model.class_names[i]
             if nameOfBox not in temp_counter:
                 temp_counter[nameOfBox] = 1
             else:
                 temp_counter[nameOfBox]+=1
-            pass
-
-        for idx in range(boxes_num):
-            
+           
+        
+        # step3 ：添加进入全局变量
+        for idx in range(boxes_num):# 添加进入全局变量
             i=int(boxes.cls[idx])
             elem_name=model.class_names[i]
             if elem_name not in temp_counter:

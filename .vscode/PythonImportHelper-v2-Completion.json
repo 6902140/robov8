@@ -14381,7 +14381,7 @@
         "kind": 5,
         "importPath": "launch",
         "description": "launch",
-        "peekOfCode": "RESTRICT_NUM = 3\n# [!] 裁判盒参数\nSERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# 报名单位英文缩写-队伍名英文缩写\n#  Wupin Detection with Neural Model\nRESULT_FILE_PREFIX = \"xjtu-wdnm\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高",
+        "peekOfCode": "RESTRICT_NUM = 3\n# [!] 裁判盒参数\nSERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# 报名单位英文缩写-队伍名英文缩写\n#  Wupin Detection with Neural Model\nRESULT_FILE_PREFIX = \"Hello-Bogon\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高",
         "detail": "launch",
         "documentation": {}
     },
@@ -14390,7 +14390,7 @@
         "kind": 5,
         "importPath": "launch",
         "description": "launch",
-        "peekOfCode": "SERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# 报名单位英文缩写-队伍名英文缩写\n#  Wupin Detection with Neural Model\nRESULT_FILE_PREFIX = \"xjtu-wdnm\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480",
+        "peekOfCode": "SERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# 报名单位英文缩写-队伍名英文缩写\n#  Wupin Detection with Neural Model\nRESULT_FILE_PREFIX = \"Hello-Bogon\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480",
         "detail": "launch",
         "documentation": {}
     },
@@ -14399,7 +14399,7 @@
         "kind": 5,
         "importPath": "launch",
         "description": "launch",
-        "peekOfCode": "SERVER_PORT = 6666\n# 报名单位英文缩写-队伍名英文缩写\n#  Wupin Detection with Neural Model\nRESULT_FILE_PREFIX = \"xjtu-wdnm\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass Status(Enum):",
+        "peekOfCode": "SERVER_PORT = 6666\n# 报名单位英文缩写-队伍名英文缩写\n#  Wupin Detection with Neural Model\nRESULT_FILE_PREFIX = \"Hello-Bogon\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass Status(Enum):",
         "detail": "launch",
         "documentation": {}
     },
@@ -14408,7 +14408,7 @@
         "kind": 5,
         "importPath": "launch",
         "description": "launch",
-        "peekOfCode": "RESULT_FILE_PREFIX = \"xjtu-wdnm\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass Status(Enum):\n    LOADING = 0\n    READY = 1\n    DETECTING = 2",
+        "peekOfCode": "RESULT_FILE_PREFIX = \"Hello-Bogon\"\n# 结果目录\nRESULT_PATH = \"./result_r\"\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass Status(Enum):\n    LOADING = 0\n    READY = 1\n    DETECTING = 2",
         "detail": "launch",
         "documentation": {}
     },
