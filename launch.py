@@ -267,7 +267,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model =Paru('./weights/best_model2_s.pt', './robo.yaml')
+    model =Paru('./weights/Apoll.pt', './robo.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -334,6 +334,8 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         
         # step3 ：添加进入全局变量
         for idx in range(boxes_num):# 添加进入全局变量
+            if desk_model:
+                if idx==desk_index: continue
             i=int(boxes.cls[idx])
             elem_name=model.class_names[i]
             if elem_name not in temp_counter:
