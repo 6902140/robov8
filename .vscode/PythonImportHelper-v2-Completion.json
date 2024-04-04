@@ -14354,7 +14354,7 @@
         "kind": 5,
         "importPath": "launch",
         "description": "launch",
-        "peekOfCode": "ROUND = 2\n# [!] 单个场景识别时长 (秒)\n#  ** 第 1 轮总时最短 20s，最长 50s\n#  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%\n# 本时间应在调试时决定，适当调小\nSTAGE_TIME = 60\n# [!] 相机云台旋转延时 (毫秒)\n# 调试时决定\nROTATING_TIMEOUT = 3000\n# [!] 每类物品最大数量",
+        "peekOfCode": "ROUND = 2\n# [!] 单个场景识别时长 (秒)\n#  ** 第 1 轮总时最短 20s，最长 50s\n#  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%\n# 本时间应在调试时决定，适当调小\nSTAGE_TIME = 4\n# [!] 相机云台旋转延时 (毫秒)\n# 调试时决定\nROTATING_TIMEOUT = 3000\n# [!] 每类物品最大数量",
         "detail": "launch",
         "documentation": {}
     },
@@ -14363,7 +14363,7 @@
         "kind": 5,
         "importPath": "launch",
         "description": "launch",
-        "peekOfCode": "STAGE_TIME = 60\n# [!] 相机云台旋转延时 (毫秒)\n# 调试时决定\nROTATING_TIMEOUT = 3000\n# [!] 每类物品最大数量\n#  ** \"同类物品最多为 5 个\"\n# 依据情况，可适当调低，去年参考值为 2\nRESTRICT_NUM = 3\n# [!] 裁判盒参数\nSERVER_IP = '127.0.0.1'",
+        "peekOfCode": "STAGE_TIME = 4\n# [!] 相机云台旋转延时 (毫秒)\n# 调试时决定\nROTATING_TIMEOUT = 3000\n# [!] 每类物品最大数量\n#  ** \"同类物品最多为 5 个\"\n# 依据情况，可适当调低，去年参考值为 2\nRESTRICT_NUM = 3\n# [!] 裁判盒参数\nSERVER_IP = '127.0.0.1'",
         "detail": "launch",
         "documentation": {}
     },

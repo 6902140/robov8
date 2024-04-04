@@ -23,8 +23,7 @@ ROUND = 2
 #  ** 第 1 轮总时最短 20s，最长 50s
 #  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%
 # 本时间应在调试时决定，适当调小
-STAGE_TIME = 60
-
+STAGE_TIME = 4
 # [!] 相机云台旋转延时 (毫秒)
 # 调试时决定
 ROTATING_TIMEOUT = 3000
@@ -393,7 +392,23 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             print("task completed")
             label_dict = {}
             for name in object_counter.keys():
-                label_dict[name] = min(object_counter[name], RESTRICT_NUM)
+                old_name=name
+                if name=="desktop-1" or name=="desktop-2":
+                    continue
+                elif name=="CB004-1" or name=="CB004-2":
+                    name="CB004"
+                if old_name=="CB004-1" or old_name=="CB004-2":
+                    object_cb004_1=0
+                    object_cb004_2=0
+                    if "CB004-1" in object_counter.keys():
+                        object_cb004_1=object_counter["CB004-1"]
+                    if "CB004-2" in object_counter.keys():
+                        object_cb004_2=object_counter["CB004-2"]
+                    
+                    label_dict[name] = min(object_cb004_1+object_cb004_2, RESTRICT_NUM)
+                    pass
+                else:
+                    label_dict[name] = min(object_counter[old_name], RESTRICT_NUM)
             label_dict_tx.send(label_dict)
         else:
             print("next stage")
