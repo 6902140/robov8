@@ -304,7 +304,6 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 # 成功识别到桌面，进入桌面模式
                 desk_index=idx
                 desk_model=True
-                
         # step2 ：遍历每一个box查看是否合法，修改局部dict
         for idx in range(boxes_num):
             if desk_model:
@@ -317,7 +316,6 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                     print("invalid thing:{}".format(model.class_names[int(boxes.cls[idx])]))
                     continue
             else:
-                # 如果未识别到桌面
                 xn_1=(boxes.xyxyn[idx][0]+boxes.xyxyn[idx][2])/2
                 yn_1=(boxes.xyxyn[idx][1]+boxes.xyxyn[idx][3])/2
                 if(xn_1>0.67 or xn_1<0.33 or yn_1>0.67 or yn_1<0.33):
@@ -355,7 +353,6 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     print("starting pipeline")
     pipeline.start(config)
     print("pipeline started")
-    
     def next_stage(stage_time, final=False):
         t1 = time.perf_counter()
         time_last_predict = t1
@@ -363,7 +360,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
 
         while True:
             frames = pipeline.wait_for_frames(100)
-            print("frame recv")
+            # print("frame recv")
             if frames is None:
                 continue
             color_frame = frames.get_color_frame()
@@ -372,11 +369,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
             t2 = time_start = time.perf_counter()
 
             if t2 - t1 > STAGE_TIME:
-                # model.reset_tracker()
-                # to do 
                 break
-           
-            
             if timeval>0.05: # 现在最佳参数0.05
                 predict(color_frame)
                 time_end = time.perf_counter()
