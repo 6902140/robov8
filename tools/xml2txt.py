@@ -9,29 +9,13 @@ class_names = ['CA001','CA002','CA003','CA004',
                'CD001','CD002','CD003','CD004',
                'desktop-1','desktop-2' 
  ] # 类别名，依次写下来
-# CA001
-# CA002
-# CA003
-# CA004
-# CB001
-# CB002
-# CB003
-# CB004-1
-# CB004-2
-# CC001
-# CC002
-# CC003
-# CC004
-# CD001
-# CD002
-# CD003
-# CD004
-# desktop-1
-# desktop-2
+
+class_names2=[]
 
 
-dirpath = r'./xml'  # 原来存放xml文件的目录
-newdir = r'./output'  # 修改label后形成的txt目录
+
+dirpath = r'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'  # 原来存放xml文件的目录
+newdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录
 
 if not os.path.exists(newdir):
     os.makedirs(newdir)

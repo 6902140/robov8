@@ -24,22 +24,6 @@
         "documentation": {}
     },
     {
-        "label": "QtWidgets",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
-        "label": "QtGui",
-        "importPath": "PyQt5",
-        "description": "PyQt5",
-        "isExtraImport": true,
-        "detail": "PyQt5",
-        "documentation": {}
-    },
-    {
         "label": "QtCore",
         "importPath": "PyQt5",
         "description": "PyQt5",
@@ -413,14 +397,6 @@
     },
     {
         "label": "YOLOWorld",
-        "importPath": "ultralytics",
-        "description": "ultralytics",
-        "isExtraImport": true,
-        "detail": "ultralytics",
-        "documentation": {}
-    },
-    {
-        "label": "YOLO",
         "importPath": "ultralytics",
         "description": "ultralytics",
         "isExtraImport": true,
@@ -7533,95 +7509,6 @@
         "documentation": {}
     },
     {
-        "label": "pyorbbecsdk",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "Pipeline",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "OBSensorType",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "OBAlignMode",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "FrameSet",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "OBFormat",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "OBPropertyID",
-        "importPath": "pyorbbecsdk",
-        "description": "pyorbbecsdk",
-        "isExtraImport": true,
-        "detail": "pyorbbecsdk",
-        "documentation": {}
-    },
-    {
-        "label": "frame_to_bgr_image",
-        "importPath": "utils",
-        "description": "utils",
-        "isExtraImport": true,
-        "detail": "utils",
-        "documentation": {}
-    },
-    {
-        "label": "Paru",
-        "importPath": "robocup.paru",
-        "description": "robocup.paru",
-        "isExtraImport": true,
-        "detail": "robocup.paru",
-        "documentation": {}
-    },
-    {
-        "label": "Paru",
-        "importPath": "robocup.paru",
-        "description": "robocup.paru",
-        "isExtraImport": true,
-        "detail": "robocup.paru",
-        "documentation": {}
-    },
-    {
         "label": "RawArray",
         "importPath": "multiprocessing",
         "description": "multiprocessing",
@@ -7659,6 +7546,15 @@
         "description": "multiprocessing",
         "isExtraImport": true,
         "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "pyorbbecsdk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyorbbecsdk",
+        "description": "pyorbbecsdk",
+        "detail": "pyorbbecsdk",
         "documentation": {}
     },
     {
@@ -7723,6 +7619,14 @@
         "description": "robocup.camlxz",
         "isExtraImport": true,
         "detail": "robocup.camlxz",
+        "documentation": {}
+    },
+    {
+        "label": "Paru",
+        "importPath": "robocup.paru",
+        "description": "robocup.paru",
+        "isExtraImport": true,
+        "detail": "robocup.paru",
         "documentation": {}
     },
     {
@@ -7865,7 +7769,7 @@
         "kind": 2,
         "importPath": "robov8_dataset.aug",
         "description": "robov8_dataset.aug",
-        "peekOfCode": "def augment(img):\n    img=img.astype(np.float32)\n    fa=0.5*random.random()+0.5\n    fb=0.5*random.random()+0.5\n    fc=0.5*random.random()+0.5\n    fa2=random.randint(-30,30)\n    fb2=random.randint(-30,30)\n    fc2=random.randint(-30,30)\n    b, g, r = cv2.split(img)\n    b=cv2.multiply(b,fa)",
+        "peekOfCode": "def augment(img):\n    img=img.astype(np.float32)\n    fa=0.5*random.random()+0.75\n    fb=0.5*random.random()+0.75\n    fc=0.5*random.random()+0.75\n    fa2=random.randint(-30,30)\n    fb2=random.randint(-30,30)\n    fc2=random.randint(-30,30)\n    b, g, r = cv2.split(img)\n    b=cv2.multiply(b,fa)",
         "detail": "robov8_dataset.aug",
         "documentation": {}
     },
@@ -7883,7 +7787,7 @@
         "kind": 5,
         "importPath": "robov8_dataset.mycopy",
         "description": "robov8_dataset.mycopy",
-        "peekOfCode": "source_directory = './labels'\ndestination_directory = './labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "peekOfCode": "source_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'\ndestination_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
         "detail": "robov8_dataset.mycopy",
         "documentation": {}
     },
@@ -7892,7 +7796,7 @@
         "kind": 5,
         "importPath": "robov8_dataset.mycopy",
         "description": "robov8_dataset.mycopy",
-        "peekOfCode": "destination_directory = './labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "peekOfCode": "destination_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
         "detail": "robov8_dataset.mycopy",
         "documentation": {}
     },
@@ -8891,7 +8795,7 @@
         "kind": 5,
         "importPath": "tools.remove_xml",
         "description": "tools.remove_xml",
-        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/data_x/imgs\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data_x/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
+        "peekOfCode": "path_xml = \"C:/Users/Zhuiri Xiao/Desktop/dxr/image/\"\nfilelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/dxr/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :",
         "detail": "tools.remove_xml",
         "documentation": {}
     },
@@ -8900,7 +8804,7 @@
         "kind": 5,
         "importPath": "tools.remove_xml",
         "description": "tools.remove_xml",
-        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/data_x/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
+        "peekOfCode": "filelist = os.listdir(path_xml)\npath3 = \"C:/Users/Zhuiri Xiao/Desktop/dxr/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)",
         "detail": "tools.remove_xml",
         "documentation": {}
     },
@@ -8909,7 +8813,7 @@
         "kind": 5,
         "importPath": "tools.remove_xml",
         "description": "tools.remove_xml",
-        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/data_x/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
+        "peekOfCode": "path3 = \"C:/Users/Zhuiri Xiao/Desktop/dxr/labels/\"\nfor files in filelist:\n    filename1 = os.path.splitext(files)[1]  # 读取文件后缀名\n    filename0 = os.path.splitext(files)[0]  #读取文件名\n    # print(filename1)\n    # m = filename1 == '.txt'\n    # print(m)\n    # if filename1 == '.txt' :\n    #     full_path = os.path.join(path_xml, files)\n    #     despath = path2 + filename0 +'.txt' #.txt为你的文件类型，即后缀名，读者自行修改",
         "detail": "tools.remove_xml",
         "documentation": {}
     },
@@ -8918,7 +8822,7 @@
         "kind": 5,
         "importPath": "tools.xml2txt",
         "description": "tools.xml2txt",
-        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] # 类别名，依次写下来\n# CA001\n# CA002\n# CA003\n# CA004",
+        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] # 类别名，依次写下来\nclass_names2=[]\ndirpath = r'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'  # 原来存放xml文件的目录\nnewdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):",
         "detail": "tools.xml2txt",
         "documentation": {}
     },
@@ -8927,7 +8831,7 @@
         "kind": 5,
         "importPath": "tools.xml2txt",
         "description": "tools.xml2txt",
-        "peekOfCode": "dirpath = r'./xml'  # 原来存放xml文件的目录\nnewdir = r'./output'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0",
+        "peekOfCode": "dirpath = r'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'  # 原来存放xml文件的目录\nnewdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0",
         "detail": "tools.xml2txt",
         "documentation": {}
     },
@@ -8936,7 +8840,7 @@
         "kind": 5,
         "importPath": "tools.xml2txt",
         "description": "tools.xml2txt",
-        "peekOfCode": "newdir = r'./output'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0\n    sz = root.find('size')",
+        "peekOfCode": "newdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):\n    os.makedirs(newdir)\ni=0\nfor fp in os.listdir(dirpath):\n    i+=1\n    print(fp)\n    root = ET.parse(os.path.join(dirpath, fp)).getroot()\n    xmin, ymin, xmax, ymax = 0, 0, 0, 0\n    sz = root.find('size')",
         "detail": "tools.xml2txt",
         "documentation": {}
     },
@@ -14221,69 +14125,6 @@
         "description": "ultralytics.utils.tuner",
         "peekOfCode": "def run_ray_tune(\n    model, space: dict = None, grace_period: int = 10, gpu_per_trial: int = None, max_samples: int = 10, **train_args\n):\n    \"\"\"\n    Runs hyperparameter tuning using Ray Tune.\n    Args:\n        model (YOLO): Model to run the tuner on.\n        space (dict, optional): The hyperparameter search space. Defaults to None.\n        grace_period (int, optional): The grace period in epochs of the ASHA scheduler. Defaults to 10.\n        gpu_per_trial (int, optional): The number of GPUs to allocate per trial. Defaults to None.",
         "detail": "ultralytics.utils.tuner",
-        "documentation": {}
-    },
-    {
-        "label": "UI",
-        "kind": 6,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "class UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)\n        pixmap2.fill(QtGui.QColor(0))\n        self.label = QtWidgets.QLabel()",
-        "detail": "kido",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "def main():\n    app = QtWidgets.QApplication(sys.argv)\n    mywin = UI()\n    mywin.setWindowTitle('冬日阳光-3D视觉')\n    mywin.show()\n    sys.exit(app.exec_())\nif __name__ == '__main__':\n    main()",
-        "detail": "kido",
-        "documentation": {}
-    },
-    {
-        "label": "RESULT_PATH",
-        "kind": 5,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "RESULT_PATH = './result'\nSERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")",
-        "detail": "kido",
-        "documentation": {}
-    },
-    {
-        "label": "SERVER_IP",
-        "kind": 5,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "SERVER_IP = '127.0.0.1'\nSERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)",
-        "detail": "kido",
-        "documentation": {}
-    },
-    {
-        "label": "SERVER_PORT",
-        "kind": 5,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "SERVER_PORT = 6666\n# frame 宽高\nFRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)",
-        "detail": "kido",
-        "documentation": {}
-    },
-    {
-        "label": "FRAME_W",
-        "kind": 5,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "FRAME_W = 640\nFRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)",
-        "detail": "kido",
-        "documentation": {}
-    },
-    {
-        "label": "FRAME_H",
-        "kind": 5,
-        "importPath": "kido",
-        "description": "kido",
-        "peekOfCode": "FRAME_H = 480\nclass UI(QtWidgets.QWidget):\n    def __init__(self):\n        super(UI,self).__init__()\n        print(\"正在初始化界面\")\n        self.setFixedSize(770,540)\n        pixmap = QtGui.QPixmap(320,240)\n        pixmap.fill(QtGui.QColor(0))\n        pixmap2 = QtGui.QPixmap(320,240)\n        pixmap2.fill(QtGui.QColor(0))",
-        "detail": "kido",
         "documentation": {}
     },
     {

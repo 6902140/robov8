@@ -96,10 +96,10 @@ def xml_construct(save_path,folder,filename,path,label_text,width=800,height=600
  
 
 if __name__ == '__main__':
-    model_path = './weights/best_model2_s.pt'
+    model_path = '../weights/Akua.pt'
     model = Yolov8Detect(model_path)
     import glob 
-    image_path = glob.glob('C:/Users/Zhuiri Xiao/Desktop/data_x/imgs/*.jpg')
+    image_path = glob.glob('C:/Users/Zhuiri Xiao/Desktop/dxr/image/*.jpg')
     for img_path in image_path[:]:
         model.inferences(img_path)
 
