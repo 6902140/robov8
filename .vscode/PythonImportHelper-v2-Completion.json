@@ -64,158 +64,12 @@
         "documentation": {}
     },
     {
-        "label": "PIL",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "PIL",
-        "description": "PIL",
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageOps",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageDraw",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageFont",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "__version__",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
         "label": "cv2",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "cv2",
         "description": "cv2",
         "detail": "cv2",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
         "documentation": {}
     },
     {
@@ -421,110 +275,6 @@
         "documentation": {}
     },
     {
-        "label": "clean_str",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segment2box",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxyxyxy2xywhr",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "resample_segments",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "segments2boxes",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "crop_mask",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xywh2xyxy",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
-        "label": "xyxy2xywh",
-        "importPath": "ultralytics.utils.ops",
-        "description": "ultralytics.utils.ops",
-        "isExtraImport": true,
-        "detail": "ultralytics.utils.ops",
-        "documentation": {}
-    },
-    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -556,6 +306,152 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "PIL",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PIL",
+        "description": "PIL",
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageOps",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDraw",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFont",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
         "documentation": {}
     },
     {
@@ -5040,6 +4936,102 @@
         "documentation": {}
     },
     {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segment2box",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxyxyxy2xywhr",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "resample_segments",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "segments2boxes",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "crop_mask",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xywh2xyxy",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
+        "label": "xyxy2xywh",
+        "importPath": "ultralytics.utils.ops",
+        "description": "ultralytics.utils.ops",
+        "isExtraImport": true,
+        "detail": "ultralytics.utils.ops",
+        "documentation": {}
+    },
+    {
         "label": "plot_images",
         "importPath": "ultralytics.utils.plotting",
         "description": "ultralytics.utils.plotting",
@@ -7661,7 +7653,7 @@
         "kind": 6,
         "importPath": "robocup.paru",
         "description": "robocup.paru",
-        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names =load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=True):\n        \"\"\"\n        args:\n            Args:\n                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] ",
+        "peekOfCode": "class Paru(object):\n    def __init__(self, weights,dataset):\n        self.device = torch.device('cuda:0')\n        self.model=YOLO(model=weights)\n        self.class_names =load_yaml(dataset)['names']\n    def detect_image(self, source, draw_img=False):\n        \"\"\"\n        args:   \n            source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] \n            表示想要预测的帧或图片",
         "detail": "robocup.paru",
         "documentation": {}
     },
@@ -7753,15 +7745,6 @@
         "description": "robocup.TCP",
         "peekOfCode": "BUFSIZE = 1024  # 设置缓存区的大小\nclass Protocol:\n    \"\"\"\n    规定：\n        数据包头部占4字节\n        整型占4字节\n        字符串长度位占2字节\n        字符串不定长\n    \"\"\"\n    def __init__(self, bs=None):",
         "detail": "robocup.TCP",
-        "documentation": {}
-    },
-    {
-        "label": "load_yaml",
-        "kind": 2,
-        "importPath": "robocup.tools",
-        "description": "robocup.tools",
-        "peekOfCode": "def load_yaml(file_path):\n    \"\"\"Load data from yaml file.\"\"\"\n    if isinstance(file_path, str):\n        with open(file_path, errors='ignore') as f:\n            data_dict = yaml.safe_load(f)\n    return data_dict",
-        "detail": "robocup.tools",
         "documentation": {}
     },
     {

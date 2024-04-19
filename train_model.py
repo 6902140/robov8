@@ -1,8 +1,5 @@
 from ultralytics import YOLO
 
-
-
-# Load a model
 #load a pre-trained model
 model = YOLO('./weights/yolov8n.pt')  # build from YAML and transfer weights
 # Train the model
