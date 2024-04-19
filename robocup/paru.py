@@ -1,16 +1,8 @@
-# 纯纯的帕鲁代码
-
-
-import PIL
+# 对ultralytics进行再一次封装
 import cv2
-import numpy as np
 import torch
-# from tracker.sort import Sort
-
 from ultralytics import YOLO
-
 import yaml
-from ultralytics.utils.ops import clean_str
 
 def load_yaml(file_path):
     """Load data from yaml file."""
@@ -19,25 +11,18 @@ def load_yaml(file_path):
             data_dict = yaml.safe_load(f)
     return data_dict
 
-
 class Paru(object):
     def __init__(self, weights,dataset):
         self.device = torch.device('cuda:0')
         self.model=YOLO(model=weights)
         self.class_names =load_yaml(dataset)['names']
-    def detect_image(self, source, draw_img=True):
+    def detect_image(self, source, draw_img=False):
         """
-        args:
-        
-            Args:
-                source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] 
-                表示想要预测的帧或图片
-
+        args:   
+            source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] 
+            表示想要预测的帧或图片
         returns:
-
             resp: (List[ultralytics.engine.results.Results])表示预测出来的结果
-
-
         """
 
         # 强制全部转化为list，为了适配以前代码
@@ -52,15 +37,16 @@ class Paru(object):
 
         detected_imgs.append(result.plot())
         resized_image = cv2.resize(result.plot(), (400, 300))
-        # cv2.imshow("test",resized_image)
-        # cv2.waitKey(0)
-        # print(results)
-        # print(results[0].boxes)
+        if draw_img: # just for show the processed pictures
+            cv2.imshow("test",resized_image)
+            cv2.waitKey(0)
+            print(results)
+            print(results[0].boxes)
         return results,detected_imgs
 
 
 # just for testing purposes
 if __name__ == '__main__':
-    myParu=Paru("../weights/Apoll.pt","../robo.yaml")
-    myParu.detect_image("./test.jpg")
-    pass
+    myParu=Paru("../weights/Oceanus.pt","../robo.yaml")
+    myParu.detect_image("./549.jpg",draw_img=True)
+    
