@@ -31,7 +31,7 @@ class Paru(object):
         else:
             image_list=[source]
 
-        results=self.model(image_list,conf=0.75,tracker='botsort.yaml') # conf 设置置信度下限
+        results=self.model(image_list,conf=0.78,max_det=10,tracker='botsort.yaml') # conf 设置置信度下限
         result=results[0]
         detected_imgs=[]
 

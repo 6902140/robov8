@@ -17,13 +17,13 @@ from robocup.paru import Paru
 from ultralytics.engine.results import Boxes
 
 # [!] 轮次
-ROUND = 2
+ROUND = 1
 
 # [!] 单个场景识别时长 (秒)
 #  ** 第 1 轮总时最短 20s，最长 50s
 #  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%
 # 本时间应在调试时决定，适当调小
-STAGE_TIME = 4
+STAGE_TIME = 18
 # [!] 相机云台旋转延时 (毫秒)
 # 调试时决定
 ROTATING_TIMEOUT = 3000
