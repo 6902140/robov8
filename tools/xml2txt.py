@@ -7,7 +7,7 @@ class_names = ['CA001','CA002','CA003','CA004',
                'CB001','CB002','CB003','CB004-1','CB004-2',
                'CC001','CC002','CC003','CC004',
                'CD001','CD002','CD003','CD004',
-               'desktop-1','desktop-2' 
+               'desktop-1'
  ] # 类别名，依次写下来
 
 class_names2=[]

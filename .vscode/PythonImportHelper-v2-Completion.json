@@ -8805,7 +8805,7 @@
         "kind": 5,
         "importPath": "tools.xml2txt",
         "description": "tools.xml2txt",
-        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1','desktop-2' \n ] # 类别名，依次写下来\nclass_names2=[]\ndirpath = r'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'  # 原来存放xml文件的目录\nnewdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):",
+        "peekOfCode": "class_names = ['CA001','CA002','CA003','CA004',\n               'CB001','CB002','CB003','CB004-1','CB004-2',\n               'CC001','CC002','CC003','CC004',\n               'CD001','CD002','CD003','CD004',\n               'desktop-1'\n ] # 类别名，依次写下来\nclass_names2=[]\ndirpath = r'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'  # 原来存放xml文件的目录\nnewdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录\nif not os.path.exists(newdir):",
         "detail": "tools.xml2txt",
         "documentation": {}
     },
@@ -14268,7 +14268,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "model = YOLO('./weights/yolov8n.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='./robo.yaml', epochs=3000, imgsz=1024,batch=32, workers=12,device=\"cuda\",mosaic=0,erasing=0,optimizer=\"AdamW\",momentum=0.9,lr0=0.00125,perspective=0.00012,shear=20,dropout=0.1,degrees=5)\n# model.export(format='')",
+        "peekOfCode": "model = YOLO('./weights/yolov8n.pt')  # build from YAML and transfer weights\n# Train the model\nmodel.train(data='./robo.yaml', epochs=3000, imgsz=1536,cls=6.0,dfl=4.0,label_smoothing=0.15,patience=80,batch=32, workers=12,device=\"cuda\",mosaic=0,erasing=0,optimizer=\"AdamW\",momentum=0.9,lr0=0.00125,perspective=0.00012,shear=20,dropout=0.1,degrees=5)\n# model.export(format='')",
         "detail": "train_model",
         "documentation": {}
     }

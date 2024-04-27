@@ -31,7 +31,7 @@ class Paru(object):
         else:
             image_list=[source]
 
-        results=self.model(image_list,conf=0.78,max_det=10,tracker='botsort.yaml') # conf 设置置信度下限
+        results=self.model(image_list,conf=0.6,max_det=10,tracker='botsort.yaml') # conf 设置置信度下限
         result=results[0]
         detected_imgs=[]
 
@@ -48,5 +48,5 @@ class Paru(object):
 # just for testing purposes
 if __name__ == '__main__':
     myParu=Paru("../weights/Akua-v0.1.pt","../robo.yaml")
-    myParu.detect_image("./test1.jpg",draw_img=True)
+    myParu.detect_image("./test4.jpg",draw_img=True)
     
