@@ -47,6 +47,6 @@ class Paru(object):
 
 # just for testing purposes
 if __name__ == '__main__':
-    myParu=Paru("../weights/best.pt","../robo.yaml")
-    myParu.detect_image("./486.jpg",draw_img=True)
+    myParu=Paru("../weights/Akua-att.pt","../robo.yaml")
+    myParu.detect_image("./12_0.jpg",draw_img=True)
     
