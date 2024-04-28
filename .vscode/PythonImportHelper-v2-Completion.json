@@ -7770,7 +7770,7 @@
         "kind": 5,
         "importPath": "robov8_dataset.mycopy",
         "description": "robov8_dataset.mycopy",
-        "peekOfCode": "source_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'\ndestination_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
+        "peekOfCode": "source_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'\ndestination_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels_'\n# 调用函数\ncopy_and_rename_txt_files(source_directory, destination_directory)",
         "detail": "robov8_dataset.mycopy",
         "documentation": {}
     },
