@@ -45,7 +45,7 @@ class Paru(object):
         return results,detected_imgs
 
 
-# just for testing purposes
+# just for testing purposes 
 if __name__ == '__main__':
     myParu=Paru("../weights/Akua-att.pt","../robo.yaml")
     myParu.detect_image("./12_0.jpg",draw_img=True)
