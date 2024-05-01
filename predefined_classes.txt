@@ -16,4 +16,3 @@ CD002
 CD003
 CD004
 desktop-1
-desktop-2
