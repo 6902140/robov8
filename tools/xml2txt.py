@@ -14,8 +14,8 @@ class_names2=[]
 
 
 
-dirpath = r'C:/Users/Zhuiri Xiao/Desktop/dxr/labels'  # 原来存放xml文件的目录
-newdir = r'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'  # 修改label后形成的txt目录
+dirpath = r'/home/moon/Downloads/week10/labels/'  # 原来存放xml文件的目录
+newdir = r'/home/moon/Downloads/week10/yolo_labels'  # 修改label后形成的txt目录
 
 if not os.path.exists(newdir):
     os.makedirs(newdir)

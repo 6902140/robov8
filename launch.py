@@ -23,7 +23,7 @@ ROUND = 1
 #  ** 第 1 轮总时最短 20s，最长 50s
 #  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%
 # 本时间应在调试时决定，适当调小
-STAGE_TIME = 18
+STAGE_TIME = 60
 # [!] 相机云台旋转延时 (毫秒)
 # 调试时决定
 ROTATING_TIMEOUT = 3000
@@ -266,7 +266,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model =Paru('./weights/Akua-v0.1.pt', './robo.yaml')
+    model =Paru('./weights/Akua-att.pt', './robo.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -304,6 +304,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 # 成功识别到桌面，进入桌面模式
                 desk_index=idx
                 desk_model=True
+                break
         # step2 ：遍历每一个box查看是否合法，修改局部dict
         for idx in range(boxes_num):
             if desk_model:
