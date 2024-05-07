@@ -48,6 +48,8 @@ from .block import (
     Silence,
 )
 from .conv import (
+    C3RFEM,
+    SEAM,
     CBAM,
     ChannelAttention,
     Concat,
@@ -65,6 +67,7 @@ from .conv import (
 )
 from .head import OBB, Classify, Detect, Pose, RTDETRDecoder, Segment, WorldDetect
 from .transformer import (
+
     AIFI,
     MLP,
     DeformableTransformerDecoder,
@@ -78,6 +81,8 @@ from .transformer import (
 )
 
 __all__ = (
+    "C3RFEM",
+    "SEAM",
     "Conv",
     "Conv2",
     "LightConv",

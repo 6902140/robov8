@@ -8,6 +8,8 @@ import torch
 import torch.nn as nn
 
 from ultralytics.nn.modules import (
+    C3RFEM,
+    SEAM,
     AIFI,
     C1,
     C2,
@@ -50,6 +52,7 @@ from ultralytics.nn.modules import (
     CBLinear,
     Silence,
     GAM_Attention,
+    CBAM,
 )
 from ultralytics.utils import DEFAULT_CFG_DICT, DEFAULT_CFG_KEYS, LOGGER, colorstr, emojis, yaml_load
 from ultralytics.utils.checks import check_requirements, check_suffix, check_yaml
@@ -843,6 +846,8 @@ def parse_model(d, ch, verbose=True):  # model_dict, input_channels(3)
 
         n = n_ = max(round(n * depth), 1) if n > 1 else n  # depth gain
         if m in (
+            C3RFEM,
+            SEAM,
             Classify,
             Conv,
             ConvTranspose,
@@ -879,7 +884,7 @@ def parse_model(d, ch, verbose=True):  # model_dict, input_channels(3)
                 )  # num heads
 
             args = [c1, c2, *args[1:]]
-            if m in (BottleneckCSP, C1, C2, C2f, C2fAttn, C3, C3TR, C3Ghost, C3x, RepC3):
+            if m in (BottleneckCSP, C1, C2, C2f, C2fAttn, C3, C3TR, C3Ghost, C3x, RepC3,C3RFEM):
                 args.insert(2, n)  # number of repeats
                 n = 1
         elif m is AIFI:
@@ -909,11 +914,19 @@ def parse_model(d, ch, verbose=True):  # model_dict, input_channels(3)
         elif m is CBFuse:
             c2 = ch[f[-1]]
     # """**************add Attention***************"""
-        elif m in {GAM_Attention}:
+        elif m is CBAM:
             c1, c2 = ch[f], args[0]
-            if c2 != nc:  # if not output
+            if c2 != nc:
                 c2 = make_divisible(min(c2, max_channels) * width, 8)
-            args = [c1, c2, *args[1:]]
+            args = [c1, *args[1:]]
+        
+
+
+        # elif m in {CBAM}:
+        #     c1, c2 = ch[f], args[0]
+        #     if c2 != nc:  # if not output
+        #         c2 = make_divisible(min(c2, max_channels) * width, 8)
+        #     args = [c1, c2, *args[1:]]
 
         else:
             c2 = ch[f]
