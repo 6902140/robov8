@@ -1,6 +1,9 @@
 # 对ultralytics进行再一次封装
 import cv2
 import torch
+import sys
+
+sys.path.append("../ultralytics")
 from ultralytics import YOLO
 import yaml
 
@@ -31,12 +34,12 @@ class Paru(object):
         else:
             image_list=[source]
 
-        results=self.model(image_list,conf=0.65,max_det=10,tracker='botsort.yaml') # conf 设置置信度下限
+        results=self.model(image_list,conf=0.4,max_det=10,tracker='botsort.yaml') # conf 设置置信度下限
         result=results[0]
         detected_imgs=[]
 
         detected_imgs.append(result.plot())
-        resized_image = cv2.resize(result.plot(), (400, 300))
+        resized_image = cv2.resize(result.plot(), (800, 600))
         if draw_img: # just for show the processed pictures
             cv2.imshow("test",resized_image)
             cv2.waitKey(0)
@@ -45,6 +48,6 @@ class Paru(object):
         return results,detected_imgs
 # just for testing purposes 
 if __name__ == '__main__':
-    myParu=Paru("../weights/Akua-final.pt","../robo.yaml")
-    myParu.detect_image("./test-5.jpg",draw_img=True)
+    myParu=Paru("../weights/Akua-bogon-att.onnx","../robo.yaml")
+    myParu.detect_image("./test-6.jpg",draw_img=True)
    
