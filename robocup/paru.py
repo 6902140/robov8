@@ -48,6 +48,6 @@ class Paru(object):
         return results,detected_imgs
 # just for testing purposes 
 if __name__ == '__main__':
-    myParu=Paru("../weights/Akua-shuffle-att-v2.onnx","../robo.yaml")
-    myParu.detect_image("./test-0.jpg",draw_img=True)
+    myParu=Paru("../weights/Akua-shuffle-att-v3.onnx","../robo.yaml")
+    myParu.detect_image("./test-8.jpg",draw_img=True)
    
