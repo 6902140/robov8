@@ -50,5 +50,5 @@ class Paru(object):
 # just for testing purposes 
 if __name__ == '__main__':
     myParu=Paru("../weights/Corleone.pt","../robo.yaml")
-    myParu.detect_image("./test-43.jpg",draw_img=True)
+    myParu.detect_image("./test-26.jpg",draw_img=True)
    

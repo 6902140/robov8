@@ -5,9 +5,9 @@ import random
 
 def augment(img):
     img=img.astype(np.float32)
-    fa=0.5*random.random()+0.75
-    fb=0.5*random.random()+0.75
-    fc=0.5*random.random()+0.75
+    fa=0.4*random.random()+0.8
+    fb=0.4*random.random()+0.8
+    fc=0.4*random.random()+0.8
     fa2=random.randint(-30,30)
     fb2=random.randint(-30,30)
     fc2=random.randint(-30,30)
@@ -25,8 +25,8 @@ def augment(img):
     return img
 
 
-image_dir='C:/Users/Zhuiri Xiao/Desktop/dxr/images'
-augmented_dir='C:/Users/Zhuiri Xiao/Desktop/dxr/images_augmented'
+image_dir='/home/moon/Downloads/5.13/images'
+augmented_dir='/home/moon/Downloads/5.13/aug'
 total_file=os.listdir(image_dir)
 num=len(total_file)
 for i in range(0,num):

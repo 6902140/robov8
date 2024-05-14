@@ -20,8 +20,8 @@ def copy_and_rename_txt_files(source_dir, destination_dir):
                 shutil.copyfile(source_file, destination_file)
 
 # 指定源目录和目标目录
-source_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/yolo_labels'
-destination_directory = 'C:/Users/Zhuiri Xiao/Desktop/dxr/labels_'
+source_directory = '/home/moon/Downloads/5.13/labels'
+destination_directory = '/home/moon/Downloads/5.13/auglabels'
 
 # 调用函数
 copy_and_rename_txt_files(source_directory, destination_directory)
