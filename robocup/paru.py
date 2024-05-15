@@ -19,7 +19,7 @@ class Paru(object):
         self.device = torch.device('cuda:0')
         self.model=YOLO(model=weights)
         self.class_names =load_yaml(dataset)['names']
-    def detect_image(self, source, draw_img=False):
+    def detect_image(self, source, draw_img=False,conf=0.6):
         """
         args:   
             source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] 
@@ -34,7 +34,7 @@ class Paru(object):
         else:
             image_list=[source]
 
-        results=self.model(image_list,conf=0.4,max_det=15,iou=0.5) # conf 设置置信度下限
+        results=self.model(image_list,conf=conf,max_det=15,iou=0.5,half=True) # conf 设置置信度下限
         result=results[0]
         detected_imgs=[]
 
@@ -49,6 +49,6 @@ class Paru(object):
         return results,detected_imgs
 # just for testing purposes 
 if __name__ == '__main__':
-    myParu=Paru("../weights/Corleone.pt","../robo.yaml")
-    myParu.detect_image("./test-26.jpg",draw_img=True)
+    myParu=Paru("../weights/Corleone-v2.pt","../robo.yaml")
+    myParu.detect_image("./gauss.jpg",draw_img=True)
    
