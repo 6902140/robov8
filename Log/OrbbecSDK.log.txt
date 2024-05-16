@@ -388,3 +388,951 @@
 [05/02 17:11:19.512033][info][223736][DeviceManager.cpp:15] Current found device(s): (1)
 [05/02 17:11:19.512041][info][223736][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
 [05/02 17:11:19.512048][debug][223736][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:22:53.220800][debug][16097][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:22:53.220911][debug][16097][Context.cpp:50] Config file version=1.1
+[05/15 21:22:53.220952][debug][16097][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:22:53.220967][info][16097][Context.cpp:69] Context created with config: default config!
+[05/15 21:22:53.220995][info][16097][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:22:53.221043][info][16097][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:22:53.221055][info][16097][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:22:53.221073][info][16097][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:22:53.221093][debug][16097][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:22:53.221111][info][16097][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:22:53.223202][debug][16097][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:22:53.233482][debug][16097][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:22:53.233617][debug][16097][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:22:53.234208][debug][16097][ObV4lDevice.cpp:346] Found video4linux: video3
+[05/15 21:22:53.234603][debug][16097][ObV4lDevice.cpp:346] Found video4linux: video1
+[05/15 21:22:53.234995][debug][16097][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:22:53.235414][debug][16097][ObV4lDevice.cpp:346] Found video4linux: video2
+[05/15 21:22:53.235792][debug][16097][ObV4lDevice.cpp:346] Found video4linux: video0
+[05/15 21:22:53.236179][debug][16097][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:22:53.236212][debug][16097][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:22:53.236220][debug][16097][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:22:53.236227][debug][16097][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:22:53.236235][debug][16097][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:22:53.236455][info][16097][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:22:53.236484][debug][16097][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:22:53.236495][debug][16097][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:22:53.236626][info][16097][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:22:53.236648][info][16097][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:22:53.236659][debug][16097][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:23:37.578786][debug][16353][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:23:37.578888][debug][16353][Context.cpp:50] Config file version=1.1
+[05/15 21:23:37.578945][debug][16353][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:23:37.578958][info][16353][Context.cpp:69] Context created with config: default config!
+[05/15 21:23:37.578998][info][16353][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:23:37.579022][info][16353][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:23:37.579036][info][16353][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:23:37.579050][info][16353][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:23:37.579065][debug][16353][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:23:37.579080][info][16353][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:23:37.580497][debug][16353][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:23:37.802494][debug][16353][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:23:37.802633][debug][16353][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:23:37.803120][debug][16353][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:23:37.803492][debug][16353][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:23:37.803522][debug][16353][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:23:37.803530][debug][16353][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:23:37.803537][debug][16353][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:23:37.803543][debug][16353][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:23:37.803741][info][16353][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:23:37.803769][debug][16353][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:23:37.803779][debug][16353][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:23:37.803794][info][16353][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:23:37.803807][info][16353][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:23:37.803820][debug][16353][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:24:39.831131][debug][16763][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:24:39.831218][debug][16763][Context.cpp:50] Config file version=1.1
+[05/15 21:24:39.831274][debug][16763][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:24:39.831292][info][16763][Context.cpp:69] Context created with config: default config!
+[05/15 21:24:39.831324][info][16763][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:24:39.831340][info][16763][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:24:39.831355][info][16763][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:24:39.831378][info][16763][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:24:39.831402][debug][16763][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:24:39.831419][info][16763][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:24:39.832801][debug][16763][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:24:40.052471][debug][16763][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:24:40.052614][debug][16763][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:24:40.052991][debug][16763][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:24:40.053373][debug][16763][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:24:40.053390][debug][16763][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:24:40.053399][debug][16763][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:24:40.053407][debug][16763][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:24:40.053415][debug][16763][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:24:40.053588][info][16763][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:24:40.053615][debug][16763][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:24:40.053630][debug][16763][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:24:40.053645][info][16763][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:24:40.053658][info][16763][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:24:40.053668][debug][16763][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:25:18.755698][debug][17045][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:25:18.755791][debug][17045][Context.cpp:50] Config file version=1.1
+[05/15 21:25:18.755833][debug][17045][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:25:18.755885][info][17045][Context.cpp:69] Context created with config: default config!
+[05/15 21:25:18.755914][info][17045][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:25:18.755929][info][17045][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:25:18.755953][info][17045][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:25:18.755971][info][17045][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:25:18.755987][debug][17045][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:25:18.756002][info][17045][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:25:18.757436][debug][17045][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:25:18.977139][debug][17045][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:25:18.977298][debug][17045][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:25:18.977655][debug][17045][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:25:18.977912][debug][17045][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:25:18.977919][debug][17045][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:25:18.977924][debug][17045][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:25:18.977929][debug][17045][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:25:18.977933][debug][17045][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:25:18.978100][info][17045][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:25:18.978147][debug][17045][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:25:18.978155][debug][17045][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:25:18.978191][info][17045][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:25:18.978201][info][17045][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:25:18.978208][debug][17045][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:26:18.194859][debug][17461][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:26:18.195048][debug][17461][Context.cpp:50] Config file version=1.1
+[05/15 21:26:18.195097][debug][17461][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:26:18.195114][info][17461][Context.cpp:69] Context created with config: default config!
+[05/15 21:26:18.195141][info][17461][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:26:18.195155][info][17461][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:26:18.195174][info][17461][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:26:18.195188][info][17461][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:26:18.195202][debug][17461][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:26:18.195214][info][17461][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:26:18.196988][debug][17461][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:26:18.418784][debug][17461][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:26:18.418964][debug][17461][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:26:18.419663][debug][17461][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:26:18.420224][debug][17461][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:26:18.420253][debug][17461][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:26:18.420266][debug][17461][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:26:18.420278][debug][17461][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:26:18.420291][debug][17461][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:26:18.420548][info][17461][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:26:18.420593][debug][17461][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:26:18.420607][debug][17461][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:26:18.420636][info][17461][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:26:18.420662][info][17461][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:26:18.420699][debug][17461][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:26:48.210900][debug][17727][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:26:48.210985][debug][17727][Context.cpp:50] Config file version=1.1
+[05/15 21:26:48.211036][debug][17727][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:26:48.211057][info][17727][Context.cpp:69] Context created with config: default config!
+[05/15 21:26:48.211105][info][17727][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:26:48.211116][info][17727][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:26:48.211129][info][17727][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:26:48.211142][info][17727][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:26:48.211157][debug][17727][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:26:48.211170][info][17727][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:26:48.212531][debug][17727][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:26:48.434536][debug][17727][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:26:48.434657][debug][17727][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:26:48.435114][debug][17727][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:26:48.435475][debug][17727][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:26:48.435489][debug][17727][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:26:48.435497][debug][17727][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:26:48.435504][debug][17727][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:26:48.435511][debug][17727][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:26:48.435724][info][17727][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:26:48.435759][debug][17727][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:26:48.435770][debug][17727][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:26:48.435793][info][17727][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:26:48.435819][info][17727][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:26:48.435833][debug][17727][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:29:33.768408][debug][18736][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:29:33.768487][debug][18736][Context.cpp:50] Config file version=1.1
+[05/15 21:29:33.768526][debug][18736][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:29:33.768541][info][18736][Context.cpp:69] Context created with config: default config!
+[05/15 21:29:33.768567][info][18736][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:29:33.768581][info][18736][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:29:33.768597][info][18736][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:29:33.768615][info][18736][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:29:33.768635][debug][18736][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:29:33.768650][info][18736][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:29:33.769935][debug][18736][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:29:33.990237][debug][18736][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:29:33.990336][debug][18736][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:29:33.990842][debug][18736][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:29:33.991251][debug][18736][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:29:33.991265][debug][18736][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:29:33.991273][debug][18736][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:29:33.991290][debug][18736][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:29:33.991295][debug][18736][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:29:33.991505][info][18736][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:29:33.991527][debug][18736][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:29:33.991546][debug][18736][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:29:33.991571][info][18736][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:29:33.991583][info][18736][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:29:33.991591][debug][18736][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:33:52.049866][debug][19625][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:33:52.049939][debug][19625][Context.cpp:50] Config file version=1.1
+[05/15 21:33:52.049970][debug][19625][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:33:52.049981][info][19625][Context.cpp:69] Context created with config: default config!
+[05/15 21:33:52.050002][info][19625][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:33:52.050028][info][19625][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:33:52.050041][info][19625][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:33:52.050055][info][19625][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:33:52.050069][debug][19625][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:33:52.050087][info][19625][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:33:52.051409][debug][19625][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:33:52.270500][debug][19625][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:33:52.270641][debug][19625][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:33:52.271248][debug][19625][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:33:52.271675][debug][19625][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:33:52.271691][debug][19625][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:33:52.271700][debug][19625][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:33:52.271709][debug][19625][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:33:52.271719][debug][19625][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:33:52.271906][info][19625][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:33:52.271938][debug][19625][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:33:52.271950][debug][19625][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:33:52.271971][info][19625][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:33:52.271990][info][19625][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:33:52.272003][debug][19625][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:34:34.509987][debug][19922][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:34:34.510125][debug][19922][Context.cpp:50] Config file version=1.1
+[05/15 21:34:34.510166][debug][19922][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:34:34.510192][info][19922][Context.cpp:69] Context created with config: default config!
+[05/15 21:34:34.510217][info][19922][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:34:34.510231][info][19922][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:34:34.510245][info][19922][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:34:34.510262][info][19922][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:34:34.510278][debug][19922][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:34:34.510305][info][19922][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:34:34.511531][debug][19922][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:34:34.732667][debug][19922][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:34:34.732773][debug][19922][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:34:34.733109][debug][19922][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:34:34.733381][debug][19922][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:34:34.733389][debug][19922][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:34:34.733393][debug][19922][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:34:34.733398][debug][19922][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:34:34.733401][debug][19922][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:34:34.733566][info][19922][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:34:34.733591][debug][19922][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:34:34.733597][debug][19922][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:34:34.733611][info][19922][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:34:34.733618][info][19922][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:34:34.733626][debug][19922][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:36:11.309531][debug][20324][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:36:11.309581][debug][20324][Context.cpp:50] Config file version=1.1
+[05/15 21:36:11.309605][debug][20324][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:36:11.309613][info][20324][Context.cpp:69] Context created with config: default config!
+[05/15 21:36:11.309629][info][20324][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:36:11.309637][info][20324][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:36:11.309647][info][20324][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:36:11.309657][info][20324][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:36:11.309668][debug][20324][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:36:11.309677][info][20324][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:36:11.310422][debug][20324][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:36:11.529907][debug][20324][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:36:11.529983][debug][20324][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:36:11.530273][debug][20324][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:36:11.530541][debug][20324][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:36:11.530565][debug][20324][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:36:11.530570][debug][20324][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:36:11.530574][debug][20324][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:36:11.530579][debug][20324][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:36:11.530697][info][20324][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:36:11.530715][debug][20324][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:36:11.530721][debug][20324][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:36:11.530732][info][20324][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:36:11.530740][info][20324][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:36:11.530751][debug][20324][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:36:44.802141][debug][20667][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:36:44.802202][debug][20667][Context.cpp:50] Config file version=1.1
+[05/15 21:36:44.802222][debug][20667][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:36:44.802228][info][20667][Context.cpp:69] Context created with config: default config!
+[05/15 21:36:44.802243][info][20667][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:36:44.802248][info][20667][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:36:44.802254][info][20667][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:36:44.802263][info][20667][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:36:44.802272][debug][20667][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:36:44.802280][info][20667][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:36:44.803113][debug][20667][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:36:45.024971][debug][20667][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:36:45.025067][debug][20667][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:36:45.025313][debug][20667][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:36:45.025495][debug][20667][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:36:45.025500][debug][20667][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:36:45.025504][debug][20667][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:36:45.025507][debug][20667][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:36:45.025511][debug][20667][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:36:45.025624][info][20667][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:36:45.025642][debug][20667][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:36:45.025648][debug][20667][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:36:45.025662][info][20667][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:36:45.025669][info][20667][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:36:45.025677][debug][20667][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:38:34.994098][debug][21246][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:38:34.994178][debug][21246][Context.cpp:50] Config file version=1.1
+[05/15 21:38:34.994203][debug][21246][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:38:34.994211][info][21246][Context.cpp:69] Context created with config: default config!
+[05/15 21:38:34.994230][info][21246][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:38:34.994239][info][21246][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:38:34.994247][info][21246][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:38:34.994257][info][21246][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:38:34.994267][debug][21246][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:38:34.994277][info][21246][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:38:34.995128][debug][21246][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:38:35.216956][debug][21246][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:38:35.217033][debug][21246][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:38:35.217345][debug][21246][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:38:35.217594][debug][21246][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:38:35.217602][debug][21246][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:38:35.217607][debug][21246][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:38:35.217611][debug][21246][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:38:35.217616][debug][21246][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:38:35.217767][info][21246][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:38:35.217783][debug][21246][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:38:35.217789][debug][21246][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:38:35.217798][info][21246][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:38:35.217804][info][21246][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:38:35.217810][debug][21246][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:38:54.442652][debug][21494][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:38:54.442709][debug][21494][Context.cpp:50] Config file version=1.1
+[05/15 21:38:54.442728][debug][21494][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:38:54.442735][info][21494][Context.cpp:69] Context created with config: default config!
+[05/15 21:38:54.442754][info][21494][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:38:54.442767][info][21494][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:38:54.442775][info][21494][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:38:54.442783][info][21494][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:38:54.442794][debug][21494][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:38:54.442802][info][21494][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:38:54.443612][debug][21494][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:38:54.664226][debug][21494][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:38:54.664280][debug][21494][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:38:54.664552][debug][21494][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:38:54.664770][debug][21494][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:38:54.664777][debug][21494][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:38:54.664781][debug][21494][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:38:54.664786][debug][21494][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:38:54.664791][debug][21494][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:38:54.664920][info][21494][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:38:54.664937][debug][21494][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:38:54.664943][debug][21494][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:38:54.664955][info][21494][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:38:54.664962][info][21494][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:38:54.664969][debug][21494][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:39:27.912130][debug][21800][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:39:27.912199][debug][21800][Context.cpp:50] Config file version=1.1
+[05/15 21:39:27.912224][debug][21800][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:39:27.912233][info][21800][Context.cpp:69] Context created with config: default config!
+[05/15 21:39:27.912252][info][21800][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:39:27.912264][info][21800][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:39:27.912277][info][21800][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:39:27.912294][info][21800][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:39:27.912334][debug][21800][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:39:27.912346][info][21800][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:39:27.913401][debug][21800][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:39:28.134656][debug][21800][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:39:28.134767][debug][21800][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:39:28.135100][debug][21800][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:39:28.135339][debug][21800][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:39:28.135347][debug][21800][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:39:28.135352][debug][21800][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:39:28.135356][debug][21800][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:39:28.135360][debug][21800][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:39:28.135553][info][21800][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:39:28.135586][debug][21800][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:39:28.135599][debug][21800][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:39:28.135616][info][21800][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:39:28.135627][info][21800][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:39:28.135641][debug][21800][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:40:06.423330][debug][22110][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:40:06.423405][debug][22110][Context.cpp:50] Config file version=1.1
+[05/15 21:40:06.423435][debug][22110][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:40:06.423446][info][22110][Context.cpp:69] Context created with config: default config!
+[05/15 21:40:06.423470][info][22110][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:40:06.423481][info][22110][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:40:06.423493][info][22110][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:40:06.423507][info][22110][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:40:06.423521][debug][22110][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:40:06.423534][info][22110][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:40:06.424893][debug][22110][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:40:06.645831][debug][22110][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:40:06.645954][debug][22110][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:40:06.646440][debug][22110][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:40:06.646857][debug][22110][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:40:06.646926][debug][22110][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:40:06.646938][debug][22110][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:40:06.646946][debug][22110][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:40:06.646953][debug][22110][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:40:06.647183][info][22110][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:40:06.647225][debug][22110][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:40:06.647239][debug][22110][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:40:06.647262][info][22110][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:40:06.647278][info][22110][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:40:06.647290][debug][22110][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:40:46.157369][debug][22421][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:40:46.157465][debug][22421][Context.cpp:50] Config file version=1.1
+[05/15 21:40:46.157496][debug][22421][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:40:46.157523][info][22421][Context.cpp:69] Context created with config: default config!
+[05/15 21:40:46.157574][info][22421][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:40:46.157583][info][22421][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:40:46.157593][info][22421][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:40:46.157605][info][22421][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:40:46.157617][debug][22421][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:40:46.157628][info][22421][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:40:46.159034][debug][22421][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:40:46.378920][debug][22421][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:40:46.379055][debug][22421][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:40:46.379713][debug][22421][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:40:46.380220][debug][22421][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:40:46.380244][debug][22421][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:40:46.380265][debug][22421][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:40:46.380278][debug][22421][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:40:46.380290][debug][22421][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:40:46.380585][info][22421][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:40:46.380633][debug][22421][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:40:46.380649][debug][22421][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:40:46.380680][info][22421][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:40:46.380701][info][22421][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:40:46.380722][debug][22421][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:43:57.342320][debug][23993][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:43:57.342648][debug][23993][Context.cpp:50] Config file version=1.1
+[05/15 21:43:57.342682][debug][23993][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:43:57.342694][info][23993][Context.cpp:69] Context created with config: default config!
+[05/15 21:43:57.342718][info][23993][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:43:57.342729][info][23993][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:43:57.342740][info][23993][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:43:57.342752][info][23993][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:43:57.342766][debug][23993][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:43:57.342779][info][23993][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:43:57.344208][debug][23993][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:43:57.566466][debug][23993][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:43:57.566600][debug][23993][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:43:57.567129][debug][23993][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:43:57.567492][debug][23993][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:43:57.567505][debug][23993][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:43:57.567512][debug][23993][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:43:57.567519][debug][23993][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:43:57.567526][debug][23993][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:43:57.567740][info][23993][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:43:57.567766][debug][23993][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:43:57.567776][debug][23993][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:43:57.567803][info][23993][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:43:57.567817][info][23993][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:43:57.567834][debug][23993][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:44:51.930591][debug][24362][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:44:51.930669][debug][24362][Context.cpp:50] Config file version=1.1
+[05/15 21:44:51.930707][debug][24362][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:44:51.930721][info][24362][Context.cpp:69] Context created with config: default config!
+[05/15 21:44:51.930745][info][24362][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:44:51.930756][info][24362][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:44:51.930768][info][24362][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:44:51.930781][info][24362][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:44:51.930796][debug][24362][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:44:51.930808][info][24362][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:44:51.932419][debug][24362][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:44:52.154459][debug][24362][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:44:52.154582][debug][24362][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:44:52.155168][debug][24362][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:44:52.155699][debug][24362][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:44:52.155735][debug][24362][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:44:52.155747][debug][24362][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:44:52.155757][debug][24362][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:44:52.155766][debug][24362][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:44:52.156110][info][24362][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:44:52.156179][debug][24362][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:44:52.156194][debug][24362][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:44:52.156226][info][24362][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:44:52.156246][info][24362][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:44:52.156275][debug][24362][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:45:34.358396][debug][24653][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:45:34.358504][debug][24653][Context.cpp:50] Config file version=1.1
+[05/15 21:45:34.358535][debug][24653][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:45:34.358547][info][24653][Context.cpp:69] Context created with config: default config!
+[05/15 21:45:34.358569][info][24653][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:45:34.358582][info][24653][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:45:34.358594][info][24653][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:45:34.358607][info][24653][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:45:34.358619][debug][24653][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:45:34.358632][info][24653][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:45:34.359911][debug][24653][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:45:34.582858][debug][24653][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:45:34.582975][debug][24653][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:45:34.583578][debug][24653][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:45:34.583993][debug][24653][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:45:34.584048][debug][24653][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:45:34.584060][debug][24653][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:45:34.584066][debug][24653][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:45:34.584071][debug][24653][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:45:34.584271][info][24653][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:45:34.584296][debug][24653][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:45:34.584307][debug][24653][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:45:34.584326][info][24653][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:45:34.584346][info][24653][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:45:34.584366][debug][24653][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:46:49.185743][debug][24993][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:46:49.185820][debug][24993][Context.cpp:50] Config file version=1.1
+[05/15 21:46:49.185859][debug][24993][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:46:49.185876][info][24993][Context.cpp:69] Context created with config: default config!
+[05/15 21:46:49.185905][info][24993][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:46:49.185920][info][24993][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:46:49.185936][info][24993][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:46:49.185954][info][24993][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:46:49.185972][debug][24993][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:46:49.185987][info][24993][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:46:49.187447][debug][24993][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:46:49.408690][debug][24993][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:46:49.408897][debug][24993][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:46:49.409366][debug][24993][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:46:49.409679][debug][24993][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:46:49.409690][debug][24993][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:46:49.409698][debug][24993][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:46:49.409705][debug][24993][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:46:49.409711][debug][24993][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:46:49.409910][info][24993][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:46:49.409945][debug][24993][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:46:49.409956][debug][24993][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:46:49.409975][info][24993][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:46:49.409991][info][24993][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:46:49.410003][debug][24993][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:48:38.465602][debug][25385][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:48:38.465675][debug][25385][Context.cpp:50] Config file version=1.1
+[05/15 21:48:38.465707][debug][25385][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:48:38.465718][info][25385][Context.cpp:69] Context created with config: default config!
+[05/15 21:48:38.465743][info][25385][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:48:38.465757][info][25385][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:48:38.465768][info][25385][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:48:38.465798][info][25385][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:48:38.465810][debug][25385][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:48:38.465821][info][25385][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:48:38.467153][debug][25385][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:48:38.690947][debug][25385][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:48:38.691113][debug][25385][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:48:38.691622][debug][25385][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:48:38.691977][debug][25385][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:48:38.691988][debug][25385][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:48:38.691992][debug][25385][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:48:38.691998][debug][25385][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:48:38.692003][debug][25385][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:48:38.692255][info][25385][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:48:38.692284][debug][25385][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:48:38.692291][debug][25385][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:48:38.692308][info][25385][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:48:38.692321][info][25385][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:48:38.692331][debug][25385][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:49:40.830008][debug][25748][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:49:40.830174][debug][25748][Context.cpp:50] Config file version=1.1
+[05/15 21:49:40.830207][debug][25748][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:49:40.830219][info][25748][Context.cpp:69] Context created with config: default config!
+[05/15 21:49:40.830240][info][25748][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:49:40.830250][info][25748][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:49:40.830260][info][25748][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:49:40.830272][info][25748][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:49:40.830286][debug][25748][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:49:40.830298][info][25748][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:49:40.831650][debug][25748][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:49:41.054216][debug][25748][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:49:41.054341][debug][25748][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:49:41.054964][debug][25748][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:49:41.055461][debug][25748][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:49:41.055485][debug][25748][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-5.0 | Orbbec Astra+ RGB Camera
+[05/15 21:49:41.055496][debug][25748][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.0 | Orbbec Astra+ Depth Camera
+[05/15 21:49:41.055507][debug][25748][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.2 | Orbbec Astra+ IR Camera
+[05/15 21:49:41.055520][debug][25748][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-4.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:49:41.055788][info][25748][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:49:41.055828][debug][25748][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:49:41.055842][debug][25748][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:49:41.055877][info][25748][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:49:41.055905][info][25748][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:49:41.055937][debug][25748][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:51:09.641362][debug][27348][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:51:09.641440][debug][27348][Context.cpp:50] Config file version=1.1
+[05/15 21:51:09.641470][debug][27348][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:51:09.641481][info][27348][Context.cpp:69] Context created with config: default config!
+[05/15 21:51:09.641503][info][27348][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:51:09.641514][info][27348][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:51:09.641531][info][27348][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:51:09.641553][info][27348][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:51:09.641575][debug][27348][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:51:09.641592][info][27348][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:51:09.642464][debug][27348][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:51:09.642491][debug][27348][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:51:09.642580][info][27348][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:51:09.642612][debug][27348][UsbDeviceEnumerator.cpp:76] No matched usb device found!
+[05/15 21:51:09.642638][info][27348][DeviceManager.cpp:15] Current found device(s): (0)
+[05/15 21:51:09.642654][debug][27348][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:51:50.306970][debug][27645][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:51:50.307063][debug][27645][Context.cpp:50] Config file version=1.1
+[05/15 21:51:50.307108][debug][27645][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:51:50.307119][info][27645][Context.cpp:69] Context created with config: default config!
+[05/15 21:51:50.307147][info][27645][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:51:50.307158][info][27645][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:51:50.307172][info][27645][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:51:50.307186][info][27645][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:51:50.307199][debug][27645][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:51:50.307212][info][27645][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:51:50.308558][debug][27645][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:51:50.317761][debug][27645][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:51:50.317845][debug][27645][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:51:50.318284][debug][27645][ObV4lDevice.cpp:346] Found video4linux: video3
+[05/15 21:51:50.318606][debug][27645][ObV4lDevice.cpp:346] Found video4linux: video1
+[05/15 21:51:50.318955][debug][27645][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:51:50.319289][debug][27645][ObV4lDevice.cpp:346] Found video4linux: video2
+[05/15 21:51:50.319598][debug][27645][ObV4lDevice.cpp:346] Found video4linux: video0
+[05/15 21:51:50.319924][debug][27645][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:51:50.319936][debug][27645][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-7.0 | Orbbec Astra+ RGB Camera
+[05/15 21:51:50.319943][debug][27645][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.0 | Orbbec Astra+ Depth Camera
+[05/15 21:51:50.319950][debug][27645][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.2 | Orbbec Astra+ IR Camera
+[05/15 21:51:50.319958][debug][27645][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:51:50.320160][info][27645][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:51:50.320205][debug][27645][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:51:50.320216][debug][27645][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:51:50.320235][info][27645][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:51:50.320249][info][27645][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:51:50.320276][debug][27645][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:53:00.144930][debug][28293][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:53:00.145042][debug][28293][Context.cpp:50] Config file version=1.1
+[05/15 21:53:00.145078][debug][28293][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:53:00.145099][info][28293][Context.cpp:69] Context created with config: default config!
+[05/15 21:53:00.145129][info][28293][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:53:00.145140][info][28293][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:53:00.145155][info][28293][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:53:00.145169][info][28293][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:53:00.145183][debug][28293][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:53:00.145195][info][28293][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:53:00.146563][debug][28293][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:53:00.368030][debug][28293][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:53:00.368149][debug][28293][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:53:00.368600][debug][28293][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:53:00.369007][debug][28293][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:53:00.369036][debug][28293][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-7.0 | Orbbec Astra+ RGB Camera
+[05/15 21:53:00.369045][debug][28293][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.0 | Orbbec Astra+ Depth Camera
+[05/15 21:53:00.369053][debug][28293][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.2 | Orbbec Astra+ IR Camera
+[05/15 21:53:00.369061][debug][28293][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:53:00.369307][info][28293][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:53:00.369334][debug][28293][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:53:00.369345][debug][28293][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:53:00.369364][info][28293][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:53:00.369378][info][28293][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:53:00.369392][debug][28293][DeviceManager.cpp:55] DeviceManager construct done!
+[05/15 21:55:11.843114][debug][29527][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/15 21:55:11.843197][debug][29527][Context.cpp:50] Config file version=1.1
+[05/15 21:55:11.843228][debug][29527][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/15 21:55:11.843239][info][29527][Context.cpp:69] Context created with config: default config!
+[05/15 21:55:11.843263][info][29527][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/15 21:55:11.843274][info][29527][Context.cpp:77] 	- SDK version: 1.9.5
+[05/15 21:55:11.843284][info][29527][Context.cpp:78] 	- SDK stage version: main
+[05/15 21:55:11.843301][info][29527][Context.cpp:82] get config EnumerateNetDevice:false
+[05/15 21:55:11.843316][debug][29527][DeviceManager.cpp:30] DeviceManager init ...
+[05/15 21:55:11.843332][info][29527][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/15 21:55:11.844748][debug][29527][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/15 21:55:12.065369][debug][29527][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/15 21:55:12.065522][debug][29527][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/15 21:55:12.066036][debug][29527][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/15 21:55:12.066418][debug][29527][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/15 21:55:12.066430][debug][29527][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-7.0 | Orbbec Astra+ RGB Camera
+[05/15 21:55:12.066438][debug][29527][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.0 | Orbbec Astra+ Depth Camera
+[05/15 21:55:12.066464][debug][29527][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.2 | Orbbec Astra+ IR Camera
+[05/15 21:55:12.066469][debug][29527][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.4 | Orbbec(R) Astra(TM) Data Channel
+[05/15 21:55:12.066629][info][29527][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/15 21:55:12.066656][debug][29527][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/15 21:55:12.066664][debug][29527][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/15 21:55:12.066680][info][29527][DeviceManager.cpp:15] Current found device(s): (1)
+[05/15 21:55:12.066703][info][29527][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/15 21:55:12.066713][debug][29527][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:10:28.943224][debug][11285][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:10:28.943332][debug][11285][Context.cpp:50] Config file version=1.1
+[05/16 09:10:28.943361][debug][11285][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:10:28.943372][info][11285][Context.cpp:69] Context created with config: default config!
+[05/16 09:10:28.943411][info][11285][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:10:28.943423][info][11285][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:10:28.943435][info][11285][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:10:28.943455][info][11285][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:10:28.943474][debug][11285][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:10:28.943485][info][11285][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:10:28.944798][debug][11285][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:10:28.985398][debug][11285][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:10:28.985550][debug][11285][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:10:28.986059][debug][11285][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:10:28.986475][debug][11285][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:10:28.986497][debug][11285][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-7.0 | Orbbec Astra+ RGB Camera
+[05/16 09:10:28.986505][debug][11285][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.0 | Orbbec Astra+ Depth Camera
+[05/16 09:10:28.986512][debug][11285][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.2 | Orbbec Astra+ IR Camera
+[05/16 09:10:28.986519][debug][11285][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-6.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:10:28.986790][info][11285][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:10:28.986821][debug][11285][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:10:28.986833][debug][11285][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:10:28.986851][info][11285][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:10:28.986875][info][11285][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:10:28.986887][debug][11285][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:11:09.422677][debug][11569][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:11:09.422755][debug][11569][Context.cpp:50] Config file version=1.1
+[05/16 09:11:09.422783][debug][11569][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:11:09.422805][info][11569][Context.cpp:69] Context created with config: default config!
+[05/16 09:11:09.422830][info][11569][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:11:09.422840][info][11569][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:11:09.422852][info][11569][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:11:09.422865][info][11569][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:11:09.422881][debug][11569][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:11:09.422910][info][11569][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:11:09.424320][debug][11569][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:11:09.433978][debug][11569][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:11:09.434050][debug][11569][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:11:09.434524][debug][11569][ObV4lDevice.cpp:346] Found video4linux: video3
+[05/16 09:11:09.434839][debug][11569][ObV4lDevice.cpp:346] Found video4linux: video1
+[05/16 09:11:09.435153][debug][11569][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:11:09.435471][debug][11569][ObV4lDevice.cpp:346] Found video4linux: video2
+[05/16 09:11:09.435792][debug][11569][ObV4lDevice.cpp:346] Found video4linux: video0
+[05/16 09:11:09.436117][debug][11569][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:11:09.436129][debug][11569][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-9.0 | Orbbec Astra+ RGB Camera
+[05/16 09:11:09.436135][debug][11569][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.0 | Orbbec Astra+ Depth Camera
+[05/16 09:11:09.436139][debug][11569][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.2 | Orbbec Astra+ IR Camera
+[05/16 09:11:09.436145][debug][11569][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:11:09.436367][info][11569][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:11:09.436408][debug][11569][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:11:09.436417][debug][11569][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:11:09.436431][info][11569][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:11:09.436442][info][11569][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:11:09.436452][debug][11569][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:11:29.930892][debug][11820][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:11:29.930972][debug][11820][Context.cpp:50] Config file version=1.1
+[05/16 09:11:29.931005][debug][11820][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:11:29.931017][info][11820][Context.cpp:69] Context created with config: default config!
+[05/16 09:11:29.931040][info][11820][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:11:29.931050][info][11820][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:11:29.931060][info][11820][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:11:29.931076][info][11820][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:11:29.931097][debug][11820][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:11:29.931109][info][11820][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:11:29.932402][debug][11820][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:11:30.155124][debug][11820][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:11:30.155229][debug][11820][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:11:30.155737][debug][11820][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:11:30.156110][debug][11820][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:11:30.156145][debug][11820][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-9.0 | Orbbec Astra+ RGB Camera
+[05/16 09:11:30.156153][debug][11820][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.0 | Orbbec Astra+ Depth Camera
+[05/16 09:11:30.156161][debug][11820][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.2 | Orbbec Astra+ IR Camera
+[05/16 09:11:30.156168][debug][11820][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:11:30.156342][info][11820][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:11:30.156394][debug][11820][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:11:30.156412][debug][11820][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:11:30.156437][info][11820][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:11:30.156493][info][11820][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:11:30.156510][debug][11820][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:13:09.206118][debug][12279][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:13:09.206236][debug][12279][Context.cpp:50] Config file version=1.1
+[05/16 09:13:09.206265][debug][12279][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:13:09.206279][info][12279][Context.cpp:69] Context created with config: default config!
+[05/16 09:13:09.206300][info][12279][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:13:09.206311][info][12279][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:13:09.206326][info][12279][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:13:09.206339][info][12279][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:13:09.206354][debug][12279][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:13:09.206366][info][12279][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:13:09.207789][debug][12279][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:13:09.431418][debug][12279][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:13:09.431548][debug][12279][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:13:09.431977][debug][12279][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:13:09.432300][debug][12279][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:13:09.432312][debug][12279][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-9.0 | Orbbec Astra+ RGB Camera
+[05/16 09:13:09.432320][debug][12279][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.0 | Orbbec Astra+ Depth Camera
+[05/16 09:13:09.432327][debug][12279][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.2 | Orbbec Astra+ IR Camera
+[05/16 09:13:09.432334][debug][12279][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:13:09.432559][info][12279][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:13:09.432588][debug][12279][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:13:09.432598][debug][12279][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:13:09.432613][info][12279][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:13:09.432625][info][12279][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:13:09.432640][debug][12279][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:15:05.658561][debug][12627][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:15:05.658641][debug][12627][Context.cpp:50] Config file version=1.1
+[05/16 09:15:05.658671][debug][12627][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:15:05.658683][info][12627][Context.cpp:69] Context created with config: default config!
+[05/16 09:15:05.658709][info][12627][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:15:05.658720][info][12627][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:15:05.658732][info][12627][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:15:05.658754][info][12627][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:15:05.658774][debug][12627][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:15:05.658791][info][12627][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:15:05.660295][debug][12627][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:15:05.885120][debug][12627][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:15:05.885265][debug][12627][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:15:05.885793][debug][12627][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:15:05.886192][debug][12627][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:15:05.886205][debug][12627][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-9.0 | Orbbec Astra+ RGB Camera
+[05/16 09:15:05.886223][debug][12627][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.0 | Orbbec Astra+ Depth Camera
+[05/16 09:15:05.886229][debug][12627][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.2 | Orbbec Astra+ IR Camera
+[05/16 09:15:05.886234][debug][12627][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:15:05.886448][info][12627][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:15:05.886492][debug][12627][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:15:05.886503][debug][12627][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:15:05.886516][info][12627][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:15:05.886530][info][12627][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:15:05.886548][debug][12627][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:17:51.903097][debug][13549][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:17:51.903186][debug][13549][Context.cpp:50] Config file version=1.1
+[05/16 09:17:51.903216][debug][13549][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:17:51.903227][info][13549][Context.cpp:69] Context created with config: default config!
+[05/16 09:17:51.903263][info][13549][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:17:51.903274][info][13549][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:17:51.903287][info][13549][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:17:51.903300][info][13549][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:17:51.903315][debug][13549][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:17:51.903328][info][13549][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:17:51.904838][debug][13549][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:17:52.123944][debug][13549][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:17:52.124084][debug][13549][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:17:52.124619][debug][13549][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:17:52.124975][debug][13549][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:17:52.124988][debug][13549][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-9.0 | Orbbec Astra+ RGB Camera
+[05/16 09:17:52.124996][debug][13549][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.0 | Orbbec Astra+ Depth Camera
+[05/16 09:17:52.125007][debug][13549][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.2 | Orbbec Astra+ IR Camera
+[05/16 09:17:52.125014][debug][13549][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:17:52.125223][info][13549][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:17:52.125253][debug][13549][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:17:52.125267][debug][13549][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:17:52.125293][info][13549][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:17:52.125313][info][13549][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:17:52.125328][debug][13549][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:18:37.103042][debug][13922][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:18:37.103115][debug][13922][Context.cpp:50] Config file version=1.1
+[05/16 09:18:37.103143][debug][13922][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:18:37.103154][info][13922][Context.cpp:69] Context created with config: default config!
+[05/16 09:18:37.103177][info][13922][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:18:37.103192][info][13922][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:18:37.103202][info][13922][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:18:37.103225][info][13922][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:18:37.103257][debug][13922][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:18:37.103271][info][13922][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:18:37.104634][debug][13922][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:18:37.324273][debug][13922][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:18:37.324362][debug][13922][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 09:18:37.324877][debug][13922][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 09:18:37.325260][debug][13922][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 09:18:37.325280][debug][13922][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-9.0 | Orbbec Astra+ RGB Camera
+[05/16 09:18:37.325288][debug][13922][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.0 | Orbbec Astra+ Depth Camera
+[05/16 09:18:37.325297][debug][13922][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.2 | Orbbec Astra+ IR Camera
+[05/16 09:18:37.325305][debug][13922][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-8.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 09:18:37.325553][info][13922][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:18:37.325589][debug][13922][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 09:18:37.325607][debug][13922][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 09:18:37.325633][info][13922][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 09:18:37.325653][info][13922][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 09:18:37.325674][debug][13922][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 09:24:02.791851][debug][15283][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 09:24:02.791988][debug][15283][Context.cpp:50] Config file version=1.1
+[05/16 09:24:02.792021][debug][15283][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 09:24:02.792033][info][15283][Context.cpp:69] Context created with config: default config!
+[05/16 09:24:02.792084][info][15283][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 09:24:02.792108][info][15283][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 09:24:02.792119][info][15283][Context.cpp:78] 	- SDK stage version: main
+[05/16 09:24:02.792134][info][15283][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 09:24:02.792146][debug][15283][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 09:24:02.792159][info][15283][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 09:24:02.793060][debug][15283][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 09:24:02.793089][debug][15283][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 09:24:02.793215][info][15283][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 09:24:02.793242][debug][15283][UsbDeviceEnumerator.cpp:76] No matched usb device found!
+[05/16 09:24:02.793273][info][15283][DeviceManager.cpp:15] Current found device(s): (0)
+[05/16 09:24:02.793292][debug][15283][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 12:05:43.964977][debug][47127][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 12:05:43.965061][debug][47127][Context.cpp:50] Config file version=1.1
+[05/16 12:05:43.965096][debug][47127][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 12:05:43.965108][info][47127][Context.cpp:69] Context created with config: default config!
+[05/16 12:05:43.965135][info][47127][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 12:05:43.965145][info][47127][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 12:05:43.965163][info][47127][Context.cpp:78] 	- SDK stage version: main
+[05/16 12:05:43.965184][info][47127][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 12:05:43.965215][debug][47127][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 12:05:43.965237][info][47127][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 12:05:43.966716][debug][47127][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 12:05:43.976269][debug][47127][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 12:05:43.976421][debug][47127][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 12:05:43.977045][debug][47127][ObV4lDevice.cpp:346] Found video4linux: video3
+[05/16 12:05:43.977410][debug][47127][ObV4lDevice.cpp:346] Found video4linux: video1
+[05/16 12:05:43.977810][debug][47127][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 12:05:43.978139][debug][47127][ObV4lDevice.cpp:346] Found video4linux: video2
+[05/16 12:05:43.978490][debug][47127][ObV4lDevice.cpp:346] Found video4linux: video0
+[05/16 12:05:43.978827][debug][47127][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 12:05:43.978854][debug][47127][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-20.0 | Orbbec Astra+ RGB Camera
+[05/16 12:05:43.978860][debug][47127][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.0 | Orbbec Astra+ Depth Camera
+[05/16 12:05:43.978865][debug][47127][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.2 | Orbbec Astra+ IR Camera
+[05/16 12:05:43.978871][debug][47127][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 12:05:43.979048][info][47127][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 12:05:43.979072][debug][47127][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 12:05:43.979080][debug][47127][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 12:05:43.979095][info][47127][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 12:05:43.979107][info][47127][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 12:05:43.979116][debug][47127][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 12:08:11.695793][debug][47812][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 12:08:11.695881][debug][47812][Context.cpp:50] Config file version=1.1
+[05/16 12:08:11.695967][debug][47812][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 12:08:11.695993][info][47812][Context.cpp:69] Context created with config: default config!
+[05/16 12:08:11.696027][info][47812][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 12:08:11.696046][info][47812][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 12:08:11.696065][info][47812][Context.cpp:78] 	- SDK stage version: main
+[05/16 12:08:11.696085][info][47812][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 12:08:11.696105][debug][47812][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 12:08:11.696125][info][47812][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 12:08:11.697520][debug][47812][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 12:08:11.916833][debug][47812][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 12:08:11.916938][debug][47812][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 12:08:11.917400][debug][47812][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 12:08:11.917739][debug][47812][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 12:08:11.917753][debug][47812][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-20.0 | Orbbec Astra+ RGB Camera
+[05/16 12:08:11.917760][debug][47812][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.0 | Orbbec Astra+ Depth Camera
+[05/16 12:08:11.917768][debug][47812][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.2 | Orbbec Astra+ IR Camera
+[05/16 12:08:11.917775][debug][47812][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 12:08:11.918096][info][47812][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 12:08:11.918122][debug][47812][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 12:08:11.918134][debug][47812][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 12:08:11.918154][info][47812][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 12:08:11.918169][info][47812][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 12:08:11.918201][debug][47812][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 12:13:02.593779][debug][48483][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 12:13:02.593853][debug][48483][Context.cpp:50] Config file version=1.1
+[05/16 12:13:02.593889][debug][48483][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 12:13:02.593908][info][48483][Context.cpp:69] Context created with config: default config!
+[05/16 12:13:02.593930][info][48483][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 12:13:02.593941][info][48483][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 12:13:02.593957][info][48483][Context.cpp:78] 	- SDK stage version: main
+[05/16 12:13:02.593979][info][48483][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 12:13:02.593999][debug][48483][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 12:13:02.594018][info][48483][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 12:13:02.595316][debug][48483][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 12:13:02.816719][debug][48483][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 12:13:02.816816][debug][48483][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 12:13:02.817281][debug][48483][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 12:13:02.817752][debug][48483][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 12:13:02.817803][debug][48483][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-20.0 | Orbbec Astra+ RGB Camera
+[05/16 12:13:02.817814][debug][48483][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.0 | Orbbec Astra+ Depth Camera
+[05/16 12:13:02.817824][debug][48483][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.2 | Orbbec Astra+ IR Camera
+[05/16 12:13:02.817833][debug][48483][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 12:13:02.818078][info][48483][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 12:13:02.818119][debug][48483][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 12:13:02.818134][debug][48483][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 12:13:02.818155][info][48483][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 12:13:02.818175][info][48483][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 12:13:02.818191][debug][48483][DeviceManager.cpp:55] DeviceManager construct done!
+[05/16 12:13:25.560219][debug][48752][Context.cpp:31] Context creating. work_dir=/home/moon/proj/robov8
+[05/16 12:13:25.560291][debug][48752][Context.cpp:50] Config file version=1.1
+[05/16 12:13:25.560321][debug][48752][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/16 12:13:25.560333][info][48752][Context.cpp:69] Context created with config: default config!
+[05/16 12:13:25.560354][info][48752][Context.cpp:74] Context work_dir=/home/moon/proj/robov8
+[05/16 12:13:25.560365][info][48752][Context.cpp:77] 	- SDK version: 1.9.5
+[05/16 12:13:25.560389][info][48752][Context.cpp:78] 	- SDK stage version: main
+[05/16 12:13:25.560404][info][48752][Context.cpp:82] get config EnumerateNetDevice:false
+[05/16 12:13:25.560417][debug][48752][DeviceManager.cpp:30] DeviceManager init ...
+[05/16 12:13:25.560429][info][48752][LinuxPal.cpp:38] createObPal: create LinuxPal!
+[05/16 12:13:25.561758][debug][48752][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/16 12:13:25.784185][debug][48752][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/16 12:13:25.784345][debug][48752][ObV4lDevice.cpp:346] Found video4linux: video5
+[05/16 12:13:25.784956][debug][48752][ObV4lDevice.cpp:346] Found video4linux: video4
+[05/16 12:13:25.785394][debug][48752][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/16 12:13:25.785414][debug][48752][UsbDeviceEnumerator.cpp:164]  - 1-2.2.1-20.0 | Orbbec Astra+ RGB Camera
+[05/16 12:13:25.785423][debug][48752][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.0 | Orbbec Astra+ Depth Camera
+[05/16 12:13:25.785456][debug][48752][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.2 | Orbbec Astra+ IR Camera
+[05/16 12:13:25.785464][debug][48752][UsbDeviceEnumerator.cpp:164]  - 2-2.2.2-18.4 | Orbbec(R) Astra(TM) Data Channel
+[05/16 12:13:25.785736][info][48752][LinuxPal.cpp:112] Create PollingDeviceWatcher!
+[05/16 12:13:25.785766][debug][48752][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/16 12:13:25.785778][debug][48752][UsbDeviceEnumerator.cpp:72]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, connection: USB3.0
+[05/16 12:13:25.785798][info][48752][DeviceManager.cpp:15] Current found device(s): (1)
+[05/16 12:13:25.785814][info][48752][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300A2, Connection: USB3.0
+[05/16 12:13:25.785827][debug][48752][DeviceManager.cpp:55] DeviceManager construct done!

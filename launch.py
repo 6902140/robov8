@@ -23,7 +23,7 @@ ROUND = 1
 #  ** 第 1 轮总时最短 20s，最长 50s
 #  ** 第 2 轮总时最短 70s，最长 150s，要求综合得分超过 30%
 # 本时间应在调试时决定，适当调小
-STAGE_TIME = 60
+STAGE_TIME = 10
 # [!] 相机云台旋转延时 (毫秒)
 # 调试时决定
 ROTATING_TIMEOUT = 3000
@@ -45,8 +45,8 @@ RESULT_FILE_PREFIX = "Hello-Bogon"
 RESULT_PATH = "./result_r"
 
 # frame 宽高
-FRAME_W = 640
-FRAME_H = 480
+FRAME_W = 1280
+FRAME_H = 720
 
 class Status(Enum):
     LOADING = 0
@@ -57,9 +57,11 @@ class Status(Enum):
 
 def get_config(pipeline):
     config = ob.Config()
+    # profile_list = self.pipeline.get_stream_profile_list(OBSensorType.COLOR_SENSOR)
+    # color_profile = profile_list.get_video_stream_profile(2048,0,OBFormat.RGB,15)
     profile_list = pipeline.get_stream_profile_list(ob.OBSensorType.COLOR_SENSOR)
     try:
-        color_profile = profile_list.get_video_stream_profile(640, 0, ob.OBFormat.RGB, 30)
+        color_profile = profile_list.get_video_stream_profile(1280, 0, ob.OBFormat.RGB, 30)
     except Exception as e:
         print(e)
         color_profile = profile_list.get_default_video_stream_profile()
@@ -266,7 +268,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
     buffer = np.frombuffer(shared_buffer, dtype=np.float64)
 
     # load model & warm up
-    model =Paru('./weights/Akua-att.pt', './robo.yaml')
+    model =Paru('./weights/Corleone-640.pt', './robo.yaml')
     print("warming up")
     model.detect_image(np.zeros(shape=(FRAME_H, FRAME_W, 3), dtype=np.uint8), draw_img=False)
 
@@ -289,7 +291,8 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
         results,detected_imgs= model.detect_image(np.asarray(image))
         result=results[0]
         result_img=detected_imgs[0]
-
+        print("hi here ")
+        print(result_img.shape)
         boxes=result.boxes
         boxes_num=len(boxes.cls)# 当前帧获取到的物体数量
 
@@ -344,6 +347,7 @@ def detect_worker(shared_buffer, label_dict_tx, lock, ready_ev, sync_ev):
                 object_counter[elem_name] = temp_counter[elem_name]
         desk_model=False
         with lock:
+            # buffer[:] = result_img.flatten()
             buffer[:] = result_img.flatten()
 
     print("ready")

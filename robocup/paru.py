@@ -19,7 +19,7 @@ class Paru(object):
         self.device = torch.device('cuda:0')
         self.model=YOLO(model=weights)
         self.class_names =load_yaml(dataset)['names']
-    def detect_image(self, source, draw_img=False,conf=0.6):
+    def detect_image(self, source, draw_img=False,conf=0.5):
         """
         args:   
             source: type:Union[str, Path, int, list, tuple, np.ndarray, torch.Tensor] 
@@ -34,7 +34,7 @@ class Paru(object):
         else:
             image_list=[source]
 
-        results=self.model(image_list,conf=conf,max_det=15,iou=0.5,half=True) # conf 设置置信度下限
+        results=self.model(image_list,conf=conf,max_det=15,iou=0.4,half=True) # conf 设置置信度下限
         result=results[0]
         detected_imgs=[]
 
@@ -42,13 +42,10 @@ class Paru(object):
         resized_image = cv2.resize(result.plot(), (800, 600))
         if draw_img: # just for show the processed pictures
             cv2.imwrite("result.jpg", resized_image)
-            # cv2.imshow("test",resized_image)
-            # cv2.waitKey(0)
-            # print(results)
-            # print(results[0].boxes)
+            
         return results,detected_imgs
-# just for testing purposes 
+
 if __name__ == '__main__':
-    myParu=Paru("../weights/Corleone-v2.pt","../robo.yaml")
-    myParu.detect_image("./gauss.jpg",draw_img=True)
+    myParu=Paru("../weights/Corleone-640-no-guassion.pt","../robo.yaml")
+    myParu.detect_image("./test-0.jpg",draw_img=True)
    
