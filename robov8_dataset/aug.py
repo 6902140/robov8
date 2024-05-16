@@ -25,8 +25,8 @@ def augment(img):
     return img
 
 
-image_dir='/home/moon/Downloads/5.13/images'
-augmented_dir='/home/moon/Downloads/5.13/aug'
+image_dir='/home/moon/Desktop/files/datasets/final1-60-120/images'
+augmented_dir='/home/moon/Desktop/files/datasets/final1-60-120/aug_'
 total_file=os.listdir(image_dir)
 num=len(total_file)
 for i in range(0,num):
