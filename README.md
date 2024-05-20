@@ -1,12 +1,12 @@
 # robov8 
 
-AUTHOR: **西安交通大學-你說的隊**
+AUTHOR: **西安交通大學-你說的隊** 
 
 基於`YoloV8`框架的2024 `Robocup` 參賽代碼
 
 #### 獲獎情況：
 
-2024 晉江 Robocup 全國一等獎 （Rank 4/80）
+2024 泉州市晉江市 Robocup 先進視覺3D識別賽項 全國一等獎 （Rank 4/80）
 
 
 #### 项目文件组织格式
@@ -27,4 +27,8 @@ AUTHOR: **西安交通大學-你說的隊**
 ├── ultralytics # 修改后的ultralytics库
 └── weights # 模型权重文件（已刪除）
 ```
+#### Refrence
+
+[ultralytics](https://docs.ultralytics.com/#yolo-a-brief-history)
+
 
